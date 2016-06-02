@@ -56,7 +56,7 @@ function notate(input) {
 
 	input.each_slice(32, function(avartanam) {
 		if (avartanam.length < 32) {
-			output.push("Left over (" + avartanam.length + " matras): " + avartanam.join(' '));
+			output.push("Left over (" + avartanam.length + " matras): " + avartanam.join(' ') (" taken from the end"));
 			return;
 		}
 		output.push([avartanam.slice(0, 16), avartanam.slice(16, 24), avartanam.slice(24, 32)]);
@@ -70,8 +70,8 @@ function print_output(output) {
 	$(output).each(function(_, avartanam) {
 		var $avartanam = $("<div class='avartanam'></div>");
 		if (typeof avartanam === "string") {
-			$avartanam.text(avartanam);
-			$output.append($avartanam);
+			$('#error').show();
+			$('#error').text(avartanam);
 			return;
 		}
 
