@@ -10,6 +10,7 @@ $(document.body).ready(function() {
 			var output = notate(parsed);
 			print_output(output);
 		} catch(e) {
+			console.error(e);
 			var $error = $("<pre></pre>");
 			$error.text(JSON.stringify(e, null, ' '));
 			$('#output').append($error);
@@ -63,7 +64,7 @@ function notate(input) {
 	return output;
 }
 
-function print_output() {
+function print_output(output) {
 	var $output = $('#output');
 	$output.empty();
 	$(output).each(function(_, avartanam) {
