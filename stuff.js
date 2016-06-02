@@ -5,36 +5,15 @@ $(document.body).ready(function() {
 	$('#input').val(defaultValue);
 
 	$('.btn_notate').bind('click', function() {
-		var parsed = parseInput($('#input').val());
-		var output = notate(parsed);
-
-		var $output = $('#output');
-		$output.empty();
-		$(output).each(function(_, avartanam) {
-			var $avartanam = $("<div class='avartanam'></div>");
-
-			var separatedAvartanam = [["||"]];
-			$(avartanam).each(function(i, angam) {
-				separatedAvartanam.push(angam);
-				if (i < avartanam.length-1) separatedAvartanam.push([["|"]]);
-			});
-			separatedAvartanam.push([["||"]]);
-
-			avartanam = separatedAvartanam;
-
-
-			$(avartanam).each(function(_, angam) {
-				var $angam = $("<div class='angam'></div>")
-				$(angam).each(function(_, matra) {
-					var $matra = $("<div class='matra'></div>")
-					$matra.text(matra);
-					$angam.append($matra);
-				});
-				$avartanam.append($angam);
-			});
-
-			$output.append($avartanam);
-		});
+		try {
+			var parsed = parseInput($('#input').val());
+			var output = notate(parsed);
+			print_output(output);
+		} catch(e) {
+			var $error = $("<pre></pre>");
+			$error.text(JSON.stringify(e, null, ' '));
+			$('#output').append($error);
+		}
 	});
 });
 
@@ -84,9 +63,40 @@ function notate(input) {
 	return output;
 }
 
+function print_output() {
+	var $output = $('#output');
+	$output.empty();
+	$(output).each(function(_, avartanam) {
+		var $avartanam = $("<div class='avartanam'></div>");
+
+		var separatedAvartanam = [["||"]];
+		$(avartanam).each(function(i, angam) {
+			separatedAvartanam.push(angam);
+			if (i < avartanam.length-1) separatedAvartanam.push([["|"]]);
+		});
+		separatedAvartanam.push([["||"]]);
+
+		avartanam = separatedAvartanam;
+
+
+		$(avartanam).each(function(_, angam) {
+			var $angam = $("<div class='angam'></div>")
+			$(angam).each(function(_, matra) {
+				var $matra = $("<div class='matra'></div>")
+				$matra.text(matra);
+				$angam.append($matra);
+			});
+			$avartanam.append($angam);
+		});
+
+		$output.append($avartanam);
+	});
+}
+
 Array.prototype.each_slice = function (size, callback){
 	// http://stackoverflow.com/a/10249772
 	for (var i = 0, l = this.length; i < l; i += size){
 	callback.call(this, this.slice(i, i + size));
 	}
 };
+
