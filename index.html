@@ -30,12 +30,50 @@
 				color: white;
 				padding: 10px;
 				display: none;
+				margin: 10px 0;
+			}
+			.form-control {
+				width: auto;
+				display: inline;
+				margin-right: 10px;
 			}
 		</style>
 	</head>
 	<body>
 		<textarea id="input"></textarea>
 		<div id="btn_notate_container">
+			<span>
+				<select id="talam" class="form-control">
+					<option value='dhruva'>Dhruva talam</option>
+					<option value='matya'>Matya  talam</option>
+					<option value='rupaka'>Rupaka talam</option>
+					<option value='jhampa'>Jhampa talam</option>
+					<option selected value='triputa'>Triputa talam</option>
+					<option value='ata'>Ata talam</option>
+					<option value='eka'>Eka talam</option>
+					<option>-----</option>
+					<option value='misrachapu'>Misra Chapu talam</option>
+					<option value='kandachapu'>Kanda Chapu talam</option>
+				</select>
+			</span>
+			<span>
+				<select id="gati" class="form-control">
+				  <option value='3'>Tisra gati (3)</option>
+				  <option value='4' selected>Chathushra gati (4)</option>
+				  <option value='5'>Kanda gati (5)</option>
+				  <option value='7'>Misra gati (7)</option>
+				  <option value='9'>Sankeerna gati (9)</option>
+				</select>
+			</span>
+			<span>
+				<select id="jaathi" class="form-control">
+				  <option value='3'>Tisra jaathi (3)</option>
+				  <option value='4' selected>Chathushra jaathi (4)</option>
+				  <option value='5'>Kanda jaathi (5)</option>
+				  <option value='7'>Misra jaathi (7)</option>
+				  <option value='9'>Sankeerna jaathi (9)</option>
+				</select>
+			</span>
 			<input type="button" class="btn btn-success btn_notate" value="Notate!">
 		</div>
 		<div id="error"></div>
