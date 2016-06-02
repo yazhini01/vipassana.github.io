@@ -55,7 +55,7 @@ function notate(input) {
 
 	input.each_slice(32, function(avartanam) {
 		if (avartanam.length < 32) {
-			output.push("Left over (" + avartanam.length + " matras): " + avartanam.join(' ') + " taken from the end");
+			output.push(avartanam.length + " matras are left over: " + avartanam.join(' ') + " (taken from the end)");
 			return;
 		}
 		output.push([avartanam.slice(0, 16), avartanam.slice(16, 24), avartanam.slice(24, 32)]);
