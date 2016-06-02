@@ -69,6 +69,10 @@ function print_output(output) {
 	$output.empty();
 	$(output).each(function(_, avartanam) {
 		var $avartanam = $("<div class='avartanam'></div>");
+		if (typeof avartanam === "string") {
+			$avartanam.text(avartanam);
+			return;
+		}
 
 		var separatedAvartanam = [["||"]];
 		$(avartanam).each(function(i, angam) {
