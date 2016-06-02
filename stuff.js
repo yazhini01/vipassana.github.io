@@ -11,9 +11,8 @@ $(document.body).ready(function() {
 			print_output(output);
 		} catch(e) {
 			console.error(e);
-			var $error = $("<pre></pre>");
-			$error.text(JSON.stringify(e, null, ' '));
-			$('#output').append($error);
+			$('#error').text(JSON.stringify(e.message, null, ' '));
+			$('#error').show();
 		}
 	});
 });
