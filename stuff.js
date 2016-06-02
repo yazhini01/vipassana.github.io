@@ -105,3 +105,8 @@ String.prototype.endsWith = function(pattern) {
   var d = this.length - pattern.length;
   return d >= 0 && this.lastIndexOf(pattern) === d;
 };
+
+String.prototype.startsWith = function(searchString, position) {
+	position = position || 0;
+	return this.indexOf(searchString, position) === position;
+};
