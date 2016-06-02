@@ -71,6 +71,7 @@ function print_output(output) {
 		var $avartanam = $("<div class='avartanam'></div>");
 		if (typeof avartanam === "string") {
 			$avartanam.text(avartanam);
+			$output.append($avartanam);
 			return;
 		}
 
