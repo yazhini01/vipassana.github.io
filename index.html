@@ -4,7 +4,7 @@
 
 		<script src="jquery-2.2.2.min.js"></script>
 		<script src="bootstrap.min.js"></script>
-		<script src="stuff.js"></script>
+		<script src="howler.min.js"></script>
 		<script src="stuff.js"></script>
 		<style>
 			body {
@@ -40,6 +40,29 @@
 				display: inline;
 				margin-right: 10px;
 			}
+			#metronome {
+				text-align: center;
+			    margin: 10px 0;
+			}
+			#metronome #kriyas, #metronome #only_suladi {
+				margin: 10px 0;
+				padding: 10px;
+				background: #FFFFDC;
+				display: none;
+			}
+			#metronome .kriya {
+				padding: 10px;
+				margin-right: 2px;
+			}
+			#metronome .kriya.current {
+				background: yellow;
+			}
+			#bpm {
+				width: 60px;
+			}
+			#metronome #only_suladi {
+				display: none;
+			}
 		</style>
 	</head>
 	<body>
@@ -54,9 +77,10 @@
 					<option selected value='triputa'>Triputa talam</option>
 					<option value='ata'>Ata talam</option>
 					<option value='eka'>Eka talam</option>
-					<option>-----</option>
-					<option value='misrachapu'>Misra Chapu talam</option>
-					<option value='kandachapu'>Kanda Chapu talam</option>
+					<optgroup label="Chapu">
+						<option value='misrachapu'>Misra Chapu talam</option>
+						<option value='kandachapu'>Kanda Chapu talam</option>
+					</optgroup>
 				</select>
 			</span>
 			<span>
@@ -79,6 +103,18 @@
 			</span>
 			<input type="button" class="btn btn-success btn_notate" value="Notate!">
 		</div>
+		<div id="metronome">
+
+			<input type="button" class="btn btn-success btn_tick" value="Tick in this talam">
+			&nbsp;&nbsp;at&nbsp;&nbsp;
+			<input type="text" id="bpm" value="120" />
+			&nbsp;&nbsp;
+			beats per minute (bpm).
+
+			<div id="kriyas"></div>
+			<div id="only_suladi">Sorry! This only works for the suladi sapta talams. Will add this for chapu talams later.</div>
+		</div>
+
 		<div id="info"></div>
 		<div id="error"></div>
 		<div id="output">

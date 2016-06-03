@@ -1,29 +1,125 @@
 var defaultValue = "4 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\ntam , tam , ,  , dim , dim , ,  , tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta jam , jam  , , ta ki ta  jam ,  ,\nta dim , dim  , , ta ki ta dim ,  ,\nta tom , tom  , , ta ki ta\n\nta jam , ta ki ta\nta nam , ta ki ta\nta rum , ta ki ta\nta ta , di di , tom tom , ta din gi na tom ,\nta ta , di di , tom tom , ta din gi na tom ,\nta ta , di di , tom tom , ta din gi na tom\n\n2 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n";
 
+var selectedTalam, selectedJaathi, selectedGati;
+
+function readTalamInput() {
+	selectedTalam = $('select#talam :selected').attr('value');
+	selectedJaathi = $('select#jaathi :selected').attr('value');
+	selectedGati = $('select#gati :selected').attr('value');
+}
+
+function isChapu() {
+	return selectedTalam.endsWith("chapu");
+}
 
 $(document.body).ready(function() {
 	$('#input').val(defaultValue);
 
 	$('.btn_notate').bind('click', function() {
-		try {
-			print_info();
-			var parsed = parseInput($('#input').val());
-			var output = notate(parsed);
-			print_output(output);
-		} catch(e) {
-			console.error(e);
-			$('#error').text(JSON.stringify(e.message, null, ' '));
-			$('#error').show();
-		}
+		readTalamInput();
+		print_info();
+		var parsed = parseInput($('#input').val());
+
+		var output = notate(parsed);
+		print_output(output);
 	});
 
 	$('select#talam').change(function() {
-		var selectedTalam = $('select#talam :selected').attr('value');
-		var isChapu = selectedTalam.endsWith("chapu");
-		$('select#jaathi').prop('disabled', isChapu);
-		$('select#gati').prop('disabled', isChapu);
+		readTalamInput();
+		var chapu = isChapu();
+
+		$('select#jaathi').prop('disabled', chapu);
+		$('select#gati').prop('disabled', chapu);
+		$('#metronome')[chapu ? 'hide' : 'show']();
+	});
+
+	var intervalInMills = 1000, metIntervalReference = null, ticking = false;
+	$(".btn_tick").bind('click', function() {
+		readTalamInput();
+		if (isChapu()) {
+			$('#only_suladi').show();
+			$kriyas.empty();
+	  		$kriyas.hide();
+			return;
+		}
+
+		$('#only_suladi').hide();
+
+		intervalInMills = 1000 * 60 / $("#bpm").val();
+
+	  	if (metIntervalReference) clearInterval(metIntervalReference);
+	  	if (intervalInMills && !ticking) {
+			currentTalamAksharaSounds = talamToAksharaSoundFiles(talams[selectedTalam], selectedJaathi);
+			currentTalamAksharaSoundsIndex = 0;
+			$kriyas = $('#kriyas');
+			$kriyas.show();
+			displayKriyasForMet(talams[selectedTalam], selectedJaathi);
+
+	  		metronomeTick();
+	  		metIntervalReference = setInterval("metronomeTick()", intervalInMills);
+	  	}
+	  	ticking = !ticking;
+	  	$(".btn_tick").attr('value', ticking ? "Stop" : "Tick in this talam");
+	  	// if (!ticking) {
+	  	// 	$('.kriya', $kriyas).removeClass('current');
+	  	// 	$kriyas.empty();
+	  	// 	$kriyas.hide();
+	  	// }
 	});
 });
+
+var kriyaToSoundFile = {
+	"beat": "sounds/2.wav",
+	"wave": "sounds/1.wav",
+	"count": "sounds/1.wav"
+};
+
+function angamToKriyas(angam, jaati) {
+	if (angam === "l") {
+		var kriyas = ["beat"];
+		while(jaati-- > 1) kriyas.push("count");
+		return kriyas;
+	}
+	if (angam === "O") {
+		return ["beat", "wave"];
+	}
+	if (angam === "U") {
+		return ["beat"];
+	}
+	return [];
+}
+
+function displayKriyasForMet(talaAngas, jaati) {
+	var kriyas = talamToKriyas(talaAngas, jaati);
+	$kriyas.empty();
+	$(kriyas).each(function(index, kriya) {
+		var $span = $("<span class='kriya'></span>");
+		$span.text(kriya);
+		$span.attr('data_akshara_index', index);
+		$kriyas.append($span);
+	});
+}
+
+function talamToKriyas(talaAngas, jaati) {
+	var kriyas = [];
+	for (var i = 0; i < talaAngas.length; i++) {
+		kriyas = kriyas.concat(angamToKriyas(talaAngas[i], jaati));
+	}
+	return kriyas;
+}
+
+function talamToAksharaSoundFiles(talaAngas, jaati) {
+	var kriyas = talamToKriyas(talaAngas, jaati), aksharaSounds = [];
+	for (var i = 0; i < kriyas.length; i++) {
+		var soundFile = kriyaToSoundFile[kriyas[i]];
+		if (!soundFile) {
+			console.log("No sound file found for " + kriyas[i] + ", Using default.");
+		}
+		aksharaSounds.push(soundFile || "count.mp3");
+	}
+	console.log(aksharaSounds);
+	return aksharaSounds;
+}
 
 function parseInput(input) {
 	var outputLines = [];
@@ -95,9 +191,6 @@ function parseTalam(talam, jaathi, gati) {
 }
 
 function print_info() {
-	var selectedTalam = $('select#talam :selected').attr('value');
-	var selectedJaathi = $('select#jaathi :selected').attr('value');
-	var selectedGati = $('select#gati :selected').attr('value');
 	var talam = parseTalam(selectedTalam, selectedJaathi, selectedGati);
 	var $info = $('#info');
 
@@ -134,9 +227,6 @@ function print_info() {
 
 
 function notate(input) {
-	var selectedTalam = $('select#talam :selected').attr('value');
-	var selectedJaathi = $('select#jaathi :selected').attr('value');
-	var selectedGati = $('select#gati :selected').attr('value');
 	var talam = parseTalam(selectedTalam, selectedJaathi, selectedGati);
 
 	if (talam.avartanamMatras <= 0) {
@@ -199,6 +289,23 @@ function print_output(output) {
 	});
 }
 
+var currentTalamAksharaSounds = [];
+var currentTalamAksharaSoundsIndex = 0;
+var $kriyas;
+function metronomeTick() {
+	var file = currentTalamAksharaSounds[currentTalamAksharaSoundsIndex];
+	if (file) {
+		$('.kriya', $kriyas).removeClass('current');
+		$('.kriya[data_akshara_index=' + currentTalamAksharaSoundsIndex + ']', $kriyas).addClass('current');
+
+  		new Howl({urls: [file] }).play();
+		currentTalamAksharaSoundsIndex = (currentTalamAksharaSoundsIndex + 1) % currentTalamAksharaSounds.length;
+	} else {
+		console.error("No metronome sound file given");
+	}
+}
+
+// methods that IE doesn't have
 Array.prototype.each_slice = function (size, callback){
 	// http://stackoverflow.com/a/10249772
 	for (var i = 0, l = this.length; i < l; i += size){
