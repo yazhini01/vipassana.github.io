@@ -46,25 +46,6 @@ $(document.body).ready(function() {
 		displayKriyasForMet(talams[selectedTalam], selectedJaathi);
 	});
 
-
-	var currentSongIndex = 0;
-	var songTicker = new ticker(function() {
-		$('.matra', $output).removeClass('current');
-		var $currentKriya = $('.matra[data_matra_index=' + currentSongIndex + ']', $output);
-		$currentKriya.addClass('current');
-		currentSongIndex = (currentSongIndex + 1) % totalNotatedMatraCount;
-	}, function() {
-		readTalamInput();
-		currentSongIndex = 0;
-		$(".btn_play").attr('value', "Stop");
-	}, function() {
-		$(".btn_play").attr('value', "Play");
-	});
-	$('.btn_play').bind('click', function() {
-		$('.btn_notate').trigger('click');
-		songTicker.toggleTicking($('#bpm').val() * selectedGati);
-	});
-
 	var currentTalamAksharaSounds = [], currentTalamAksharaSoundsIndex = 0;
 	var talamTicker = new ticker(function() {
 		var file = currentTalamAksharaSounds[currentTalamAksharaSoundsIndex];
@@ -97,6 +78,26 @@ $(document.body).ready(function() {
 			$('#only_suladi').hide();
 			talamTicker.toggleTicking($('#bpm').val());
 		}
+	});
+
+	var currentSongIndex = 0;
+	var songTicker = new ticker(function() {
+		$('.matra', $output).removeClass('current');
+		var $currentKriya = $('.matra[data_matra_index=' + currentSongIndex + ']', $output);
+		$currentKriya.addClass('current');
+		currentSongIndex = (currentSongIndex + 1) % totalNotatedMatraCount;
+	}, function() {
+		readTalamInput();
+		currentSongIndex = 0;
+		$(".btn_play").attr('value', "Stop");
+		$(".btn_tick").trigger('click');
+	}, function() {
+		$(".btn_play").attr('value', "Play");
+		$(".btn_tick").trigger('click');
+	});
+	$('.btn_play').bind('click', function() {
+		$('.btn_notate').trigger('click');
+		songTicker.toggleTicking($('#bpm').val() * selectedGati);
 	});
 });
 
