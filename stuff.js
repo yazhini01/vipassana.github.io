@@ -1,124 +1,184 @@
 var defaultValue = "4 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\ntam , tam , ,  dim , dim ,  , tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta jam , jam  , , ta ki ta  jam ,  ,\nta dim , dim  , , ta ki ta dim ,  ,\nta tom , tom  , , ta ki ta\n\nta jam , ta ki ta\nta nam , ta ki ta\nta rum , ta ki ta\nta ta , di di , tom tom , ta din gi na tom , ,\nta ta , di di , tom tom , ta din gi na tom , ,\nta ta , di di , tom tom , ta din gi na tom , ,\n\n2 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n";
+var defaultMisraChapuIntervals = "250,250,300,350,350,350,350";
+var defaultKandaChapuIntervals = "300,300,300,300,300";
+var talams = {
+	"dhruva": "lOll",
+	"matya": "lOl",
+	"rupaka": "Ol",
+	"jhampa": "lUO",
+	"triputa": "lOO",
+	"ata": "llOO",
+	"eka": "l",
 
+	"misrachapu": "322",
+	"kandachapu": "23"
+};
+var kriyaToSoundFile = {
+	"beat": "sounds/2.wav",
+	"wave": "sounds/1.wav",
+	"count": "sounds/1.wav"
+};
 var selectedTalam, selectedJaathi, selectedGati;
-var intervalInMills = 1000, metIntervalReference = null, ticking = false;
 var notatedSong = [], totalNotatedMatraCount = 0;
 var $kriyas, $kriyas;
-function readTalamInput() {
+function onTalamChange() {
 	selectedTalam = $('select#talam :selected').attr('value');
 	selectedJaathi = $('select#jaathi :selected').attr('value');
-	selectedGati = $('select#gati :selected').attr('value');
+	selectedGati = isChapu() ? 2 : $('select#gati :selected').attr('value'); // sorry
+	$('.suladi')[isChapu() ? 'hide' : 'show']();
+	$('.chapu')[isChapu() ? 'show' : 'hide']();
+	displayKriyasForMet(talams[selectedTalam], selectedJaathi);
 }
 
 function isChapu() {
 	return selectedTalam.endsWith("chapu");
 }
 
+function getChapuIntervalInput() {
+	var intervals = $('#chapu_intervals').val().split(",");
+	intervals = $(intervals).map(function(_, i) { return parseInt(i);});
+	return intervals;
+}
+
 $(document.body).ready(function() {
 	$kriyas = $('#kriyas');
 	$output = $('#output');
+	onTalamChange();
+	if (selectedTalam == "misrachapu") {
+		$('#chapu_intervals').val(defaultMisraChapuIntervals);
+	} else if (selectedTalam == "kandachapu") {
+		$('#chapu_intervals').val(defaultKandaChapuIntervals);
+	}
 
 	$('#input').val(defaultValue);
 
 	$('.btn_notate').bind('click', function() {
-		readTalamInput();
+		onTalamChange();
 		print_info();
 		notatedSong = notate(parseInput($('#input').val()));
 		print_output(notatedSong);
 	});
 
-	$('select#talam').change(function() {
-		readTalamInput();
-		var chapu = isChapu();
+	$('select#talam').change(onTalamChange);
+	$('select#jaathi').change(onTalamChange);
+	$('select#gati').change(onTalamChange);
 
-		$('select#jaathi').prop('disabled', chapu);
-		$('select#gati').prop('disabled', chapu);
-		$('#metronome')[chapu ? 'hide' : 'show']();
+	var currentTalamKriyas = [], currentTalamKriyaIndex = 0;
+	var onTalamTick = function() {
+		$('.kriya', $kriyas).removeClass('current');
+		var $currentKriya = $('.kriya[data_akshara_index=' + currentTalamKriyaIndex + ']', $kriyas);
+		$currentKriya.addClass('current');
 
-		displayKriyasForMet(talams[selectedTalam], selectedJaathi);
-	});
-	$('select#jaathi').change(function() {
-		readTalamInput();
-		displayKriyasForMet(talams[selectedTalam], selectedJaathi);
-	});
-	$('select#gati').change(function() {
-		readTalamInput();
-		displayKriyasForMet(talams[selectedTalam], selectedJaathi);
-	});
+		var file = kriyaToSoundFile[currentTalamKriyas[currentTalamKriyaIndex].split(" ")[0]];
+		if (file) new Howl({urls: [file] }).play();
 
-	var currentTalamAksharaSounds = [], currentTalamAksharaSoundsIndex = 0;
-	var talamTicker = new ticker(function() {
-		var file = currentTalamAksharaSounds[currentTalamAksharaSoundsIndex];
-		if (file) {
-			$('.kriya', $kriyas).removeClass('current');
-			var $currentKriya = $('.kriya[data_akshara_index=' + currentTalamAksharaSoundsIndex + ']', $kriyas);
-			$currentKriya.addClass('current');
-
-	  		new Howl({urls: [file] }).play();
-			currentTalamAksharaSoundsIndex = (currentTalamAksharaSoundsIndex + 1) % currentTalamAksharaSounds.length;
-		} else {
-			console.error("No metronome sound file given");
-		}
-	}, function() {
-		readTalamInput();
-		displayKriyasForMet(talams[selectedTalam], selectedJaathi);
-		currentTalamAksharaSounds = talamToAksharaSoundFiles(talams[selectedTalam], selectedJaathi);
-		currentTalamAksharaSoundsIndex = 0;
+		currentTalamKriyaIndex = (currentTalamKriyaIndex + 1) % currentTalamKriyas.length;
+	}, onBeforeTalamStart = function() {
+		onTalamChange();
+		currentTalamKriyas = talamToKriyas(talams[selectedTalam], selectedJaathi);
+		currentTalamKriyaIndex = 0;
 		$(".btn_tick").attr('value', "Stop");
-	}, function() {
+	}, onAfterTalamEnd = function() {
 		$(".btn_tick").attr('value', "Tick in this talam");
-	});
+	};
+	var talamTicker = new ticker(onTalamTick, onBeforeTalamStart, onAfterTalamEnd);
+	var chapuTalamTicker = new setTimeoutBasedChapuTicker("talam", onTalamTick, onBeforeTalamStart, onAfterTalamEnd);
 
 	$(".btn_tick").bind('click', function() {
-		readTalamInput();
+		onTalamChange();
 		if (isChapu()) {
-			talamTicker.stopTicking();
+			chapuTalamTicker.toggleTicking(getChapuIntervalInput());
 		} else {
 			talamTicker.toggleTicking($('#bpm').val());
 		}
 	});
 
 	var currentSongIndex = 0;
-	var songTicker = new ticker(function() {
+	var onSongTick = function() {
 		$('.matra', $output).removeClass('current');
 		var $currentKriya = $('.matra[data_matra_index=' + currentSongIndex + ']', $output);
 		$currentKriya.addClass('current');
 		currentSongIndex = (currentSongIndex + 1) % totalNotatedMatraCount;
-	}, function() {
-		readTalamInput();
+	}, onBeforeSongTickStart = function() {
+		onTalamChange();
+
 		currentSongIndex = 0;
 		$(".btn_play").attr('value', "Stop");
-		$(".btn_tick").trigger('click');
-	}, function() {
+		$(".btn_tick").trigger('click')
+	}, onAfterSongTickEnd = function() {
 		$(".btn_play").attr('value', "Play");
-		$(".btn_tick").trigger('click');
-	});
+		if (talamTicker.ticking || chapuTalamTicker.ticking) {
+			$(".btn_tick").trigger('click');
+		}
+	};
+	var songTicker = new ticker(onSongTick, onBeforeSongTickStart, onAfterSongTickEnd);
+	var chapuSongTicker = new setTimeoutBasedChapuTicker("song", onSongTick, onBeforeSongTickStart, onAfterSongTickEnd);
+
 	$('.btn_play').bind('click', function() {
 		$('.btn_notate').trigger('click');
-		songTicker.toggleTicking($('#bpm').val() * selectedGati);
+		if (isChapu()) {
+			// unit is milli seconds (not bpm)
+			var intervals = [];
+			$(getChapuIntervalInput()).each(function(_,i) {
+				i = i / selectedGati;
+				for (var j = 0; j < selectedGati; j++) intervals.push(i);
+			});
+			chapuSongTicker.toggleTicking(intervals);
+		} else {
+			songTicker.toggleTicking($('#bpm').val() * selectedGati);
+		}
 	});
 });
 
+function setTimeoutBasedChapuTicker(name, onTick, beforeStartTick, afterStopTick) {
+	return {
+		times: [],
+		currentTimeIndex: 0,
+		ticking: false,
+		timeoutRef: null,
+		tick: function() {
+			onTick();
+
+			this.timeoutRef = setTimeout(this.tick.bind(this, null), this.times[this.currentTimeIndex]);
+			console.log(name + ": next tick after " + this.times[this.currentTimeIndex] + "ms");
+			this.currentTimeIndex = (this.currentTimeIndex + 1) % this.times.length;
+		},
+		startTicking: function (times) {
+			this.currentTimeIndex = 0;
+
+	  		beforeStartTick();
+			this.times = times;
+		  	this.ticking = true;
+		  	this.tick();
+		},
+		stopTicking: function() {
+			if (this.timeoutRef) clearTimeout(this.timeoutRef);
+			this.ticking = false;
+			afterStopTick();
+		},
+		toggleTicking: function(times) {
+			this.ticking ? this.stopTicking() : this.startTicking(times);
+		}
+	};
+}
 
 function ticker(onTick, beforeStartTick, afterStopTick) {
 	return {
-		metIntervalReference: null,
+		interval: null,
 		ticking: false,
 		startTicking: function (bpm) {
 			var intervalInMills = 1000 * 60 / bpm;
-		  	if (!intervalInMills) {
-		  		return;
-		  	}
+		  	if (!intervalInMills) return;
 
 	  		beforeStartTick();
 		  	this.ticking = true;
-	  		this.metIntervalReference = setInterval(function() {
+	  		this.interval = setInterval(function() {
 	  			onTick();
 	  		}, intervalInMills);
 		  	onTick();
 		},
 		stopTicking: function() {
-			if (this.metIntervalReference) clearInterval(this.metIntervalReference);
+			if (this.interval) clearInterval(this.interval);
 			this.ticking = false;
 			afterStopTick();
 		},
@@ -128,33 +188,19 @@ function ticker(onTick, beforeStartTick, afterStopTick) {
 	};
 };
 
-var kriyaToSoundFile = {
-	"beat": "sounds/2.wav",
-	"wave": "sounds/1.wav",
-	"count": "sounds/1.wav"
-};
-
 function angamToKriyas(angam, jaati) {
 	if (angam === "l") {
 		var kriyas = ["beat"];
 		while(jaati-- > 1) kriyas.push("count");
 		return kriyas;
 	}
-	if (angam === "O") {
-		return ["beat", "wave"];
-	}
-	if (angam === "U") {
-		return ["beat"];
-	}
+	if (angam === "O") return ["beat", "wave"];
+	if (angam === "U") return ["beat"];
 	return [];
 }
 
 function displayKriyasForMet(talaAngas, jaati) {
 	$kriyas.empty();
-	if (isChapu()) {
-		$kriyas.hide();
-		return;
-	}
 	var kriyas = talamToKriyas(talaAngas, jaati);
 	$(kriyas).each(function(index, kriya) {
 		var $span = $("<span class='kriya'></span>");
@@ -162,28 +208,20 @@ function displayKriyasForMet(talaAngas, jaati) {
 		$span.attr('data_akshara_index', index);
 		$kriyas.append($span);
 	});
-	$kriyas.show();
+	$kriyas[kriyas.length ? "show" : "hide"]();
 }
 
 function talamToKriyas(talaAngas, jaati) {
+	if (selectedTalam === "misrachapu") {
+		return ["count (ta)", "count (ki)", "silent (ta)", "beat (ta)", "silent (ka)", "beat (di)", "silent (mi)"];
+	} else if (selectedTalam === "kandachapu") {
+		return ["beat (ta)", "silent (ka)", "beat (ta)", "count (ki)", "silent (ta)"];
+	}
 	var kriyas = [];
 	for (var i = 0; i < talaAngas.length; i++) {
 		kriyas = kriyas.concat(angamToKriyas(talaAngas[i], jaati));
 	}
 	return kriyas;
-}
-
-function talamToAksharaSoundFiles(talaAngas, jaati) {
-	var kriyas = talamToKriyas(talaAngas, jaati), aksharaSounds = [];
-	for (var i = 0; i < kriyas.length; i++) {
-		var soundFile = kriyaToSoundFile[kriyas[i]];
-		if (!soundFile) {
-			console.log("No sound file found for " + kriyas[i] + ", Using default.");
-		}
-		aksharaSounds.push(soundFile || "count.mp3");
-	}
-	console.log(aksharaSounds);
-	return aksharaSounds;
 }
 
 function parseInput(input) {
@@ -212,19 +250,6 @@ function parseInput(input) {
 	return outputLines.join(" ").replace(/\s+/g, ' ');
 }
 
-var talams = {
-	"dhruva": "lOll",
-	"matya": "lOl",
-	"rupaka": "Ol",
-	"jhampa": "lUO",
-	"triputa": "lOO",
-	"ata": "llOO",
-	"eka": "l",
-
-	"misrachapu": "322",
-	"kandachapu": "23"
-};
-
 function getAngaAksharaCount(angam, jaathi) {
 	var matras = 0;
 	if (angam == 'U') return 1;
@@ -239,7 +264,7 @@ function parseTalam(talam, jaathi, gati) {
 	for (var i = 0; i < angams.length; i++) {
 		var matras = 0;
 		if (talam.endsWith("chapu")) {
-			matras = parseInt(angams[i]);
+			matras = parseInt(angams[i]) * gati; // for chapu talams, this is basically a psuedo gati
 		}
 		else {
 			matras = getAngaAksharaCount(angams[i], jaathi) * gati;
@@ -281,9 +306,9 @@ function print_info() {
 		msg += msg1 + " and " + msg2 + " in an avartanam.";
 	} else {
 		if (selectedTalam == "misrachapu") {
-			msg = $('select#talam :selected').text() + " has 7 counts (takita taka dimi) in an avartanam.";
+			msg = $('select#talam :selected').text() + " has 14 counts in an avartanam (I think?).";
 		} else if (selectedTalam == "kandachapu") {
-			msg = $('select#talam :selected').text() + " has 5 counts (taka takita) in an avartanam.";
+			msg = $('select#talam :selected').text() + " has 10 counts in an avartanam (I think?).";
 		}
 	}
 	$info.show();
