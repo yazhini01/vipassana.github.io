@@ -6,6 +6,7 @@ $(document.body).ready(function() {
 
 	$('.btn_notate').bind('click', function() {
 		try {
+			print_info();
 			var parsed = parseInput($('#input').val());
 			var output = notate(parsed);
 			print_output(output);
@@ -63,15 +64,24 @@ var talams = {
 	"kandachapu": "23"
 };
 
+function getAngaAksharaCount(angam, jaathi) {
+	var matras = 0;
+	if (angam == 'U') return 1;
+	else if (angam == 'O') return 2;
+	else if (angam == 'l') return jaathi;
+
+	return matras;
+}
+
 function parseTalam(talam, jaathi, gati) {
 	var angams = talams[talam], angaMatras = [], avartanamMatras = 0, header = [];
 	for (var i = 0; i < angams.length; i++) {
 		var matras = 0;
-		if (angams[i] == 'U') matras = 1 * gati;
-		else if (angams[i] == 'O') matras = 2 * gati;
-		else if (angams[i] == 'l') matras = jaathi * gati;
-		else {
+		if (talam.endsWith("chapu")) {
 			matras = parseInt(angams[i]);
+		}
+		else {
+			matras = getAngaAksharaCount(angams[i], jaathi) * gati;
 		}
 		angaMatras.push(matras);
 		avartanamMatras += matras;
@@ -82,6 +92,36 @@ function parseTalam(talam, jaathi, gati) {
 		avartanamMatras: avartanamMatras,
 		header: header
 	};
+}
+
+function print_info() {
+	var selectedTalam = $('select#talam :selected').attr('value');
+	var selectedJaathi = $('select#jaathi :selected').attr('value');
+	var selectedGati = $('select#gati :selected').attr('value');
+	var talam = parseTalam(selectedTalam, selectedJaathi, selectedGati);
+	var $info = $('#info');
+
+	if (talam.avartanamMatras <= 0) {
+		$info.text("Sorry, something went wrong");
+		return;
+	}
+	var msg = selectedTalam + " talam = " + talams[selectedTalam] + ".";
+	if (!talams[selectedTalam].endsWith("chapu")) {
+	 	msg += " With " + selectedJaathi + " jaathi and " + selectedGati + " gati, it has ";
+
+	 	var msg1 = "", msg2 = "";
+		for (var i = 0; i < talams[selectedTalam].length; i++) {
+			if (i) msg1 += "+", msg2 += "+";
+			var aksharas = getAngaAksharaCount(talams[selectedTalam][i], selectedJaathi);
+			msg1 += aksharas;
+			msg2 += aksharas + "x" + selectedGati;
+		}
+		msg1 += " = " + (talam.avartanamMatras / parseInt(selectedGati)) + " aksharas";
+		msg2 += " = " + (talam.avartanamMatras) + " matras";
+
+		msg += msg1 + " and " + msg2 + ".";
+	}
+	$info.text(msg);
 }
 
 
@@ -100,7 +140,9 @@ function notate(input) {
 
 	input.each_slice(talam.avartanamMatras, function(avartanam) {
 		if (avartanam.length < talam.avartanamMatras) {
-			output.push(avartanam.length + " matras are left over: " + avartanam.join(' ') + " (taken from the end). The matra count should be a multiple of " + talam.avartanamMatras + ".");
+			var msg = "Need " + (talam.avartanamMatras - avartanam.length) + " more matras. ";
+			msg += "The total matra count should be a multiple of " + talam.avartanamMatras + ".";
+			output.push(msg);
 			return;
 		}
 		var avartanamWithAngaMarkers = [], pos = 0;

@@ -25,12 +25,15 @@
 				display: inline-block;
 			    width: 30px;
 			}
+			#error, #info {
+				background: #FFFFD5;
+				padding: 10px;
+				margin: 10px 0;
+			}
 			#error {
 				background: #FF8787;
 				color: white;
-				padding: 10px;
 				display: none;
-				margin: 10px 0;
 			}
 			.form-control {
 				width: auto;
@@ -76,6 +79,7 @@
 			</span>
 			<input type="button" class="btn btn-success btn_notate" value="Notate!">
 		</div>
+		<div id="info"></div>
 		<div id="error"></div>
 		<div id="output">
 		</div>
