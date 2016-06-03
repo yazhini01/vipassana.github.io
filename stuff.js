@@ -1,5 +1,5 @@
 var defaultValue = "4 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\ntam , tam , ,  dim , dim ,  , tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta jam , jam  , , ta ki ta  jam ,  ,\nta dim , dim  , , ta ki ta dim ,  ,\nta tom , tom  , , ta ki ta\n\nta jam , ta ki ta\nta nam , ta ki ta\nta rum , ta ki ta\nta ta , di di , tom tom , ta din gi na tom , ,\nta ta , di di , tom tom , ta din gi na tom , ,\nta ta , di di , tom tom , ta din gi na tom , ,\n\n2 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n";
-var defaultMisraChapuIntervals = "100,100,100,300,300,300,300";
+var defaultMisraChapuIntervals = "200,200,200,300,300,300,300";
 var defaultKandaChapuIntervals = "300,300,300,300,300";
 var talams = {
 	"dhruva": "lOll",
@@ -28,6 +28,13 @@ function onTalamChange() {
 	$('.suladi')[isChapu() ? 'hide' : 'show']();
 	$('.chapu')[isChapu() ? 'show' : 'hide']();
 	displayKriyasForMet(talams[selectedTalam], selectedJaathi);
+	if (!$('#chapu_intervals').val().length) {
+		if (selectedTalam == "misrachapu") {
+			$('#chapu_intervals').val(defaultMisraChapuIntervals);
+		} else if (selectedTalam == "kandachapu") {
+			$('#chapu_intervals').val(defaultKandaChapuIntervals);
+		}
+	}
 }
 
 function isChapu() {
@@ -44,11 +51,6 @@ $(document.body).ready(function() {
 	$kriyas = $('#kriyas');
 	$output = $('#output');
 	onTalamChange();
-	if (selectedTalam == "misrachapu") {
-		$('#chapu_intervals').val(defaultMisraChapuIntervals);
-	} else if (selectedTalam == "kandachapu") {
-		$('#chapu_intervals').val(defaultKandaChapuIntervals);
-	}
 
 	$('#input').val(defaultValue);
 
