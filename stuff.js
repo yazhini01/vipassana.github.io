@@ -128,6 +128,7 @@ function print_info() {
 			msg = $('select#talam :selected').text() + " has 5 counts (taka takita) in an avartanam";
 		}
 	}
+	$info.show();
 	$info.text(msg);
 }
 
