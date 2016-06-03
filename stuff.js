@@ -1,5 +1,5 @@
 var defaultValue = "4 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\ntam , tam , ,  dim , dim ,  , tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta jam , jam  , , ta ki ta  jam ,  ,\nta dim , dim  , , ta ki ta dim ,  ,\nta tom , tom  , , ta ki ta\n\nta jam , ta ki ta\nta nam , ta ki ta\nta rum , ta ki ta\nta ta , di di , tom tom , ta din gi na tom , ,\nta ta , di di , tom tom , ta din gi na tom , ,\nta ta , di di , tom tom , ta din gi na tom , ,\n\n2 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n";
-var defaultMisraChapuIntervals = "250,250,300,350,350,350,350";
+var defaultMisraChapuIntervals = "100,100,100,300,300,300,300";
 var defaultKandaChapuIntervals = "300,300,300,300,300";
 var talams = {
 	"dhruva": "lOll",
