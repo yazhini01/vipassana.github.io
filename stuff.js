@@ -123,9 +123,9 @@ function print_info() {
 		msg += msg1 + " and " + msg2 + " in an avartanam.";
 	} else {
 		if (selectedTalam == "misrachapu") {
-			msg = $('select#talam :selected').text() + " has 7 counts (takita taka dimi) in an avartanam";
+			msg = $('select#talam :selected').text() + " has 7 counts (takita taka dimi) in an avartanam.";
 		} else if (selectedTalam == "kandachapu") {
-			msg = $('select#talam :selected').text() + " has 5 counts (taka takita) in an avartanam";
+			msg = $('select#talam :selected').text() + " has 5 counts (taka takita) in an avartanam.";
 		}
 	}
 	$info.show();
