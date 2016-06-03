@@ -105,8 +105,8 @@ function print_info() {
 		$info.text("Sorry, something went wrong");
 		return;
 	}
-	var msg = selectedTalam + " talam = " + talams[selectedTalam] + ".";
-	if (!talams[selectedTalam].endsWith("chapu")) {
+	var msg = $('select#talam :selected').text() + " = " + talams[selectedTalam] + ".";
+	if (!selectedTalam.endsWith("chapu")) {
 	 	msg += " With " + selectedJaathi + " jaathi and " + selectedGati + " gati, it has ";
 
 	 	var msg1 = "", msg2 = "";
@@ -120,6 +120,8 @@ function print_info() {
 		msg2 += " = " + (talam.avartanamMatras) + " matras";
 
 		msg += msg1 + " and " + msg2 + ".";
+	} else {
+		msg = "";
 	}
 	$info.text(msg);
 }
