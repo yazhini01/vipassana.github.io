@@ -1,6 +1,7 @@
 var defaultValue = "4 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\ntam , tam , ,  , dim , dim , ,  , tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta jam , jam  , , ta ki ta  jam ,  ,\nta dim , dim  , , ta ki ta dim ,  ,\nta tom , tom  , , ta ki ta\n\nta jam , ta ki ta\nta nam , ta ki ta\nta rum , ta ki ta\nta ta , di di , tom tom , ta din gi na tom ,\nta ta , di di , tom tom , ta din gi na tom ,\nta ta , di di , tom tom , ta din gi na tom\n\n2 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n";
 
 var selectedTalam, selectedJaathi, selectedGati;
+var intervalInMills = 1000, metIntervalReference = null, ticking = false;
 
 function readTalamInput() {
 	selectedTalam = $('select#talam :selected').attr('value');
@@ -13,6 +14,8 @@ function isChapu() {
 }
 
 $(document.body).ready(function() {
+	$kriyas = $('#kriyas');
+
 	$('#input').val(defaultValue);
 
 	$('.btn_notate').bind('click', function() {
@@ -31,42 +34,44 @@ $(document.body).ready(function() {
 		$('select#jaathi').prop('disabled', chapu);
 		$('select#gati').prop('disabled', chapu);
 		$('#metronome')[chapu ? 'hide' : 'show']();
+
+		displayKriyasForMet(talams[selectedTalam], selectedJaathi);
+	});
+	$('select#jaathi').change(function() {
+		readTalamInput();
+		displayKriyasForMet(talams[selectedTalam], selectedJaathi);
+	});
+	$('select#gati').change(function() {
+		readTalamInput();
+		displayKriyasForMet(talams[selectedTalam], selectedJaathi);
 	});
 
-	var intervalInMills = 1000, metIntervalReference = null, ticking = false;
 	$(".btn_tick").bind('click', function() {
 		readTalamInput();
+		displayKriyasForMet(talams[selectedTalam], selectedJaathi);
+
 		if (isChapu()) {
 			$('#only_suladi').show();
-			$kriyas.empty();
-	  		$kriyas.hide();
+
+	  		if (metIntervalReference) clearInterval(metIntervalReference);
+			ticking = false;
+			$(".btn_tick").attr("Tick in this talam");
 			return;
 		}
-
 		$('#only_suladi').hide();
 
-		intervalInMills = 1000 * 60 / $("#bpm").val();
 
+		intervalInMills = 1000 * 60 / $("#bpm").val();
 	  	if (metIntervalReference) clearInterval(metIntervalReference);
 	  	if (intervalInMills && !ticking) {
-			currentTalamAksharaSounds = talamToAksharaSoundFiles(talams[selectedTalam], selectedJaathi);
-			currentTalamAksharaSoundsIndex = 0;
-			$kriyas = $('#kriyas');
-			$kriyas.show();
-			displayKriyasForMet(talams[selectedTalam], selectedJaathi);
-
 	  		metronomeTick();
 	  		metIntervalReference = setInterval("metronomeTick()", intervalInMills);
 	  	}
 	  	ticking = !ticking;
 	  	$(".btn_tick").attr('value', ticking ? "Stop" : "Tick in this talam");
-	  	// if (!ticking) {
-	  	// 	$('.kriya', $kriyas).removeClass('current');
-	  	// 	$kriyas.empty();
-	  	// 	$kriyas.hide();
-	  	// }
 	});
 });
+
 
 var kriyaToSoundFile = {
 	"beat": "sounds/2.wav",
@@ -90,14 +95,21 @@ function angamToKriyas(angam, jaati) {
 }
 
 function displayKriyasForMet(talaAngas, jaati) {
-	var kriyas = talamToKriyas(talaAngas, jaati);
+	currentTalamAksharaSounds = talamToAksharaSoundFiles(talaAngas, selectedJaathi);
+	currentTalamAksharaSoundsIndex = 0;
 	$kriyas.empty();
+	if (isChapu()) {
+		$kriyas.hide();
+		return;
+	}
+	var kriyas = talamToKriyas(talaAngas, jaati);
 	$(kriyas).each(function(index, kriya) {
 		var $span = $("<span class='kriya'></span>");
 		$span.text(kriya);
 		$span.attr('data_akshara_index', index);
 		$kriyas.append($span);
 	});
+	$kriyas.show();
 }
 
 function talamToKriyas(talaAngas, jaati) {
