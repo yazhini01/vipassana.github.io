@@ -105,8 +105,9 @@ function print_info() {
 		$info.text("Sorry, something went wrong");
 		return;
 	}
-	var msg = $('select#talam :selected').text() + " = " + talams[selectedTalam] + ".";
+	var msg = "";
 	if (!selectedTalam.endsWith("chapu")) {
+		msg = $('select#talam :selected').text() + " = " + talams[selectedTalam] + ".";
 	 	msg += " With " + selectedJaathi + " jaathi and " + selectedGati + " gati, it has ";
 
 	 	var msg1 = "", msg2 = "";
@@ -119,9 +120,13 @@ function print_info() {
 		msg1 += " = " + (talam.avartanamMatras / parseInt(selectedGati)) + " aksharas";
 		msg2 += " = " + (talam.avartanamMatras) + " matras";
 
-		msg += msg1 + " and " + msg2 + ".";
+		msg += msg1 + " and " + msg2 + " in an avartanam.";
 	} else {
-		msg = "";
+		if (selectedTalam == "misrachapu") {
+			msg = $('select#talam :selected').text() + " has 7 counts (takita taka dimi) in an avartanam";
+		} else if (selectedTalam == "kandachapu") {
+			msg = $('select#talam :selected').text() + " has 5 counts (taka takita) in an avartanam";
+		}
 	}
 	$info.text(msg);
 }
