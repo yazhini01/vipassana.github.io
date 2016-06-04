@@ -29,7 +29,7 @@ function talamTicker() {
 		displayKriyasForMet: function() {
 			var self = this;
 			$(this.kriyas).each(function(index, kriya) {
-				var $span = $("<span class='kriya'></span>");
+				var $span = $("<div class='kriya'></div>");
 				$span.text(kriya);
 				$span.attr('data_akshara_index', index);
 				$('.kriyas', self.rootDiv).append($span);
@@ -58,8 +58,8 @@ function talamTicker() {
 			if (!this.talamTicker) {
 				this.talamTicker = new ticker(this.onTalamTick.bind(this, null), this.onBeforeTalamStart.bind(this, null), this.onAfterTalamEnd.bind(this, null));
 				this.chapuTalamTicker = new setTimeoutBasedChapuTicker("talam", this.onTalamTick.bind(this, null), this.onBeforeTalamStart.bind(this, null), this.onAfterTalamEnd.bind(this, null));
-				$('.btn_tick', this.rootDiv).bind('click', this.toggle.bind(this));
 			}
+			$('.btn_tick', this.rootDiv).bind('click', this.toggle.bind(this));
 		},
 		toggle: function() {
 			if (this.isChapu) {
