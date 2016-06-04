@@ -96,7 +96,7 @@ function showExercise(exID, $exDiv) {
 			}, function() {
 				howl.stop();
 			});
-		$('.bpm', $exDiv).val('176'); // for the pullin vaay andal thirupaavai song
+		$('.bpm', $exDiv).val('175'); // for the pullin vaay andal thirupaavai song
 		$('.input', $exDiv).hide();
 
 	}
