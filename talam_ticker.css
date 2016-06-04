@@ -1,0 +1,17 @@
+.talam_ticker .kriyas {
+	margin: 10px 0;
+	background: #DCF5FF;
+	display: none;
+}
+.talam_ticker .kriya {
+	padding: 10px;
+	margin-right: 2px;
+	width: 60px;
+	display: inline-block;
+}
+.talam_ticker .current {
+	background: #00B6FF;
+}
+.bpm {
+	width: 60px;
+}
