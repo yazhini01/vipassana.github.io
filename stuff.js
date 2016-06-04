@@ -4,13 +4,13 @@ var defaultKandaChapuIntervals = "300,300,300,300,300";
 var selectedTalam, selectedJaathi, selectedGati;
 var notatedSong = [], totalNotatedMatraCount = 0;
 var $kriyas, $kriyas;
+var talamTicker1 = new talamTicker();
 function onTalamChange() {
 	selectedTalam = $('select#talam :selected').attr('value');
 	selectedJaathi = $('select#jaathi :selected').attr('value');
 	selectedGati = isChapu() ? 2 : $('select#gati :selected').attr('value'); // sorry
 	$('.suladi')[isChapu() ? 'hide' : 'show']();
 	$('.chapu')[isChapu() ? 'show' : 'hide']();
-	displayKriyasForMet(talams[selectedTalam], selectedJaathi);
 	if (!$('#chapu_intervals').val().length) {
 		if (selectedTalam == "misrachapu") {
 			$('#chapu_intervals').val(defaultMisraChapuIntervals);
@@ -18,6 +18,13 @@ function onTalamChange() {
 			$('#chapu_intervals').val(defaultKandaChapuIntervals);
 		}
 	}
+
+	talamTicker1.setup(
+		talamToKriyas(selectedTalam, selectedJaathi),
+		isChapu(),
+		kriyaToSoundFile,
+		$('#metronome .section_body'),
+		"Tick at this talam");
 }
 
 function isChapu() {
@@ -48,6 +55,7 @@ $(document.body).ready(function() {
 	$('select#jaathi').change(onTalamChange);
 	$('select#gati').change(onTalamChange);
 
+/*
 	var currentTalamKriyas = [], currentTalamKriyaIndex = 0;
 	var onTalamTick = function() {
 		$('.kriya', $kriyas).removeClass('current');
@@ -60,7 +68,7 @@ $(document.body).ready(function() {
 		currentTalamKriyaIndex = (currentTalamKriyaIndex + 1) % currentTalamKriyas.length;
 	}, onBeforeTalamStart = function() {
 		onTalamChange();
-		currentTalamKriyas = talamToKriyas(talams[selectedTalam], selectedJaathi);
+		currentTalamKriyas = talamToKriyas(selectedTalam, selectedJaathi);
 		currentTalamKriyaIndex = 0;
 		$(".btn_tick").attr('value', "Stop");
 	}, onAfterTalamEnd = function() {
@@ -77,7 +85,7 @@ $(document.body).ready(function() {
 			talamTicker.toggleTicking($('#bpm').val());
 		}
 	});
-
+*/
 	var currentSongIndex = 0;
 	var onSongTick = function() {
 		$('.matra', $output).removeClass('current');
