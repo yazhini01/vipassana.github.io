@@ -43,6 +43,8 @@ function talamTicker() {
 			this.btnLabel = btnLabel || "Tick in this talam";
 			this.onStart = onStart;
 			this.onStop = onStop;
+			this.bpm = $('.bpm', this.rootDiv).val();
+			this.isChapu = isChapu;
 
 			// setup the view
 			this.rootDiv.empty();
@@ -53,20 +55,29 @@ function talamTicker() {
 			$('.kriyas', this.rootDiv).show();
 			$('.btn_tick', this.rootDiv).attr('value', this.btnLabel);
 
-			this.talamTicker = new ticker(this.onTalamTick.bind(this, null), this.onBeforeTalamStart.bind(this, null), this.onAfterTalamEnd.bind(this, null));
-			this.chapuTalamTicker = new setTimeoutBasedChapuTicker("talam", this.onTalamTick.bind(this, null), this.onBeforeTalamStart.bind(this, null), this.onAfterTalamEnd.bind(this, null));
-
-			$('.btn_tick', this.rootDiv).bind('click', function() {
-				if (isChapu) {
-					this.chapuTalamTicker.toggleTicking(getChapuIntervalInput());
-				} else {
-					this.talamTicker.toggleTicking($('.bpm', this.rootDiv).val());
-				}
-			}.bind(this));
+			if (!this.talamTicker) {
+				this.talamTicker = new ticker(this.onTalamTick.bind(this, null), this.onBeforeTalamStart.bind(this, null), this.onAfterTalamEnd.bind(this, null));
+				this.chapuTalamTicker = new setTimeoutBasedChapuTicker("talam", this.onTalamTick.bind(this, null), this.onBeforeTalamStart.bind(this, null), this.onAfterTalamEnd.bind(this, null));
+				$('.btn_tick', this.rootDiv).bind('click', this.toggle.bind(this));
+			}
+		},
+		toggle: function() {
+			if (this.isChapu) {
+				this.chapuTalamTicker.toggleTicking(getChapuIntervalInput());
+			} else {
+				this.bpm = $('.bpm', this.rootDiv).val();
+				this.talamTicker.toggleTicking(this.bpm);
+			}
 		},
 		stop: function() {
 			this.talamTicker.stopTicking();
 			this.chapuTalamTicker.stopTicking();
+		},
+		getBpm: function() {
+			return this.bpm;
+		},
+		ticking: function() {
+			return this.chapuTalamTicker.ticking || this.talamTicker.ticking;
 		}
 	};
 }

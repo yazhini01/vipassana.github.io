@@ -97,11 +97,11 @@ $(document.body).ready(function() {
 
 		currentSongIndex = 0;
 		$(".btn_play").attr('value', "Stop");
-		$(".btn_tick").trigger('click')
+		talamTicker1.toggle();
 	}, onAfterSongTickEnd = function() {
 		$(".btn_play").attr('value', "Play");
-		if (talamTicker.ticking || chapuTalamTicker.ticking) {
-			$(".btn_tick").trigger('click');
+		if (talamTicker1.ticking()) {
+			talamTicker1.stop();
 		}
 	};
 	var songTicker = new ticker(onSongTick, onBeforeSongTickStart, onAfterSongTickEnd);
@@ -118,7 +118,7 @@ $(document.body).ready(function() {
 			});
 			chapuSongTicker.toggleTicking(intervals);
 		} else {
-			songTicker.toggleTicking($('#bpm').val() * selectedGati);
+			songTicker.toggleTicking(talamTicker1.getBpm() * selectedGati);
 		}
 	});
 });
