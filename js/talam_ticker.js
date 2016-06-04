@@ -1,3 +1,4 @@
+var defaultBpm = 120;
 function talamTicker() {
 	return {
 		kriyas: [],
@@ -28,6 +29,7 @@ function talamTicker() {
 		},
 		displayKriyasForMet: function() {
 			var self = this;
+			$('.kriya', self.rootDiv).remove();
 			$(this.kriyas).each(function(index, kriya) {
 				var $span = $("<div class='kriya'></div>");
 				$span.text(kriya);
@@ -47,8 +49,9 @@ function talamTicker() {
 			this.isChapu = isChapu;
 
 			// setup the view
-			this.rootDiv.empty();
-			this.rootDiv.append($($("#sample_talam_ticker_wrapper").html()));
+			if (rootDiv[0].childElementCount == 0) {
+				this.rootDiv.append($($("#sample_talam_ticker_wrapper").html()));
+			}
 			this.displayKriyasForMet();
 			$('.chapu', this.rootDiv)[isChapu ? 'show' : 'hide']();
 			$('.suladi', this.rootDiv)[isChapu ? 'hide' : 'show']();
