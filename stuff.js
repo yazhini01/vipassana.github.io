@@ -55,37 +55,6 @@ $(document.body).ready(function() {
 	$('select#jaathi').change(onTalamChange);
 	$('select#gati').change(onTalamChange);
 
-/*
-	var currentTalamKriyas = [], currentTalamKriyaIndex = 0;
-	var onTalamTick = function() {
-		$('.kriya', $kriyas).removeClass('current');
-		var $currentKriya = $('.kriya[data_akshara_index=' + currentTalamKriyaIndex + ']', $kriyas);
-		$currentKriya.addClass('current');
-
-		var file = kriyaToSoundFile[currentTalamKriyas[currentTalamKriyaIndex].split(" ")[0]];
-		if (file) new Howl({urls: [file] }).play();
-
-		currentTalamKriyaIndex = (currentTalamKriyaIndex + 1) % currentTalamKriyas.length;
-	}, onBeforeTalamStart = function() {
-		onTalamChange();
-		currentTalamKriyas = talamToKriyas(selectedTalam, selectedJaathi);
-		currentTalamKriyaIndex = 0;
-		$(".btn_tick").attr('value', "Stop");
-	}, onAfterTalamEnd = function() {
-		$(".btn_tick").attr('value', "Tick in this talam");
-	};
-	var talamTicker = new ticker(onTalamTick, onBeforeTalamStart, onAfterTalamEnd);
-	var chapuTalamTicker = new setTimeoutBasedChapuTicker("talam", onTalamTick, onBeforeTalamStart, onAfterTalamEnd);
-
-	$(".btn_tick").bind('click', function() {
-		onTalamChange();
-		if (isChapu()) {
-			chapuTalamTicker.toggleTicking(getChapuIntervalInput());
-		} else {
-			talamTicker.toggleTicking($('#bpm').val());
-		}
-	});
-*/
 	var currentSongIndex = 0;
 	var onSongTick = function() {
 		$('.matra', $output).removeClass('current');
@@ -153,13 +122,7 @@ function parseInput(input) {
 function parseTalam(talam, jaathi, gati) {
 	var angams = talams[talam], angaMatras = [], avartanamMatras = 0, header = [];
 	for (var i = 0; i < angams.length; i++) {
-		var matras = 0;
-		if (talam.endsWith("chapu")) {
-			matras = parseInt(angams[i]) * gati; // for chapu talams, this is basically a psuedo gati
-		}
-		else {
-			matras = getAngaAksharaCount(angams[i], jaathi) * gati;
-		}
+		var matras = gati * (talam.endsWith("chapu") ? parseInt(angams[i]) : getAngaAksharaCount(angams[i], jaathi));
 		angaMatras.push(matras);
 		avartanamMatras += matras;
 		for(var j = 1; j <= matras; j++) header.push("" + j);
