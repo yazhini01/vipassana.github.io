@@ -1,6 +1,6 @@
 var terms = {
 	"talam": {
-		"definition": "A repeating cycle of beats. Songs are usually set to a single talam. While listening to a song set to a single talam, a human listener would be able to name the talam used. A song can be sung in a given talam only if the number of singable-units in the song is a multiple of the number of beats in a single talam cycle. However, it is possible to add/remove silences in the song, and make it fit any talam. A single talam cycle is known as an avartanam.",
+		"definition": "A repeating cycle of beats. Songs are usually set to a single talam.",
 		"avartanam": "A talam unit. An avartanam is the thing that repeats, in a talam. A song set to a talam is usually made of a number of full avartanams. That is, songs do not end while the talam is in the middle of an avartanam.",
 		"akshara": "A talam unit. An avartanam is divided into aksharas.",
 		"exercises": {
