@@ -1,10 +1,11 @@
+var pullinVaayBpm = 174; // for the pullin vaay andal thirupaavai song
 var terms = {
 	"talam": {
 		"definition": "A repeating cycle of beats. Songs are usually set to a single talam.",
 		"avartanam": "A talam unit. An avartanam is the thing that repeats, in a talam. A song set to a talam is usually made of a number of full avartanams. That is, songs do not end while the talam is in the middle of an avartanam.",
 		"akshara": "A talam unit. An avartanam is divided into aksharas.",
 		"exercises": {
-			"description": "Listen to the first 30 seconds of the Andal Thiruppavai song Pullin Vaay (Atana ragam, Rupaka talam) sung by Subhashree Ramachandran. The beats shown are how you put talam to this song (hopefully :P).",
+			"description": "Listen to the first 30 seconds of the Andal Thiruppavai song Pullin Vaay (Atana ragam, Rupaka talam) sung by Subhashree Ramachandran (at " + pullinVaayBpm + " bpm). The beats shown are how you put talam to this song (hopefully :P).",
 			"exercise_id": "talam_in_song"
 		}
 	},
@@ -80,6 +81,7 @@ $(document.body).ready(function() {
 	$('[data-term="Types of Talams"]').trigger('click');
 });
 
+
 function showExercise(exID, $exDiv) {
 	if (exID === "talam_in_song") {
 		var talamTicker1 = new talamTicker();
@@ -96,7 +98,7 @@ function showExercise(exID, $exDiv) {
 			}, function() {
 				howl.stop();
 			});
-		$('.bpm', $exDiv).val('175'); // for the pullin vaay andal thirupaavai song
+		$('.bpm', $exDiv).val("" + pullinVaayBpm);
 		$('.input', $exDiv).hide();
 
 	}
