@@ -69,9 +69,7 @@ $(document.body).ready(function() {
 		talamTicker1.toggle();
 	}, onAfterSongTickEnd = function() {
 		$(".btn_play").attr('value', "Play");
-		if (talamTicker1.ticking()) {
-			talamTicker1.stop();
-		}
+		talamTicker1.stop();
 	};
 	var songTicker = new ticker(onSongTick, onBeforeSongTickStart, onAfterSongTickEnd);
 	var chapuSongTicker = new setTimeoutBasedChapuTicker("song", onSongTick, onBeforeSongTickStart, onAfterSongTickEnd);

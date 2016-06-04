@@ -85,22 +85,10 @@ $(document.body).ready(function() {
 function showExercise(exID, $exDiv) {
 	if (exID === "talam_in_song") {
 		var talamTicker1 = new talamTicker();
-		var howl = new Howl({
-			urls: ["sounds/pullin_vaay__atana__rupakam.mp3"],
-			onend: function() {
-				talamTicker1.stop();
-			}
-		});
-		talamTicker1.setup(talamToKriyas("rupaka", 4), false, kriyaToSoundFile, $exDiv, "Listen",
-			function() {
-				howl.play();
-
-			}, function() {
-				howl.stop();
-			});
+		talamTicker1.setup(talamToKriyas("rupaka", 4), false, kriyaToSoundFile, $exDiv, "Listen");
 		$('.bpm', $exDiv).val("" + pullinVaayBpm);
 		$('.input', $exDiv).hide();
-
+		setupSongWithTicker(talamTicker1, "sounds/pullin_vaay__atana__rupakam.mp3");
 	}
 }
 

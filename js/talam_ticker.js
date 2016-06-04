@@ -22,7 +22,7 @@ function talamTicker() {
 			}
 		},
 		onAfterTalamEnd: function() {
-			$('.btn_tick', this.rootDiv).attr('value', this.btnLabel);
+			this.stop();
 			if (this.onStop) {
 				this.onStop();
 			}
@@ -58,8 +58,8 @@ function talamTicker() {
 			$('.kriyas', this.rootDiv).show();
 			$('.btn_tick', this.rootDiv).attr('value', this.btnLabel);
 
-			if (!this.talamTicker) {
-				this.talamTicker = new ticker(this.onTalamTick.bind(this, null), this.onBeforeTalamStart.bind(this, null), this.onAfterTalamEnd.bind(this, null));
+			if (!this.suladiTalamTicker) {
+				this.suladiTalamTicker = new ticker(this.onTalamTick.bind(this, null), this.onBeforeTalamStart.bind(this, null), this.onAfterTalamEnd.bind(this, null));
 				this.chapuTalamTicker = new setTimeoutBasedChapuTicker("talam", this.onTalamTick.bind(this, null), this.onBeforeTalamStart.bind(this, null), this.onAfterTalamEnd.bind(this, null));
 			}
 			$('.btn_tick', this.rootDiv).bind('click', this.toggle.bind(this));
@@ -69,18 +69,42 @@ function talamTicker() {
 				this.chapuTalamTicker.toggleTicking(getChapuIntervalInput());
 			} else {
 				this.bpm = $('.bpm', this.rootDiv).val();
-				this.talamTicker.toggleTicking(this.bpm);
+				this.suladiTalamTicker.toggleTicking(this.bpm);
 			}
 		},
 		stop: function() {
-			this.talamTicker.stopTicking();
+			if (!this.chapuTalamTicker.ticking && !this.suladiTalamTicker.ticking) return;
+
+			this.suladiTalamTicker.stopTicking();
 			this.chapuTalamTicker.stopTicking();
+			$('.btn_tick', this.rootDiv).attr('value', this.btnLabel);
 		},
 		getBpm: function() {
 			return this.bpm;
 		},
 		ticking: function() {
-			return this.chapuTalamTicker.ticking || this.talamTicker.ticking;
+			return this.chapuTalamTicker.ticking || this.suladiTalamTicker.ticking;
+		},
+		setCallbacks(onStart, onStop) {
+			this.onStart = onStart;
+			this.onStop = onStop;
 		}
 	};
+}
+
+var howl;
+function setupSongWithTicker(someTicker, file) {
+	if (howl) howl.stop();
+	howl = new Howl({
+		urls: [file],
+		onend: function() {
+			someTicker.stop();
+		}
+	});
+	someTicker.setCallbacks(
+		function() {
+			howl.play();
+		}, function() {
+			howl.stop();
+		});
 }
