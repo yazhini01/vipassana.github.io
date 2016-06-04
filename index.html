@@ -5,6 +5,9 @@
 		<script src="jquery-2.2.2.min.js"></script>
 		<script src="bootstrap.min.js"></script>
 		<script src="howler.min.js"></script>
+		<script src="talam.js"></script>
+		<script src="ticker.js"></script>
+		<script src="talam_ticker.js"></script>
 		<script src="stuff.js"></script>
 		<style>
 			body {
@@ -76,6 +79,9 @@
 			}
 			.section_body {
 				padding-left: 20px;
+			}
+			#sample_wrappers {
+				display: none
 			}
 		</style>
 	</head>
@@ -150,13 +156,30 @@
 			</div>
 		</div>
 
-
-
 		<div id="notater" class='section'>
 			<div class="title">About this site</div>
 			<div class="section_body">
 				Hello! I made this as a learning tool for myself. If there are mistakes/confusing things, please email me at yazhini[at]gmail[dot]com and I'll fix them. (Also the chapu talams have lags, will fix!)
 			</div>
+		</div>
+
+		<div id="sample_wrappers">
+			<div id="sample_talam_ticker_wrapper">
+				<div class="talam_ticker">
+					<input type="button" class="btn btn-primary btn_tick" value="Tick in this talam">
+					<span class="suladi">
+						&nbsp;&nbsp;at&nbsp;&nbsp;
+						<input type="text" class="bpm" value="120" />
+						&nbsp;&nbsp;
+						beats per minute (bpm).
+					</span>
+					<div class="chapu">
+						<input type="text" id="chapu_intervals" value="" />
+					</div>
+
+					<div class="kriyas"></div>
+				</div>
+			<div>
 		</div>
 	</body>
 </html>

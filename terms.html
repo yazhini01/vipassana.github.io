@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="bootstrap.min.css">
+
+		<script src="jquery-2.2.2.min.js"></script>
+		<script src="bootstrap.min.js"></script>
+		<script src="howler.min.js"></script>
+		<script src="talam.js"></script>
+		<script src="ticker.js"></script>
+		<script src="talam_ticker.js"></script>
+		<script src="terms.js"></script>
+		<style>
+			body {
+				padding: 20px;
+			}
+			.term {
+				font-weight: bold;
+				margin-right: 2px;
+			}
+			.terms_body {
+				padding-left: 30px;
+			}
+			#sample_wrappers {
+				display: none
+			}
+
+			.talam_ticker .kriyas {
+				margin: 10px 0;
+				padding: 10px 0;
+				background: #DCF5FF;
+				display: none;
+			}
+			.talam_ticker .kriya {
+				padding: 10px;
+				margin-right: 2px;
+				width: 60px;
+			}
+			.talam_ticker .current {
+				background: #00B6FF;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="disclaimer">
+			Hello! I've tried to structure this guide such that whenever a new technical term is introduced, it is explained using the term already used in the guide. If you notice that this goal is not met, please drop me a line and I'll fix it.
+		</div>
+		<div id="terms">
+
+		</div>
+
+		<div id="sample_wrappers">
+			<div id="sample_talam_ticker_wrapper">
+				<div class="talam_ticker">
+					<input type="button" class="btn btn-primary btn_tick" value="Tick in this talam">
+					<span class="suladi input">
+						&nbsp;&nbsp;at&nbsp;&nbsp;
+						<input type="text" class="bpm" value="120" />
+						&nbsp;&nbsp;
+						beats per minute (bpm).
+					</span>
+					<div class="chapu input">
+						<input type="text" id="chapu_intervals" value="" />
+					</div>
+
+					<div class="kriyas"></div>
+				</div>
+			<div>
+		</div>
+	</body>
+</html>

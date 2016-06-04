@@ -1,23 +1,6 @@
 var defaultValue = "4 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\ntam , tam , ,  dim , dim ,  , tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta jam , jam  , , ta ki ta  jam ,  ,\nta dim , dim  , , ta ki ta dim ,  ,\nta tom , tom  , , ta ki ta\n\nta jam , ta ki ta\nta nam , ta ki ta\nta rum , ta ki ta\nta ta , di di , tom tom , ta din gi na tom , ,\nta ta , di di , tom tom , ta din gi na tom , ,\nta ta , di di , tom tom , ta din gi na tom , ,\n\n2 times\nta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n2 times\nta ki ta tom , ta ta ki ta tom , ta di mi ki ta\n\n";
 var defaultMisraChapuIntervals = "200,200,200,300,300,300,300";
 var defaultKandaChapuIntervals = "300,300,300,300,300";
-var talams = {
-	"dhruva": "lOll",
-	"matya": "lOl",
-	"rupaka": "Ol",
-	"jhampa": "lUO",
-	"triputa": "lOO",
-	"ata": "llOO",
-	"eka": "l",
-
-	"misrachapu": "322",
-	"kandachapu": "23"
-};
-var kriyaToSoundFile = {
-	"beat": "sounds/2.wav",
-	"wave": "sounds/1.wav",
-	"count": "sounds/1.wav"
-};
 var selectedTalam, selectedJaathi, selectedGati;
 var notatedSong = [], totalNotatedMatraCount = 0;
 var $kriyas, $kriyas;
@@ -132,99 +115,6 @@ $(document.body).ready(function() {
 	});
 });
 
-function setTimeoutBasedChapuTicker(name, onTick, beforeStartTick, afterStopTick) {
-	return {
-		times: [],
-		currentTimeIndex: 0,
-		ticking: false,
-		timeoutRef: null,
-		tick: function() {
-			onTick();
-
-			this.timeoutRef = setTimeout(this.tick.bind(this, null), this.times[this.currentTimeIndex]);
-			console.log(name + ": next tick after " + this.times[this.currentTimeIndex] + "ms");
-			this.currentTimeIndex = (this.currentTimeIndex + 1) % this.times.length;
-		},
-		startTicking: function (times) {
-			this.currentTimeIndex = 0;
-
-	  		beforeStartTick();
-			this.times = times;
-		  	this.ticking = true;
-		  	this.tick();
-		},
-		stopTicking: function() {
-			if (this.timeoutRef) clearTimeout(this.timeoutRef);
-			this.ticking = false;
-			afterStopTick();
-		},
-		toggleTicking: function(times) {
-			this.ticking ? this.stopTicking() : this.startTicking(times);
-		}
-	};
-}
-
-function ticker(onTick, beforeStartTick, afterStopTick) {
-	return {
-		interval: null,
-		ticking: false,
-		startTicking: function (bpm) {
-			var intervalInMills = 1000 * 60 / bpm;
-		  	if (!intervalInMills) return;
-
-	  		beforeStartTick();
-		  	this.ticking = true;
-	  		this.interval = setInterval(function() {
-	  			onTick();
-	  		}, intervalInMills);
-		  	onTick();
-		},
-		stopTicking: function() {
-			if (this.interval) clearInterval(this.interval);
-			this.ticking = false;
-			afterStopTick();
-		},
-		toggleTicking: function(bpm) {
-			this.ticking ? this.stopTicking() : this.startTicking(bpm);
-		}
-	};
-};
-
-function angamToKriyas(angam, jaati) {
-	if (angam === "l") {
-		var kriyas = ["beat"];
-		while(jaati-- > 1) kriyas.push("count");
-		return kriyas;
-	}
-	if (angam === "O") return ["beat", "wave"];
-	if (angam === "U") return ["beat"];
-	return [];
-}
-
-function displayKriyasForMet(talaAngas, jaati) {
-	$kriyas.empty();
-	var kriyas = talamToKriyas(talaAngas, jaati);
-	$(kriyas).each(function(index, kriya) {
-		var $span = $("<span class='kriya'></span>");
-		$span.text(kriya);
-		$span.attr('data_akshara_index', index);
-		$kriyas.append($span);
-	});
-	$kriyas[kriyas.length ? "show" : "hide"]();
-}
-
-function talamToKriyas(talaAngas, jaati) {
-	if (selectedTalam === "misrachapu") {
-		return ["count (ta)", "count (ki)", "silent (ta)", "beat (ta)", "silent (ka)", "beat (di)", "silent (mi)"];
-	} else if (selectedTalam === "kandachapu") {
-		return ["beat (ta)", "silent (ka)", "beat (ta)", "count (ki)", "silent (ta)"];
-	}
-	var kriyas = [];
-	for (var i = 0; i < talaAngas.length; i++) {
-		kriyas = kriyas.concat(angamToKriyas(talaAngas[i], jaati));
-	}
-	return kriyas;
-}
 
 function parseInput(input) {
 	var outputLines = [];
@@ -250,15 +140,6 @@ function parseInput(input) {
 	});
 
 	return outputLines.join(" ").replace(/\s+/g, ' ');
-}
-
-function getAngaAksharaCount(angam, jaathi) {
-	var matras = 0;
-	if (angam == 'U') return 1;
-	else if (angam == 'O') return 2;
-	else if (angam == 'l') return jaathi;
-
-	return matras;
 }
 
 function parseTalam(talam, jaathi, gati) {
@@ -317,34 +198,6 @@ function print_info() {
 	$info.text(msg);
 }
 
-
-function notate(input) {
-	var talam = parseTalam(selectedTalam, selectedJaathi, selectedGati);
-
-	if (talam.avartanamMatras <= 0) {
-		return ["Sorry, something went wrong"];
-	}
-
-	var output = [];
-	input = talam.header.concat(input.split(" "));
-
-	input.each_slice(talam.avartanamMatras, function(avartanam) {
-		if (avartanam.length < talam.avartanamMatras) {
-			var msg = "Need " + (talam.avartanamMatras - avartanam.length) + " more matras. ";
-			msg += "The total matra count should be a multiple of " + talam.avartanamMatras + ".";
-			output.push(msg);
-			return;
-		}
-		var avartanamWithAngaMarkers = [], pos = 0;
-		$(talam.angaMatras).each(function(_, angaMatras) {
-			avartanamWithAngaMarkers.push(avartanam.slice(pos, pos + angaMatras));
-			pos += angaMatras;
-		});
-		output.push(avartanamWithAngaMarkers);
-	});
-	return output;
-}
-
 function print_output(output) {
 	$output.empty();
 	totalNotatedMatraCount = 0;
@@ -383,21 +236,3 @@ function print_output(output) {
 		$output.append($avartanam);
 	});
 }
-
-// methods that IE doesn't have
-Array.prototype.each_slice = function (size, callback){
-	// http://stackoverflow.com/a/10249772
-	for (var i = 0, l = this.length; i < l; i += size){
-		callback.call(this, this.slice(i, i + size));
-	}
-};
-
-String.prototype.endsWith = function(pattern) {
-  var d = this.length - pattern.length;
-  return d >= 0 && this.lastIndexOf(pattern) === d;
-};
-
-String.prototype.startsWith = function(searchString, position) {
-	position = position || 0;
-	return this.indexOf(searchString, position) === position;
-};
