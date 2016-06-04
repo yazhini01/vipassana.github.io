@@ -77,7 +77,7 @@ $(document.body).ready(function() {
 	$('.term').bind('click', function(e) {
 		$('.togglable_section[data-term="' + $(e.target).attr('data-term') + '"]').toggle();
 	});
-
+	$('[data-term="Types of Talams"]').trigger('click');
 });
 
 function showExercise(exID, $exDiv) {
