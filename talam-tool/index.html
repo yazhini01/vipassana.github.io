@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/talam_ticker.css">
+
+		<script src="js/jquery-2.2.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/howler.min.js"></script>
+		<script src="js/talam.js"></script>
+		<script src="js/ticker.js"></script>
+		<script src="js/talam_ticker.js"></script>
+		<script src="js/stuff.js"></script>
+		<style>
+			body {
+				padding: 20px;
+			}
+			textarea {
+				width: 100%;
+				height: 200px;
+				margin-bottom: 10px;
+			}
+			.section_body {
+				padding: 20px
+			}
+			.angam {
+				display: inline-block;
+			}
+			.matra {
+				display: inline-block;
+			    width: 50px;
+			}
+			#error, #info {
+				background: #DCF5FF;
+				padding: 10px;
+				margin: 10px 0;
+				display: none;
+			}
+			#error {
+				background: #FF8787;
+				color: white;
+			}
+			.form-control {
+				width: auto;
+				display: inline;
+				margin-right: 10px;
+			}
+			.current {
+				background: #00B6FF;
+			}
+			#chapu_intervals {
+				display: block;
+				width: 100%;
+			}
+			.title {
+			    background: #446DA5;
+			    padding: 2px 10px;
+			    color: white;
+			}
+			#sample_wrappers {
+				display: none
+			}
+		</style>
+	</head>
+	<body>
+		<div id="btn_notate_container" class='section'>
+			<div class="title">Talam</div>
+			<div class="section_body">
+				<span>
+					<select id="talam" class="form-control">
+						<option value='dhruva'>Dhruva talam</option>
+						<option value='matya'>Matya  talam</option>
+						<option value='rupaka'>Rupaka talam</option>
+						<option value='jhampa'>Jhampa talam</option>
+						<option selected value='triputa'>Triputa talam</option>
+						<option value='ata'>Ata talam</option>
+						<option value='eka'>Eka talam</option>
+						<optgroup label="Chapu">
+							<option value='misrachapu'>Misra Chapu talam</option>
+							<option value='kandachapu'>Kanda Chapu talam</option>
+						</optgroup>
+					</select>
+				</span>
+				<span>
+					<select id="jaathi" class="form-control suladi">
+					  <option value='3'>Tisra jaathi (3)</option>
+					  <option value='4' selected>Chathushra jaathi (4)</option>
+					  <option value='5'>Kanda jaathi (5)</option>
+					  <option value='7'>Misra jaathi (7)</option>
+					  <option value='9'>Sankeerna jaathi (9)</option>
+					</select>
+				</span>
+				<span>
+					<select id="gati" class="form-control suladi">
+					  <option value='3'>Tisra gati (3)</option>
+					  <option value='4' selected>Chathushra gati (4)</option>
+					  <option value='5'>Kanda gati (5)</option>
+					  <option value='7'>Misra gati (7)</option>
+					  <option value='9'>Sankeerna gati (9)</option>
+					</select>
+				</span>
+			</div>
+		</div>
+		<div id="metronome" class='section suladi'>
+			<div class="title">Tick tock</div>
+			<div class="section_body">
+			</div>
+		</div>
+
+		<div id="notater" class='section'>
+			<div class="title">Notate</div>
+			<div class="section_body">
+				<textarea id="input"></textarea>
+				<input type="button" class="btn btn-primary btn_notate" value="Notate in this talam">
+				<input type="button" class="btn btn-primary btn_play suladi" value="Play">
+
+				<div id="info"></div>
+				<div id="error"></div>
+				<div id="output">
+			</div>
+		</div>
+
+		<div id="notater" class='section'>
+			<div class="title">About this site</div>
+			<div class="section_body">
+				Hello! I made this as a learning tool for myself. If there are mistakes/confusing things, please email me at yazhini[at]gmail[dot]com and I'll fix them. Not sure where to start? <a href='terms.html'>Try this.</a>
+			</div>
+		</div>
+
+		<div id="sample_wrappers">
+			<div id="sample_talam_ticker_wrapper">
+				<div class="talam_ticker">
+					<input type="button" class="btn btn-primary btn_tick" value="Tick in this talam">
+					<span class="suladi">
+						&nbsp;&nbsp;at&nbsp;&nbsp;
+						<input type="text" class="bpm" value="120" />
+						&nbsp;&nbsp;
+						beats per minute (bpm).
+					</span>
+					<div class="chapu">
+						<input type="text" id="chapu_intervals" value="" />
+					</div>
+
+					<div class="kriyas"></div>
+				</div>
+			<div>
+		</div>
+	</body>
+</html>
