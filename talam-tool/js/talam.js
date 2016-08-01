@@ -21,9 +21,9 @@ var kriyaToSoundFile = {
 	"dhin": "sounds/mridangam/dhin-dsh.wav",
 	"num": "sounds/mridangam/num-dsh.wav",
 	"ta": "sounds/mridangam/ta-dsh.wav",
-	"tha": "sounds/mridangam/tha-dsh2.wav",
+	"tha": "sounds/mridangam/tha-dsh3.wav",
 	"tham": "sounds/mridangam/tham-dsh.wav",
-	"thi": "sounds/mridangam/thi-dsh.wav",
+	"thi": "sounds/mridangam/thi-dsh2.wav",
 	"thom": "sounds/mridangam/thom-dsh1.wav"
 };
 
