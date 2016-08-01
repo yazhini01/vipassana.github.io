@@ -1,4 +1,5 @@
 var defaultBpm = 120;
+
 function talamTicker() {
 	return {
 		kriyas: [],
@@ -10,8 +11,13 @@ function talamTicker() {
 			$('.kriya[data_akshara_index=' + this.kriyaIndex + ']', this.rootDiv).addClass('current');
 
 			var file = kriyaToSoundFile[this.kriyas[this.kriyaIndex].split(" ")[0]];
-			if (file) new Howl({urls: [file] }).play();
+			if (file) new Howl({
+				urls: [file]
+			}).play();
 
+			if (this.kriyaIndex == this.kriyas.length - 1) {
+				this.stop();
+			}
 			this.kriyaIndex = (this.kriyaIndex + 1) % this.kriyas.length;
 		},
 		onBeforeTalamStart: function() {
@@ -93,6 +99,7 @@ function talamTicker() {
 }
 
 var howl;
+
 function setupSongWithTicker(someTicker, file) {
 	if (howl) howl.stop();
 	howl = new Howl({
@@ -104,7 +111,8 @@ function setupSongWithTicker(someTicker, file) {
 	someTicker.setCallbacks(
 		function() {
 			howl.play();
-		}, function() {
+		},
+		function() {
 			howl.stop();
 		});
 }

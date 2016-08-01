@@ -27,6 +27,7 @@ function onTalamChange() {
 		kriyaToSoundFile,
 		$('#metronome .section_body'),
 		"Tick at this talam");
+	// setupSongWithTicker(talamTicker1, "sounds/melaprapti_1.mp3");
 }
 
 function isChapu() {
@@ -49,7 +50,7 @@ $(document.body).ready(function() {
 	$('#input').val(defaultValue);
 
 	$('.btn_notate').bind('click', function() {
-		onTalamChange();
+		// onTalamChange();
 		print_info();
 		notatedSong = notate(parseInput($('#input').val()));
 		print_output(notatedSong);
@@ -67,7 +68,7 @@ $(document.body).ready(function() {
 			currentSongIndex = (currentSongIndex + 1) % totalNotatedMatraCount;
 		},
 		onBeforeSongTickStart = function() {
-			onTalamChange();
+			// onTalamChange();
 
 			currentSongIndex = 0;
 			$(".btn_play").attr('value', "Stop");
@@ -81,7 +82,7 @@ $(document.body).ready(function() {
 	var chapuSongTicker = new setTimeoutBasedChapuTicker("song", onSongTick, onBeforeSongTickStart, onAfterSongTickEnd);
 
 	$('.btn_play').bind('click', function() {
-		$('.btn_notate').trigger('click');
+		// $('.btn_notate').trigger('click');
 		if (isChapu()) {
 			// unit is milli seconds (not bpm)
 			var intervals = [];
@@ -91,9 +92,28 @@ $(document.body).ready(function() {
 			});
 			chapuSongTicker.toggleTicking(intervals);
 		} else {
-			songTicker.toggleTicking(talamTicker1.getBpm() * selectedGati);
+			songTicker.toggleTicking(talamTicker1.getBpm());
+			// songTicker.toggleTicking(talamTicker1.getBpm() * selectedGati);
 		}
 	});
+
+
+	// mridangam stuff
+	$('.btn_mrid').bind('click', function() {
+		var mridangamSyllables = inputToMridangamSyllables($('#input').val());
+		print_info();
+		notatedSong = notate(parseInput(mridangamSyllables.readable.join(" ")));
+		print_output(notatedSong);
+
+		// $('#input').val(mridangamSyllables.readable.join(" "));
+
+		talamTicker1.setup(
+			mridangamSyllables.playable,
+			isChapu(),
+			kriyaToSoundFile,
+			$('#metronome .section_body'),
+			"Play these mridangam sounds");
+	})
 });
 
 
