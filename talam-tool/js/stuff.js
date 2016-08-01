@@ -112,7 +112,9 @@ $(document.body).ready(function() {
 			isChapu(),
 			kriyaToSoundFile,
 			$('#metronome .section_body'),
-			"Play these mridangam sounds");
+			"Don't click this button, it's broken");
+
+		$('.btn_play').trigger('click');
 	})
 });
 
