@@ -1,11 +1,12 @@
+==================== COUNTING ====================
 
 64
-ta , , , dhi , , , ta , jam , , , ta , ri , ta , jam , , , ta , ta , ri , ta , jam , , , tha , ka , ta , ri , ta , jam , , , ta , , , dhi , , , tari , kita , taka ,
+ta ; , ; dhi ; , ; ta ; jam ; , ; ta ; ri ; ta ; jam ; , ; ta ; ta ; ri ; ta ; jam ; , ; tha ; ka ; ta ; ri ; ta ; jam ; , ; ta ; , ; dhi ; , ; tari ; kita ; taka
 
 64
 ta , dhi , ta jam , ta ri ta jam , ta ta ri ta jam , tha ka ta ri ta jam ,
 ta , dhi , tari kita taka
-ta tari , tajam , tari tajam , tatari tajam , thaka tari tajam ,
+ta , tari , ta jam , ta ri ta jam , ta ta ri ta jam , tha ka ta ri ta jam ,
 ta , dhi , tari kita taka
 
 64 = 32 x 2, 2 times
@@ -14,14 +15,13 @@ ta dhi tari kita taka
 taka dhi ta jam ta ritajam taka ritajam taka ta ritajam
 ta dhi tari kita taka
 
-31 = 15 + 16
-ta dhi ta jam ta ritajam taka ritajam tha , , thadi mita kita taka
-ta ka dhi ta jam ta ritajam taka ritajam thei , , thadi mita kita taka
+32
+ta dhi tajam tarita jam taka ritajam tha , , , , thadi mita kita taka // 12 + 4
+taka dhi ta jam ta ritajam taka ritajam thei , , , , thadi mita kita taka // 12 + 4
 
-99 = 33 x 3
-3 times
-ta dhi tajam ta ri tajam // 6
-taka dhi tajam ta ri tajam // 6
+32 x 3, 3 times
+ta dhi tajam tarita jam // 6
+taka dhi tajam tarita jam // 6
 ta dhi tajam tadin gina tom // 6
 dhi tajam tadin gina tom // 5
 tajam tadin gina tom tadin gina tom tadin gina tom // 10

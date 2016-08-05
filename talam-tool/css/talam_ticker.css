@@ -15,3 +15,16 @@
 .bpm {
 	width: 60px;
 }
+
+#script .readable,.notated_readable,.playable,.play_btn_wrapper {
+	display: inline-block;
+}
+.txt {
+	width: 350px;
+}
+.btn-sound {
+	margin: 6px;
+}
+.avartanam {
+	margin-bottom: 10px
+}

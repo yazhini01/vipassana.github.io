@@ -29,6 +29,9 @@
 				display: inline-block;
 			    width: 30px;
 			}
+			.matra_odd {
+				background: #fafaff;
+			}
 			#error, #info {
 				background: #DCF5FF;
 				padding: 10px;
@@ -55,16 +58,20 @@
 			    background: #446DA5;
 			    padding: 2px 10px;
 			    color: white;
+			    margin-bottom: 2px;
 			}
 			#sample_wrappers {
 				display: none
+			}
+			#output {
+				margin-top: 10px;
 			}
 		</style>
 	</head>
 	<body>
 		<div id="btn_notate_container" class='section'>
-			<div class="title">Talam</div>
-			<div class="section_body">
+			<div class="title" data_section="talam">Talam</div>
+			<div class="section_body" data_section="talam">
 				<span>
 					<select id="talam" class="form-control">
 						<option value='dhruva'>Dhruva talam</option>
@@ -100,30 +107,33 @@
 				</span>
 			</div>
 		</div>
+
 		<div id="metronome" class='section suladi'>
-			<div class="title">Tick tock</div>
-			<div class="section_body">
+			<div class="title" data_section="ticktock">Tick tock</div>
+			<div class="section_body" data_section="ticktock"></div>
+		</div>
+
+		<div id="mrid_script" class='section suladi'>
+			<div class="title" data_section="mrid_script">Mridangam Script</div>
+			<div class="section_body" data_section="mrid_script">
+				<div id="script">
+				</div>
 			</div>
 		</div>
 
 		<div id="notater" class='section'>
-			<div class="title">Notate</div>
-			<div class="section_body">
+			<div class="title" data_section="notate">Notate</div>
+			<div class="section_body" data_section="notate">
 				<textarea id="input"></textarea>
-				<input type="button" class="btn btn-primary btn_notate" value="Notate in this talam">
-				<input type="button" class="btn btn-primary btn_play suladi" value="Play">
+				<input type="button" class="btn btn-primary btn_notate" value="Notate">
+				<!-- <input type="button" class="btn btn-primary btn_play suladi" value="Play"> -->
 				<input type="button" class="btn btn-primary btn_mrid suladi" value="Play as mridangam">
+
+				<select id="jathis" class="form-control"></select>
 
 				<div id="info"></div>
 				<div id="error"></div>
-				<div id="output">
-			</div>
-		</div>
-
-		<div id="notater" class='section'>
-			<div class="title">About this site</div>
-			<div class="section_body">
-				Hello! I made this as a learning tool for myself. If there are mistakes/confusing things, please email me at yazhini[at]gmail[dot]com and I'll fix them. Not sure where to start? <a href='terms.html'>Try this.</a>
+				<div id="output"></div>
 			</div>
 		</div>
 
@@ -139,10 +149,18 @@
 					<div class="chapu">
 						<input type="text" id="chapu_intervals" value="" />
 					</div>
-
 					<div class="kriyas"></div>
 				</div>
-			<div>
+			</div>
+			<div id="mridangam_script_wrapper">
+				<div class="mridangam_script">
+					<input type="text" class="readable txt" />
+					<input type="text" class="notated_readable txt" />
+					<input type="text" class="playable txt" />
+					<input type="button" class="btn btn-primary btn_play_script btn-xs" value="Play">
+					<input type="button" class="btn btn-success btn_save_script btn-xs" value="Save">
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

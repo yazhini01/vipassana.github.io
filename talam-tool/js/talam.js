@@ -15,135 +15,41 @@ var kriyaToSoundFile = {
 	"wave": "sounds/1.wav",
 	"count": "sounds/1.wav",
 
-	"bheem": "sounds/mridangam/bheem-dsh.wav",
-	"cha": "sounds/mridangam/cha-dsh.wav",
-	"dheem": "sounds/mridangam/dheem-dsh.wav",
-	"dhin": "sounds/mridangam/dhin-dsh.wav",
+	"tha": "sounds/mridangam/tha-dsh3.wav",
+	"thi": "sounds/mridangam/thi-dsh2.wav",
+	"thom": "sounds/mridangam/thom-dsh1.wav",
 	"num": "sounds/mridangam/num-dsh.wav",
 	"ta": "sounds/mridangam/ta-dsh.wav",
-	"tha": "sounds/mridangam/tha-dsh3.wav",
+	"cha": "sounds/mridangam/cha-dsh.wav",
+	"dhin": "sounds/mridangam/dhin-dsh.wav",
+	"dheem": "sounds/mridangam/dheem-dsh.wav",
 	"tham": "sounds/mridangam/tham-dsh.wav",
-	"thi": "sounds/mridangam/thi-dsh2.wav",
-	"thom": "sounds/mridangam/thom-dsh1.wav"
+	"bheem": "sounds/mridangam/bheem-dsh.wav"
 };
 
-
-var mridangamWords = {
-	"bheem": {
-		readable: ["bheem", ",", ",", ","],
-		playable: ["bheem", ",", ",", ","]
-	},
-	"cha": {
-		readable: ["cha", ",", ",", ","],
-		playable: ["cha", ",", ",", ","]
-	},
-	"dheem": {
-		readable: ["dheem", ",", ",", ","],
-		playable: ["dheem", ",", ",", ","]
-	},
-	"dhin": {
-		readable: ["dhin", ",", ",", ","],
-		playable: ["dhin", ",", ",", ","]
-	},
-	"num": {
-		readable: ["num", ",", ",", ","],
-		playable: ["num", ",", ",", ","]
-	},
-	"ta": {
-		readable: ["ta", ",", ",", ","],
-		playable: ["ta", ",", ",", ","]
-	},
-	"tha": {
-		readable: ["tha", ",", ",", ","],
-		playable: ["tha", ",", ",", ","]
-	},
-	"tham": {
-		readable: ["tham", ",", ",", ","],
-		playable: ["tham", ",", ",", ","]
-	},
-	"thi": {
-		readable: ["thi", ",", ",", ","],
-		playable: ["thi", ",", ",", ","]
-	},
-	"thom": {
-		readable: ["thom", ",", ",", ","],
-		playable: ["thom", ",", ",", ","]
-	},
-	"takadimi": {
-		readable: ["thi", ",", ",", ",", "ta", ",", ",", ",", "tha", ",", ",", ",", "thi", ",", ",", ","],
-		playable: ["thi", ",", ",", ",", "ta", ",", ",", ",", "tha", ",", ",", ",", "thi", ",", ",", ","] // FIXME: this is kitataka actually
-	},
-	"takita": {
-		readable: ["tha", ",", ",", ",", "thi", ",", ",", ",", "ta", ",", ",", ","],
-		playable: ["tha", ",", ",", ",", "thi", ",", ",", ",", "ta", ",", ",", ","]
-	},
-	"taka": {
-		readable: ["ta", ",", ",", ",", "tha", ",", ",", ","],
-		playable: ["ta", ",", ",", ",", "tha", ",", ",", ","]
-	},
-	",": {
-		readable: [",", ",", ",", ","],
-		playable: [",", ",", ",", ","]
-	},
-	"$": {
-		readable: ["thi", "ta", "tha", "ta", "cha", "ta", "thi", "ta", "thom", ",", ",", ","],
-		playable: ["thi", "ta", "tha", "ta", "cha", "ta", "thi", "ta", "thom", ",", ",", ","]
-	},
-	"tttt": {
-		readable: ["cha", ",", ",", ",", "tha", ",", ",", ",", "tha", ",", ",", ",", "dhin", ",", ",", ",", "cha", ",", ",", ",", "tha", ",", ",", ",", "tha", ",", ",", ",", "dhin", ",", ",", ","],
-		playable: ["cha", ",", ",", ",", "tha", ",", ",", ",", "tha", ",", ",", ",", "dhin", ",", ",", ",", "cha", ",", ",", ",", "tha", ",", ",", ",", "tha", ",", ",", ",", "dhin", ",", ",", ","]
-	},
-	"taihataihi": {
-		readable: ["thom", ",", ",", ",", "cha", ",", ",", ",", "thom", ",", ",", ",", "cha", ",", ",", ","],
-		playable: ["thom", ",", ",", ",", "cha", ",", ",", ",", "thom", ",", ",", ",", "cha", ",", ",", ","]
-	},
-	"ddt": {
-		readable: ["dhin", ",", "dhin", ",", "num", ",", ",", ","],
-		playable: ["dhin", ",", "dhin", ",", "num", ",", ",", ","]
-	},
-	"tddt": {
-		readable: ["dheem", ",", ",", ",", "dhin", ",", "dhin", ",", "tha", ",", ",", ","],
-		playable: ["dheem", ",", ",", ",", "dhin", ",", "dhin", ",", "tha", ",", ",", ","]
-	},
-	"ttddt": {
-		readable: ["dheem", ",", ",", ",", "dheem", ",", ",", ",", "dhin", ",", "dhin", ",", "tha", ",", ",", ","],
-		playable: ["dheem", ",", ",", ",", "dheem", ",", ",", ",", "dhin", ",", "dhin", ",", "tha", ",", ",", ","]
-	},
-	"tttddt": {
-		readable: ["dheem", ",", ",", ",", "dheem", ",", ",", ",", "dheem", ",", ",", ",", "dhin", ",", "dhin", ",", "tha", ",", ",", ","],
-		playable: ["dheem", ",", ",", ",", "dheem", ",", ",", ",", "dheem", ",", ",", ",", "dhin", ",", "dhin", ",", "tha", ",", ",", ","]
-	}
-}
-
-function inputWordToKriyas(word) {
-
-	if (word === "taka") {
-		return ["tha", "ka"];
-	}
-	if (word === "takita" || word == "3") {
-		return {
-			word: "takita",
-			sounds: ["tha", "ki", "ta"]
-		};
-	}
-	if (word === "ddt") {
-		return ["beat", "beat", "gap", "beat", "gap"];
-	}
-}
-
 function inputToMridangamSyllables(input) {
-	input = input.split(" ");
+	input = parseInput(input).split(" ");
 	var playable = [],
 		readable = [];
-	for (var i = 0; i < input.length; i++) {
-		for (var word in mridangamWords) { // FIXME: sort in decreasing length
-			if (word == input[i]) {
-				playable = playable.concat(mridangamWords[word].playable);
-				readable = readable.concat(mridangamWords[word].readable);
-				break;
+	$(input).each(function(_, inputWord) {
+		if (inputWord == ",") {
+			playable.push(",");
+			readable.push(",");
+		}
+		for (var sound in kriyaToSoundFile) {
+			if (sound == inputWord) {
+				playable = playable.concat(sound);
+				readable = readable.concat(sound);
 			}
 		}
-	}
+		$(mridangamWords).each(function(_, word) { // FIXME: sort in decreasing length
+			if (word.readable == inputWord) {
+				playable = playable.concat(word.playable.replace(semicolon, ', , ,').split(" "));
+				readable = readable.concat(word.notated_readable.replace(semicolon, ', , ,').split(" "));
+				return;
+			}
+		});
+	});
 
 	return {
 		readable: readable,

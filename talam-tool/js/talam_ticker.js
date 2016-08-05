@@ -36,6 +36,7 @@ function talamTicker() {
 		displayKriyasForMet: function() {
 			var self = this;
 			$('.kriya', self.rootDiv).remove();
+
 			$(this.kriyas).each(function(index, kriya) {
 				var $span = $("<div class='kriya'></div>");
 				$span.text(kriya);
@@ -58,7 +59,7 @@ function talamTicker() {
 			if (rootDiv[0].childElementCount == 0) {
 				this.rootDiv.append($($("#sample_talam_ticker_wrapper").html()));
 			}
-			this.displayKriyasForMet();
+			// this.displayKriyasForMet();
 			$('.chapu', this.rootDiv)[isChapu ? 'show' : 'hide']();
 			$('.suladi', this.rootDiv)[isChapu ? 'hide' : 'show']();
 			$('.kriyas', this.rootDiv).show();
