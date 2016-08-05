@@ -1,4 +1,4 @@
-var defaultValue = "taihataihi taihataihi takita takita taihataihi takita takita taihataihi takita takita taihataihi takita takita taihataihi  taihataihi taihataihi takita takita taihataihi takita takita taihataihi takita takita ddt ddt takita takita ddt ddt taihataihi taihataihi tttt tttt taihataihi taihataihi tttt tttt takita takita takita takita takita takita takita takita takita tttddt tha ta thi ta tddt tha , ta thi , ta tddt takadimi taka takita takadimi taka takita taihataihi taka takita tttddt tha ta thi ta tddt tha , ta thi , ta tddt taka taka taka taka taka ta ta ta taka taka taka taka taka taka taka tttddt tha ta thi ta tddt tha , ta thi , ta tddt";
+var defaultValue = "";
 var defaultMisraChapuIntervals = "200,200,200,300,300,300,300";
 var defaultKandaChapuIntervals = "300,300,300,300,300";
 var selectedTalam, selectedJaathi, selectedGati, selectedGatiInt;
@@ -86,6 +86,7 @@ $(document.body).ready(function() {
 	$('select#jaathi').change(onTalamChange);
 	$('select#gati').change(onTalamChange);
 
+	$('.section_body').hide();
 	$('.section .title').bind('click', function(e) {
 		$('.section_body[data_section="' + $(e.currentTarget).attr('data_section') + '"]').toggle();
 	});
