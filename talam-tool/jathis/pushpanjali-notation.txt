@@ -1,23 +1,15 @@
 4 times
 ta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta
-tha , thi tha , thi dhin , ta dhin , ta thom , thom , takita thom , tha ta thi ta thom , ta thi num thi num
-
 
 2 times
 tam , tam , ,  dim , dim ,  , tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta
-tha , tha , , dhin , dhin , , thom , thom , takita thom , tha ta thi ta thom , ta thi num thi num
 
 ta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta
-tha , ta tha , ta dhin , ta dhin , ta thom , thom , takita thom , tha ta thi ta thom , ta thi num thi num
 
 2 times
 ta jam , jam  , , ta ki ta  jam ,  ,
 ta dim , dim  , , ta ki ta dim ,  ,
 ta tom , tom  , , ta ki ta
-
-tha dhin , dhin , , takita dhin , ,
-tha dheem , dheem , , takita dheem , ,
-tha thom , thom , , takita
 
 ta jam , ta ki ta
 ta nam , ta ki ta
@@ -26,16 +18,8 @@ ta ta , di di , tom tom , ta din gi na tom , ,
 ta ta , di di , tom tom , ta din gi na tom , ,
 ta ta , di di , tom tom , ta din gi na tom , ,
 
-tha dhin , takita
-tha num , takita
-tha dheem , takita
-tha thi , dhin dhin , thom thom , tha dhin thi dhin thom , ,
-tha thi , dhin dhin , thom thom , tha dhin thi dhin thom , ,
-tha thi , dhin dhin , thom thom , tha dhin thi dhin thom , ,
-
 2 times
 ta , m ta , m di , m di , m tom , tom , ta ki ta tom , ta ta ki ta tom , ta di mi ki ta
-tha , ta tha , ta dhin , ta dhin , ta thom , thom , takita thom , tha ta thi ta thom , ta thi num thi num
 
 2 times
 ta ki ta tom , ta ta ki ta tom , ta di mi ki ta
