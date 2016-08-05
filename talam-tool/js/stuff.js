@@ -330,19 +330,19 @@ var mridangamWords = [
 		playable: "ta ; thi ; ta ; thi ;"
 	}, {
 		readable: "ddt",
-		notated_readable: "dith , dith , thai ;",
+		notated_readable: "ta , ta , num ;",
 		playable: "thi , thi , ta ;"
 	}, {
 		readable: "tddt",
-		notated_readable: "thai ; dith , dith , thai ;",
+		notated_readable: "thai ; ta , ta , num ;",
 		playable: "tha ; thi , thi , ta ;"
 	}, {
 		readable: "ttddt",
-		notated_readable: "thai ; thai ; dith , dith , thai ;",
+		notated_readable: "thai ; thai ; ta , ta , num ;",
 		playable: "tha ; tha ; thi , thi , ta ;"
 	}, {
 		readable: "tttddt",
-		notated_readable: "thai ; thai ; thai ; dith , dith , thai ;",
+		notated_readable: "thai ; thai ; thai ; ta , ta , num ;",
 		playable: "tha ; tha ; tha ; thi , thi , ta ;"
 	}
 ];
