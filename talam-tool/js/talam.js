@@ -137,7 +137,7 @@ function notate(input) {
 			output.push(msg);
 
 			var gaps = talam.avartanamMatras - avartanam.length;
-			while (gaps--) avartanam.push(",");
+			while (gaps--) avartanam.push("_");
 		}
 		var avartanamWithAngaMarkers = [],
 			pos = 0;

@@ -114,8 +114,6 @@ $(document.body).ready(function() {
 		notatedSong = notate(parseInput(mridangamSyllables.readable.join(" ")));
 		print_output(notatedSong);
 
-		// $('#input').val(mridangamSyllables.readable.join(" "));
-
 		talamTicker1.setup(
 			mridangamSyllables.playable,
 			isChapu(),
@@ -263,90 +261,47 @@ function print_output(output) {
 		$output.append($avartanam);
 	});
 }
-var mridangamWords = [
-	/*{
-		readable: "bheem",
-		notated_readable: "bheem ;",
-		playable: "bheem ;"
-	}, {
-		readable: "cha",
-		notated_readable: "cha ;",
-		playable: "cha ;"
-	}, {
-		readable: "dheem",
-		notated_readable: "dheem ;",
-		playable: "dheem ;"
-	}, {
-		readable: "dhin",
-		notated_readable: "dhin ;",
-		playable: "dhin ;"
-	}, {
-		readable: "num",
-		notated_readable: "num ;",
-		playable: "num ;"
-	}, {
-		readable: "ta",
-		notated_readable: "ta ;",
-		playable: "ta ;"
-	}, {
-		readable: "tha",
-		notated_readable: "tha ;",
-		playable: "tha ;"
-	}, {
-		readable: "tham",
-		notated_readable: "tham ;",
-		playable: "tham ;"
-	}, {
-		readable: "thi",
-		notated_readable: "thi ;",
-		playable: "thi ;"
-	}, {
-		readable: "thom",
-		notated_readable: "thom ;",
-		playable: "thom ;"
-	}, */
-	{
-		readable: "takadimi",
-		notated_readable: "tha ; ka ; dhi ; mi ;", // FIXME: this is kitataka actually
-		playable: "thi ; ta ; tha ; thi ;"
-	}, {
-		readable: "takita",
-		notated_readable: "tha ; ki ; ta ;",
-		playable: "tha ; thi ; ta ;"
-	}, {
-		readable: "taka",
-		notated_readable: "tha ; ka ;",
-		playable: "ta ; tha ;"
-	}, {
-		readable: "$",
-		notated_readable: "ki ta tha ka ta ri ki ta thom ;",
-		playable: "thi ta tha ta cha ta thi ta thom ;"
-	}, {
-		readable: "tttt",
-		notated_readable: "tha ; thai ; thai ; tha ; dith ; thai ; thai ; tha ;",
-		playable: "cha ; tha ; tha ; dhin ; cha ; tha ; tha ; dhin ;"
-	}, {
-		readable: "taihataihi",
-		notated_readable: "tai ; ha ; tai ; hi ;",
-		playable: "ta ; thi ; ta ; thi ;"
-	}, {
-		readable: "ddt",
-		notated_readable: "ta , ta , num ;",
-		playable: "thi , thi , ta ;"
-	}, {
-		readable: "tddt",
-		notated_readable: "thai ; ta , ta , num ;",
-		playable: "tha ; thi , thi , ta ;"
-	}, {
-		readable: "ttddt",
-		notated_readable: "thai ; thai ; ta , ta , num ;",
-		playable: "tha ; tha ; thi , thi , ta ;"
-	}, {
-		readable: "tttddt",
-		notated_readable: "thai ; thai ; thai ; ta , ta , num ;",
-		playable: "tha ; tha ; tha ; thi , thi , ta ;"
-	}
-];
+var mridangamWords = [{
+	readable: "takadimi",
+	notated_readable: "tha ; ka ; dhi ; mi ;",
+	playable: "thi ; ta ; tha ; thi ;"
+}, {
+	readable: "takita",
+	notated_readable: "tha ; ki ; ta ;",
+	playable: "tha ; thi ; ta ;"
+}, {
+	readable: "taka",
+	notated_readable: "tha ; ka ;",
+	playable: "ta ; tha ;"
+}, {
+	readable: "$",
+	notated_readable: "ki ta tha ka ta ri ki ta thom ;",
+	playable: "thi ta tha ta cha ta thi ta thom ;"
+}, {
+	readable: "tttt",
+	notated_readable: "tha ; thai ; thai ; tha ; dith ; thai ; thai ; tha ;",
+	playable: "cha ; tha ; tha ; dhin ; cha ; tha ; tha ; dhin ;"
+}, {
+	readable: "taihataihi",
+	notated_readable: "tai ; ha ; tai ; hi ;",
+	playable: "ta ; thi ; ta ; thi ;"
+}, {
+	readable: "ddt",
+	notated_readable: "ta , ta , num ;",
+	playable: "thi , thi , ta ;"
+}, {
+	readable: "tddt",
+	notated_readable: "thai ; ta , ta , num ;",
+	playable: "tha ; thi , thi , ta ;"
+}, {
+	readable: "ttddt",
+	notated_readable: "thai ; thai ; ta , ta , num ;",
+	playable: "tha ; tha ; thi , thi , ta ;"
+}, {
+	readable: "tttddt",
+	notated_readable: "thai ; thai ; thai ; ta , ta , num ;",
+	playable: "tha ; tha ; tha ; thi , thi , ta ;"
+}];
 
 function populateMridangamScript() {
 	$('#script').empty();
