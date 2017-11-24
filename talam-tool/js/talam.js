@@ -128,7 +128,8 @@ function notate(input) {
 	}
 
 	var output = [];
-	input = talam.header.concat(input.split(" "));
+	// input = talam.header.concat(input.split(" ")); // do this if you want 1, 2, 3... as header
+	input = input.split(" ");
 
 	input.each_slice(talam.avartanamMatras, function(avartanam) {
 		if (avartanam.length < talam.avartanamMatras) {

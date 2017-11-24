@@ -228,18 +228,12 @@ function print_output(output) {
 		}
 		$('#error').hide();
 
-		var separatedAvartanam = [
-			["||"]
-		];
+		var separatedAvartanam = [];
 		$(avartanam).each(function(i, angam) {
 			separatedAvartanam.push(angam);
-			if (i < avartanam.length - 1) separatedAvartanam.push([
-				["|"]
-			]);
+			if (i < avartanam.length - 1) separatedAvartanam.push([]);
 		});
-		separatedAvartanam.push([
-			["||"]
-		]);
+		separatedAvartanam.push([]);
 
 		avartanam = separatedAvartanam;
 
@@ -248,11 +242,16 @@ function print_output(output) {
 			var $angam = $("<div class='angam'></div>");
 			$(angam).each(function(matraIndexInAngam, matra) {
 				var $matra = $("<div class='matra'></div>")
-
-				var dataMatraIndex = (avartanamIndex == 0 || matra == "||" || matra == "|") ? "" : totalNotatedMatraCount++;
+				var dataMatraIndex = (avartanamIndex == 0) ? "" : totalNotatedMatraCount++;
 				$matra.attr('data_matra_index', dataMatraIndex);
-				$matra.addClass('matra_' + (Math.floor(matraIndexInAngam / selectedGati) % 2 ? 'odd' : 'even'));
-				$matra.text(matra);
+				var slicedMatra = matra.split("-");
+				if (slicedMatra.length > 1) {
+					$matra.addClass('bold');
+					var html = slicedMatra[0] + "<sub>" + slicedMatra[1] + "</sub>";
+					$matra.html(html);
+				} else {
+					$matra.text(slicedMatra[0]);
+				}
 				$angam.append($matra);
 			});
 			$avartanam.append($angam);
@@ -264,7 +263,7 @@ function print_output(output) {
 var mridangamWords = [{
 	readable: "takadimi",
 	notated_readable: "tha ; ka ; dhi ; mi ;",
-	playable: "thi ; ta ; tha ; thi ;"
+	playable: "thi ; num ; tha ; num ; "
 }, {
 	readable: "takita",
 	notated_readable: "tha ; ki ; ta ;",
@@ -280,7 +279,7 @@ var mridangamWords = [{
 }, {
 	readable: "tttt",
 	notated_readable: "tha ; thai ; thai ; tha ; dith ; thai ; thai ; tha ;",
-	playable: "cha ; tha ; tha ; dhin ; cha ; tha ; tha ; dhin ;"
+	playable: "dhin ; tha ; tha ; dhin ; dhin ; tha ; tha ; dhin ;"
 }, {
 	readable: "taihataihi",
 	notated_readable: "tai ; ha ; tai ; hi ;",
@@ -288,19 +287,27 @@ var mridangamWords = [{
 }, {
 	readable: "ddt",
 	notated_readable: "ta , ta , num ;",
-	playable: "thi , thi , ta ;"
+	playable: "ta , ta , thi ;"
 }, {
 	readable: "tddt",
 	notated_readable: "thai ; ta , ta , num ;",
-	playable: "tha ; thi , thi , ta ;"
+	playable: "tha ; ta , ta , thi ;"
 }, {
 	readable: "ttddt",
 	notated_readable: "thai ; thai ; ta , ta , num ;",
-	playable: "tha ; tha ; thi , thi , ta ;"
+	playable: "tha ; tha ; ta , ta , thi ;"
 }, {
 	readable: "tttddt",
 	notated_readable: "thai ; thai ; thai ; ta , ta , num ;",
-	playable: "tha ; tha ; tha ; thi , thi , ta ;"
+	playable: "tha ; tha ; tha ; ta , ta , thi ;"
+}, {
+	readable: "8",
+	notated_readable: "ta ; yum ; ta ; ta ; ta ; yum ; ta ; ha ;",
+	playable: "thi ; num ; tha ; num ; thi ; num ; tha ; num ;"
+}, {
+	readable: "9",
+	notated_readable: "ta ; ka ; di ; mi ; ta ; ka ; ta ; ki ; ta ;",
+	playable: "cha ; ta ; thi ; ta ; cha ; ta ; cha ; ta ; ta ;"
 }];
 
 function populateMridangamScript() {
@@ -362,9 +369,11 @@ function populateMridangamScript() {
 var jathis = {
 	"---": null,
 	"Varnam - Trikala jathi, adi": 'jathis/varnam-jathi-1.txt',
-	"Varnam - 2nd jathi, adi": 'jathis/varnam-jathi-2.txt',
+	"Varnam - 2nd jathi, adi": 'jathis/varnam-jathi-2a.txt',
 	"Pushpanjali - Simmendramadhyamam (notation)": 'jathis/pushpanjali-notation.txt',
+	"Pushpanjali - Simmendramadhyamam (notation - v2)": 'jathis/pushpanjali-notation-v2.txt',
 	"Pushpanjali - Simmendramadhyamam (beats)": 'jathis/pushpanjali-beats.txt',
+	"Pushpanjali - Simmendramadhyamam (steps)": 'jathis/pushpanjali-steps.txt',
 	"Combination 1 (notation)": "jathis/combination-1-notation1.txt",
 	"Combination 1 (beats)": "jathis/combination-1-beats.txt",
 	"Combination 2 (notation)": "jathis/combination-2-notation.txt",
