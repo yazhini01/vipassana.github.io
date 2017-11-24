@@ -20,7 +20,7 @@ var venues = {
 		name: "Kartik Fine Arts"
 	},
 	"cca": {
-		name: "Chennai Cultural Academy Trust"
+		name: "Chennai Cultural Academy"
 	},
 	"tamil": {
 		name: "Tamil Isai Sangam"
