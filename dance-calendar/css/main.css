@@ -11,6 +11,7 @@
     display: table-cell;
     background: #DEB354;
     width: 300px;
+    max-width: 300px;
 
     padding: 0px 5px 0px 5px;
     border-left: solid 1px white;
@@ -32,17 +33,20 @@
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
 	.filteredEventCell {
-		width: 100px;
+		width: 120px;
+		max-width: 120px;
 	}
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 	.filteredEventCell {
 		width: 150px;
+		max-width: 150px;
 	}
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 	.filteredEventCell {
 		width: 200px;
+		max-width: 200px;
 	}
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
