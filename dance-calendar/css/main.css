@@ -10,7 +10,7 @@
 .filteredEventCell {
     display: table-cell;
     background: #DEB354;
-    width: 250px;
+    width: 300px;
 
     padding: 0px 5px 0px 5px;
     border-left: solid 1px white;
@@ -28,4 +28,26 @@
 
 #form {
 	display: none;
+}
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+	.filteredEventCell {
+		width: 100px;
+	}
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+	.filteredEventCell {
+		width: 150px;
+	}
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+	.filteredEventCell {
+		width: 200px;
+	}
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
 }
