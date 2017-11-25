@@ -7,11 +7,12 @@ lines = text.split("\n")
 events = []
 day = ""
 time = ""
+timeRegEx = /^\d{1,2} *(:\d{1,2})* *(am|pm|AM|PM)$/
 lines.each_with_index do |line, lineNo|
 	line = line.strip
 	next if line.length == 0
 	day = line.strip if (line.end_with?("2018") || line.end_with?("2017"))
-	time = line.strip if (line.end_with?("pm") || line.end_with?("am"))
+	time = line.strip if (timeRegEx.match(line.strip))
 
 	if line.include?("*")
 		# events[day] = {} unless (events[day])

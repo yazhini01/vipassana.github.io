@@ -458,7 +458,7 @@ var globEvents=
     ],
     "info": "Nrithyodaya Presents Bharatha Nrithyam & Krishna Tulabharam",
     "lineNo": 1115,
-    "when": 1514160000000
+    "when": 1514208600000
   },
   {
     "where": "ngs",
@@ -467,7 +467,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1116,
-    "when": 1514160000000
+    "when": 1514208600000
   },
   {
     "where": "kgs",
@@ -476,7 +476,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1117,
-    "when": 1514160000000
+    "when": 1514208600000
   },
   {
     "where": "kfa",
@@ -521,7 +521,7 @@ var globEvents=
     ],
     "info": "Shanmatham",
     "lineNo": 1142,
-    "when": 1514246400000
+    "when": 1514295000000
   },
   {
     "where": "ngs",
@@ -530,7 +530,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1143,
-    "when": 1514246400000
+    "when": 1514295000000
   },
   {
     "where": "kgs",
@@ -539,7 +539,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1144,
-    "when": 1514246400000
+    "when": 1514295000000
   },
   {
     "where": "ngs",
@@ -620,7 +620,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1187,
-    "when": 1514419200000
+    "when": 1514458800000
   },
   {
     "where": "bgs",
@@ -847,7 +847,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1294,
-    "when": 1514678400000
+    "when": 1514723400000
   },
   {
     "where": "ngs",
@@ -874,7 +874,7 @@ var globEvents=
     ],
     "info": "Ranga Mandira Melam",
     "lineNo": 1303,
-    "when": 1514678400000
+    "when": 1514727900000
   },
   {
     "where": "kfa",
@@ -920,7 +920,7 @@ var globEvents=
     ],
     "info": "Bhakti Margam",
     "lineNo": 1320,
-    "when": 1514764800000
+    "when": 1514799000000
   },
   {
     "where": "kfa",
@@ -1289,7 +1289,7 @@ var globEvents=
     ],
     "info": "Maha Pattabishekam",
     "lineNo": 1403,
-    "when": 1515024000000
+    "when": 1515072600000
   },
   {
     "where": "mfa",
@@ -1740,7 +1740,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1516,
-    "when": 1515369600000
+    "when": 1515391200000
   },
   {
     "where": "academy",
@@ -1821,7 +1821,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1540,
-    "when": 1515456000000
+    "when": 1515504600000
   },
   {
     "where": "kgs",
@@ -2155,7 +2155,7 @@ var globEvents=
     ],
     "info": "Disciple of Jayanthi Subramaniam",
     "lineNo": 1659,
-    "when": 1516060800000
+    "when": 1516095000000
   },
   {
     "where": "kgs",
@@ -2319,7 +2319,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1720,
-    "when": 1516320000000
+    "when": 1516370400000
   },
   {
     "where": "kgs-kamakodi",
