@@ -55,21 +55,18 @@
 }
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
-	.eventCell {
-		width: 120px;
-		max-width: 120px;
+	.day {
+		width: 70px;
 	}
 }
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-	.eventCell {
-		width: 150px;
-		max-width: 150px;
+@media (min-width:480px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+	.day {
+		width: 85px;
 	}
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-	.eventCell {
-		width: 200px;
-		max-width: 200px;
+	.day {
+		width: 100px;
 	}
 }
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
