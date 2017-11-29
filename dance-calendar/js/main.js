@@ -163,6 +163,8 @@ function filter(filterWhen, filterWhere, filterWho) {
 }
 
 $(document.body).ready(function() {
+	$('#last_modified_time').text(new moment(document.lastModified).format('llll'));
+
 	var events = filter(null, userInputAsArray('.whereButton'), userInputAsArray('.whoButton'));
 	events = sortEvents(events, "when");
 

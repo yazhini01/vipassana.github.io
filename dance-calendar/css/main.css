@@ -26,6 +26,14 @@
     border-left: solid 1px white;
 }
 
+#lastmodified {
+	float: right;
+}
+
+.container {
+	/*margin: 0px auto;
+    width: 98%;*/
+}
 
 .calendarEventCell {
     display: table-cell;
