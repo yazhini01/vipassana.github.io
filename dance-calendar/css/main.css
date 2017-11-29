@@ -1,15 +1,24 @@
+#form {
+	margin-bottom: 10px;
+}
 #sample_wrappers {
 	display: none;
 }
 
-.filtered_event {
-
-	margin-bottom: 5px;
-    margin-bottom: 5px;
+.event {
+	border-bottom: solid 1px white;
 }
-.filteredEventCell {
+
+.date {
+	background: #0786a7;
+    color: #effcff;
+	padding: 0px 5px 0px 5px;
+    border-left: solid 1px white;
+}
+
+.eventCell {
     display: table-cell;
-    background: #DEB354;
+    background: #54c2de;
     width: 300px;
     max-width: 300px;
 
@@ -17,34 +26,48 @@
     border-left: solid 1px white;
 }
 
-.odd .filteredEventCell {
 
+.calendarEventCell {
+    display: table-cell;
+    background: #54c2de;
+    /*width: 300px;
+    max-width: 300px;*/
+
+    padding: 0px 5px 0px 5px;
+    border-left: solid 1px white;
 }
 
 .header {
 	cursor: pointer;
-	font-weight: bold;
-	/*background: #CB833A;*/
+	color: #effcff;
 }
 
-#form {
-	display: none;
+
+.week {
+	/*background: red;*/
+	/*margin: 5px;*/
+	border: solid 2px white;
+}
+
+.day {
+	display: inline-block;
+    width: 100px;
 }
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
-	.filteredEventCell {
+	.eventCell {
 		width: 120px;
 		max-width: 120px;
 	}
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-	.filteredEventCell {
+	.eventCell {
 		width: 150px;
 		max-width: 150px;
 	}
 }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-	.filteredEventCell {
+	.eventCell {
 		width: 200px;
 		max-width: 200px;
 	}

@@ -31,29 +31,54 @@
 
     <div class="container">
         <div id="form">
-            <input type="text" class="whoButton" placeholder="who">
-            <input type="text" class="whereButton" placeholder="where">
-            <button type="button" class="btn btn-success filterButton">Filter</button>
+
+            <div id="viewForm" class="btn-group" data-toggle="buttons">
+              <label class="btn btn-info active">
+                <input type="radio" name="options" selectedView="list" autocomplete="off" checked> List
+              </label>
+              <label class="btn btn-info">
+                <input type="radio" name="options" selectedView="calendar" autocomplete="off"> Calendar
+              </label>
+            </div>
+
         </div>
-        <div class='filtered_events'></div>
+        <div id='events'></div>
+        <div id='calendar_events'></div>
     </div>
 
 
     <div id="sample_wrappers">
-        <div id="sample_filtered_event_wrapper">
-                <div class="filtered_event">
-                    <div class="when filteredEventCell"></div>
-                    <div class="who filteredEventCell"></div>
-                    <div class="where filteredEventCell"></div>
-                    <!-- <div class="what filteredEventCell"></div> -->
+        <div id="sample_event_wrapper">
+            <div class="event">
+                <div class="when eventCell"></div>
+                <div class="who eventCell"></div>
+                <div class="where eventCell"></div>
+                <!-- <div class="what filteredEventCell"></div> -->
 
-                </div>
             </div>
+        </div>
+        <div id="sample_calendar_event_wrapper">
+            <div class="event">
+                <div class="who calendarEventCell"></div>
+            </div>
+        </div>
+
+        <div id="sample_calendar_week_wrapper">
+            <div class='week'>
+            </div>
+        </div>
+
+        <div id="sample_weekday_wrapper">
+            <div class='day'>
+                <div class="date"></div>
+                <div class="day_events"></div>
+            </div>
+        </div>
     </div>
 
     <script src="js/jquery.js"></script>  <!-- jQuery Version 1.11.1 -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap Core JavaScript -->
-    <script src="js/moment-with-locales.js"></script>
+    <script src="js/moment-combined.js"></script>
     <script src="js/schedules-parsed.js"></script>
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
