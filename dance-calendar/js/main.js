@@ -54,6 +54,7 @@ function printCalendarEvents(events) {
 				var m = new moment(event.when);
 				var $day = $('.day[weekday="' + m.isoWeekday() + '"]', $week);
 				$('.day_events', $day).append($eventWrapper);
+				$('.noEvent', $day).remove();
 
 				if (!writtenDays) {
 					for (var i = 1; i <= 7; i=i+1) {

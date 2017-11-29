@@ -16,7 +16,7 @@
     border-left: solid 1px white;
 }
 
-.eventCell {
+.eventCell, .noEvent {
     display: table-cell;
     background: #54c2de;
     width: 300px;
