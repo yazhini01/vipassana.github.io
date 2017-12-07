@@ -6,7 +6,8 @@ function updateShowingEvents() {
 	$(GLOB_EVENTS).each(function(i, event) {
 		if (selectedSources[event.source]) {
 			var $event = $($('#sample_event').html());
-			$('.date', $event).text(event.date);
+
+			$('.date', $event).text([event.date, event.year].join(" "));
 			$('.source', $event).text(event.source);
 			$('.text', $event).text(event.text);
 			$event.attr('source', event.source);
@@ -39,7 +40,7 @@ $(document.body).ready(function() {
 sources = {};
 
 $(GLOB_EVENTS).each(function(i, event) {
-	event.moment = new moment(event.date); // TODO: sort glob_events
+	event.moment = new moment(event.date + " " + event.year); // TODO: sort glob_events
 
 	if (!sources[event.source]) {
 		var $source = $($('#sample_event_source').html());
