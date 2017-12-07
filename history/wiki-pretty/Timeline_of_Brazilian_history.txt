@@ -1,0 +1,1627 @@
+[{"date"=>"1492–1502",
+  "text"=>
+   "Voyages of Christopher Columbus: Navigator Christopher Columbus, sailing in the employ of Castile and Aragon, departed from Palos de la Frontera in search of a westward route to the East Indies.[1]",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 June 1494",
+  "text"=>
+   "Treaty of Tordesillas: Spain and Portugal divide the New World between themselves.[2] Even though the treaty was negotiated without consulting the Pope, a few sources call the resulting line the \"Papal Line of Demarcation\".[3]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1500",
+  "text"=>
+   "Spanish navigator Vicente Yáñez Pinzón encounters Brazil but is prevented from claiming it by the Treaty of Tordesillas.[4][5][6][7][8]",
+  "source"=>" Brazilian history"},
+ {"date"=>"22 April 1500",
+  "text"=>
+   "Portuguese navigator Pedro Álvares Cabral officially discovers Brazil and claims the land for the Kingdom of Portugal. He has 13 vessels with him.[9][10]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 January 1502",
+  "text"=>
+   "Portuguese explorers, led by Pedro Álvares Cabral, sail into Guanabara Bay, Brazil, which they name Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1502",
+  "text"=>"Beginning of the exploitation of brazilwood (Pernambuco tree).[11]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1502",
+  "text"=>
+   "The Trindade and Martin Vaz Islands are discovered in 1502 by Portuguese navigators led by Estêvão da Gama, and, along with Brazil, became part of the Portuguese Empire.",
+  "source"=>" Brazilian history"},
+ {"date"=>"10 August 1503",
+  "text"=>
+   "The Fernando de Noronha island is discovered by a Portuguese expedition, organized and financed by a private commercial consortium headed by the Lisbon merchant Fernão de Loronha. The expedition is under the overall command of captain Gonçalo Coelho and carries the Italian adventurer Amerigo Vespucci aboard, who writes an account of it.[12]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1516",
+  "text"=>"The first sugar cane mills appear in Pernambuco.[13]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1527",
+  "text"=>
+   "Cristóvão Jacques imprisons three French galleons in Recôncavo, Bahia. But having acted with barbarity towards the prisoners, this gesture eventually caused him major problems with Dom João III.[14]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1530–1533",
+  "text"=>
+   "Martim Afonso de Sousa's expedition patrols the Brazilian coast, banishes the French, and creates the first colonial town: São Vicente.[15]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1531",
+  "text"=>
+   "Bertrand d'Ornesan tries to establish a French trading post at Pernambuco.[16]",
+  "source"=>" Brazilian history"},
+ {"date"=>"22 January 1532",
+  "text"=>
+   "São Vicente is established as the first permanent Portuguese settlement in Brazil.[17]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1534",
+  "text"=>
+   "The Captaincies of Brazil are established by King Dom João III. Colonial Brazil is divided into fifteen donatory captaincies[18][19][20][21]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1534–1536",
+  "text"=>"Iguape War in the region of São Vicente.[22]",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 March 1537",
+  "text"=>
+   "The Portuguese establish Recife in Pernambuco, north-east of Brazil.[23]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1539–1542",
+  "text"=>"The first African slaves arrive in Pernambuco.[24]",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 March 1549",
+  "text"=>
+   "The city of Salvador, Brazil's first capital, is founded by Tomé de Sousa.[25]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1551",
+  "text"=>"Portugal founds a sugar colony at Bahia.",
+  "source"=>" Brazilian history"},
+ {"date"=>"25 January 1554",
+  "text"=>
+   "Portuguese missionaries José de Anchieta and Manuel da Nóbrega establish São Paulo, then named São Paulo dos Campos de Piratininga, in southeast Brazil.[17]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1557",
+  "text"=>
+   "German adventurer Hans Staden publishes a widely translated account of his detention by the Tupi people of Brazil, Warhaftige Historia und beschreibung eyner Landtschafft der Wilden Nacketen, Grimmigen Menschfresser-Leuthen in der Newenwelt America gelegen (\"True Story and Description of a Country of Wild, Naked, Grim, Man-eating People in the New World, America\").[26]",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 March 1560",
+  "text"=>
+   "Fort Coligny on Villegagnon Island in Rio de Janeiro is attacked and destroyed during the Portuguese campaign against France Antarctique.[27]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1565",
+  "text"=>
+   "Estácio de Sá founds Rio de Janeiro as São Sebastião do Rio de Janeiro.[28]",
+  "source"=>" Brazilian history"},
+ {"date"=>"25 March 1580",
+  "text"=>
+   "Iberian Union: King Philip II of Spain becomes King of Portugal under the name Philip I, following the death without heirs of King Henry of Portugal, in a personal union of the crowns, thus maintaining Portuguese independence (in Europe and throughout the Portuguese Empire, including Brazil). The Philippine Dynasty rule lasts until 1640.[29]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1588–1591",
+  "text"=>
+   "English privateer Thomas Cavendish loots Santos and São Vicente before losing most of the crew in a battle against the Portuguese at the village of Vitória.[30][31]",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 March - April 1595",
+  "text"=>
+   "Anglo–Spanish War: An English military expedition led by James Lancaster captures Recife.[32][33]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1608",
+  "text"=>
+   "Thornton expedition: A Tuscan expedition under Captain Robert Thornton, sent by Ferdinando I of Tuscany to explore northern Brazil and the Amazon River and prepare for the establishment of a settlement in northern coastal South America, which would serve as a base to export Brazilian wood to Renaissance Italy.[34] which would be colonised by France in 1630. The expedition was the only attempt by an Italian state to colonise the Americas.[35]",
+  "source"=>" Brazilian history"},
+ {"date"=>"8 September 1612",
+  "text"=>
+   "São Luís is founded by the French, who intend to make it the center of the Equinoctial France. They build a fort named Saint-Louis de Maragnan after King Louis XIII and his Saintly ancestor Louis IX.[36][37]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1616",
+  "text"=>
+   "6-year-old António Vieira arrives from Portugal, with his parents, in Salvador in Colonial Brazil where he will become a diplomat, noted author, leading figure of the Church, and protector of Brazilian indigenous peoples.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1616",
+  "text"=>
+   "Physician Aleixo de Abreu is granted a pension of 16,000 reis for services to the crown in Angola and Brazil by Philip III of Spain, who also appoints him physician of his chamber.[38]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1616",
+  "text"=>
+   "A slave ship carries smallpox from the Kingdom of Kongo to Salvador.[39]",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 January 1616",
+  "text"=>
+   "The city of Belém, Brazil is founded on the Amazon River delta by the Portuguese captain Francisco Caldeira Castelo Branco, who had previously taken the city of São Luís in Maranhão from the French.[40][41]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1624",
+  "text"=>
+   "The Dutch West India Company invades the Portuguese colony of Bahia in Brazil.[42]",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 April 1625",
+  "text"=>
+   "The Portuguese recapture Bahia from the Dutch, with the help of a combined Spanish and Portuguese force, consisting of 52 ships and 12,500 men.[43]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1630",
+  "text"=>
+   "The Dutch West India Company invades the Portuguese colony of Pernambuco and founds Dutch Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 September 1631",
+  "text"=>
+   "Eighty Years' War: A Spanish fleet under the command of admiral Antonio de Oquendo defeats a Dutch fleet off the coast of Brazil in the Battle of Albrolhos.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1641",
+  "text"=>
+   "The first Rio Carnival happens to celebrate Dom João IV's coronation as king of Portugal.[44]",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 March 1641",
+  "text"=>
+   "Guaraní forces living in the Jesuit reductions defeat bandeirantes loyal to the Portuguese Empire at the Battle of Mbororé in present-day Panambí, Argentina.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1642",
+  "text"=>
+   "Isaac Aboab da Fonseca is appointed rabbi in Pernambuco, thus becoming the first rabbi of the Americas.[45]",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 May 1644",
+  "text"=>"Johan Mauritius resigns as Governor of Brazil.[46]",
+  "source"=>" Brazilian history"},
+ {"date"=>"19 April 1648",
+  "text"=>
+   "First Battle of Guararapes: the Portuguese army defeats the Dutch army in the northeast of Brazil.[47]",
+  "source"=>" Brazilian history"},
+ {"date"=>"19 February 1649",
+  "text"=>
+   "Second Battle of Guararapes: Decisive Portuguese victory against the Dutch in the northeast of Brazil.[48]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1654",
+  "text"=>
+   "After several years of open warfare, the Dutch withdraw from Brazil; the Portuguese paid off a war debt in payments of salt.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1661",
+  "text"=>
+   "Treaty of The Hague: The Dutch Republic recognizes Portuguese imperial sovereignty over New Holland (Dutch Brazil).[49]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1684",
+  "text"=>"Beckman Revolt in Maranhão.[50]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1693",
+  "text"=>
+   "Gold is found near modern-day cities of Sabará, Caeté and Ouro Preto, beginning of the Brazilian Gold Rush.[51]",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 February 1694",
+  "text"=>"The colony of Quilombo dos Palmares, Brazil, is destroyed.[52]",
+  "source"=>" Brazilian history"},
+ {"date"=>"8 March 1694",
+  "text"=>
+   "The Casa da Moeda do Brasil is established by the Portuguese in Salvador.[53][54]",
+  "source"=>" Brazilian history"},
+ {"date"=>"20 November 1695",
+  "text"=>
+   "Quilombo dos Palmares ruler Zumbi is captured and beheaded.[55][56][57]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1707–1709",
+  "text"=>"War of the Emboabas in modern-day Minas Gerais.[58][59][60]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1710–1711",
+  "text"=>
+   "The Mascate War pits merchants of Recife against those of nearby Olinda.[61]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1711",
+  "text"=>"São Paulo officially becomes a city.[62]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1720",
+  "text"=>"Filipe dos Santos Revolt, also known as the Vila Rica Revolt.[63]",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 September 1720",
+  "text"=>
+   "The Capitania de Minas Gerais (Captaincy of Minas Gerais) is established, after being separated from the Captaincy of São Paulo and Minas de Ouro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1722",
+  "text"=>
+   "Expedition lead by the second Anhanguera discovers gold in Goiás.[64]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1727",
+  "text"=>
+   "Lt. Col. Francisco de Mello Palheta smuggles coffee seeds to Brazil in a bouquet, starting a coffee empire.",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 January 1750",
+  "text"=>
+   "The Treaty of Madrid between Spain and Portugal authorizes a larger Brazil than had the Treaty of Tordesillas of 1494, which originally established the boundaries of the Portuguese and Spanish territories in South America.[65][66]",
+  "source"=>" Brazilian history"},
+ {"date"=>"February 1756",
+  "text"=>
+   "The Guaraní War takes place between the Guaraní tribes of seven Jesuit Reductions and joint Spanish-Portuguese forces.[67]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1759",
+  "text"=>
+   "Jesuits are expelled from Brazil by the Marquis of Pombal. Indians left without protection.[68]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1763",
+  "text"=>
+   "The capital of Colonial Brazil is transferred from Salvador to Rio de Janeiro, which is located closer to the mining region and provides a harbor to ship the gold to Europe.[69]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1772",
+  "text"=>
+   "The Kingdom of Portugal divides its colony of the State of Great-Pará and Maranhão into the State of Great-Pará (capital, Belém) and the State of Maranhão (capital, São Luis).",
+  "source"=>" Brazilian history"},
+ {"date"=>"1775",
+  "text"=>
+   "The Kingdom of Portugal reunites its South American colonies of the State of Brazil, the State of Great-Pará, and the State of Maranhão into the Colony of Brazil. Rio de Janeiro is the capital.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1788–1789",
+  "text"=>
+   "Inconfidência Mineira, conspiracy against the colonial authorities in Brazil.[70]",
+  "source"=>" Brazilian history"},
+ {"date"=>"21 April 1792",
+  "text"=>
+   "Tiradentes, prime figure in the Inconfidência Mineira plot, is executed in Rio de Janeiro.[71]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1798",
+  "text"=>
+   "The first census in Brazil counts 2 million blacks in a total population of 3.25 million.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1798",
+  "text"=>"Revolt of the Alfaiates in Bahia.[72]",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 November 1807",
+  "text"=>
+   "The Portuguese Queen Maria I and the Court embark at Lisbon bound for Brazil. Rio de Janeiro becomes the Portuguese capital.[73]",
+  "source"=>" Brazilian history"},
+ {"date"=>"22 January 1808",
+  "text"=>
+   "The Bragança Portuguese Royal Family arrives in Brazil, fleeing from the French army.[74][75]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 June 1808",
+  "text"=>
+   "The Rio de Janeiro Botanical Garden is founded by King John VI of Portugal.[76]",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 October 1808",
+  "text"=>
+   "Banco do Brasil is founded by then prince regent John (later King John VI of Portugal) to finance the kingdom's public debt.[77]",
+  "source"=>" Brazilian history"},
+ {"date"=>"6–14 January 1809",
+  "text"=>
+   "Napoleonic Wars: Brazilian and Portuguese forces conquer French Guiana.[78]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1815",
+  "text"=>
+   "The United Kingdom of Portugal, Brazil and the Algarves is established under Queen Mary I. Brazil is elevated from the status of Portuguese colony to a constituent country of the united kingdom.",
+  "source"=>" Brazilian history"},
+ {"date"=>"March 1817",
+  "text"=>"The French Artistic Mission in Brazil comes to Rio de Janeiro.[79]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 May 1817",
+  "text"=>"Prince Pedro is married by proxy to Maria Leopoldina.[80]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1817",
+  "text"=>"The Pernambucan Revolt breaks out.[81]",
+  "source"=>" Brazilian history"},
+ {"date"=>"4 November 1819",
+  "text"=>
+   "The first 1,400 non-Portuguese immigrants arrive from Switzerland.[82]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1821",
+  "text"=>
+   "Portugal enters a severe political crisis that obliges John VI and the royal family to return to Portugal.[83]",
+  "source"=>" Brazilian history"},
+ {"date"=>"9 January 1822",
+  "text"=>
+   "The Portuguese prince Pedro of Brazil decides to stay in Brazil against the orders of the Portuguese King João VI, beginning the Brazilian independence process. (Dia do Fico)[84]",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 September 1822",
+  "text"=>
+   "Prince Pedro of Brazil proclaims the Brazilian independence on 7 September. On 1 December, he is crowned as Emperor Dom Pedro I of Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1822–1825",
+  "text"=>"War of Independence of Brazil.[85]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1824",
+  "text"=>
+   "Confederation of the Equator rebellion in the Northeast.[86] [87][88]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1824",
+  "text"=>"The Constitution of 1824 is adopted.[89]",
+  "source"=>" Brazilian history"},
+ {"date"=>"26 May 1824",
+  "text"=>
+   "The United States become the first country to recognize the independence of Brazil.[90]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 January 1825",
+  "text"=>
+   "Frei Caneca and other leaders of the Confederation of the Equator rebellion are executed in Recife.[91]",
+  "source"=>" Brazilian history"},
+ {"date"=>"25 August 1825",
+  "text"=>
+   "Uruguay is declared independent of the Empire of Brazil by the Thirty-Three Orientals, a militant revolutionary group led by Juan Antonio Lavalleja.",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 December 1826",
+  "text"=>"Empress Maria Leopoldina dies after suffering a miscarriage.[92]",
+  "source"=>" Brazilian history"},
+ {"date"=>"26 April 1828",
+  "text"=>
+   "Treaty of Commerce and Navigation signed between Brazil and Denmark, establishing diplomatic relations between the two countries.[93]",
+  "source"=>" Brazilian history"},
+ {"date"=>"9–11 July 1828",
+  "text"=>
+   "Irish and German Mercenary Soldiers' revolt rebellion breaks out.[94]",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 August 1828",
+  "text"=>"Dom Pedro I is married by proxy to Amélie of Leuchtenberg.[95][96]",
+  "source"=>" Brazilian history"},
+ {"date"=>"27 August 1828",
+  "text"=>
+   "Treaty of Montevideo: Brazil and Argentina recognize the independence of Uruguay.",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 April 1831",
+  "text"=>
+   "Dom Pedro I abdicates as Emperor of Brazil in favor of his 5-year-old son Dom Pedro II, who will reign for almost 59 years.",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 November 1831",
+  "text"=>
+   "Slave trading is forbidden in Brazil, the law is largely ignored.[97]",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 August 1834",
+  "text"=>
+   "The Additional Act provides for establishment of the Provincial Legislative Assembly; extinction of the State Council; replacement of the Regency Trina; and introduction of a direct and secret ballot.",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 September 1834",
+  "text"=>"Former Brazilian emperor Dom Pedro I dies in Lisbon.",
+  "source"=>" Brazilian history"},
+ {"date"=>"January 1835",
+  "text"=>"Malê revolt in Salvador.[98]",
+  "source"=>" Brazilian history"},
+ {"date"=>"20 September 1835",
+  "text"=>"Ragamuffin War begins in Rio Grande do Sul.",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 September 1836",
+  "text"=>"The Rio-Grandense Republic is proclaimed in southern Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1838–1841",
+  "text"=>"Balaiada revolt in Maranhão.",
+  "source"=>" Brazilian history"},
+ {"date"=>"23 July 1840",
+  "text"=>
+   "Pedro II is declared \"of age\" prematurely and begins to reassert central control in Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1840",
+  "text"=>
+   "Last remaining group of Cabanagem rebels, under leadership of Gonçalo Jorge de Magalhães, surrenders.",
+  "source"=>" Brazilian history"},
+ {"date"=>"18 July 1841",
+  "text"=>
+   "Coronation ceremony of Emperor Pedro II of Brazil in Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"4 September 1843",
+  "text"=>
+   "The Emperor Dom Pedro II of Brazil marries Dona Teresa Cristina of the Two Sicilies in a state ceremony in Rio de Janeiro Cathedral.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1845",
+  "text"=>
+   "Ragamuffin War: Peace negotiations led by Lima e Silva and Antônio Vicente da Fontoura conclude with the signing of the Ponche Verde Treaty between the two sides, in Dom Pedrito",
+  "source"=>" Brazilian history"},
+ {"date"=>"9 August 1845",
+  "text"=>
+   "The Aberdeen Act is passed by the Parliament of the United Kingdom empowering the British Royal Navy to search Brazilian ships as part of the abolition of the slave trade from Africa.",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 June 1847",
+  "text"=>
+   "Afonso dies at age two, leaving his father Pedro II, the last emperor of Brazil, without a male heir.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1848–1849",
+  "text"=>"Praieira revolt in Pernambuco.",
+  "source"=>" Brazilian history"},
+ {"date"=>"4 September 1850",
+  "text"=>
+   "Eusébio de Queirós Law abolishes the international slave trade in the country.[99]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1851–1852",
+  "text"=>
+   "The Platine War ends and the Empire of Brazil has the hegemony over South America.[100][101]",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 February 1852",
+  "text"=>
+   "Platine War: Battle of Caseros or Battle of Monte Caseros, Argentina: The Argentine provinces of Entre Rios and Corrientes allied with Brazil and members of Colorado Party of Uruguay, defeated Buenos Aires troops under Juan Manuel de Rosas.",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 April 1854",
+  "text"=>
+   "The first railway in Brazil is inaugurated by Pedro II of Brazil on in Rio de Janeiro, built by the Viscount of Maua.[102]",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 May 1859",
+  "text"=>
+   "Border Treaty between Brazil and Venezuela: The two countries agree their borders should be traced at the water divide between the Amazon and the Orinoco basins.[103]",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 October 1864",
+  "text"=>
+   "American Civil War: Bahia incident: USS Wachusett illegally captures the CSS Florida Confederate raider while in port in Bahia, Brazil in violation of Brazilian neutrality.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1864–1865",
+  "text"=>
+   "Uruguayan War: Forces of the Empire of Brazil invade Uruguay in support of Venancio Flores' Colorado Party.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 May 1865",
+  "text"=>
+   "The Triple Alliance of Argentina, Brazil, and Uruguay against Paraguay is formally signed; the Paraguayan War begins.",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 June 1865",
+  "text"=>
+   "Paraguayan War: Battle of the Riachuelo: The Brazilian Navy squadron defeats the Paraguayan Navy.",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 January 1868",
+  "text"=>
+   "Paraguayan War: Brazilian Army commander Luís Alves de Lima e Silva, Duke of Caxias enters Asunción, Paraguay's capital. Some days later he declares the war is over. Nevertheless, Francisco Solano López, Paraguay's president, prepares guerrillas to fight in the countryside.",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 December 1868",
+  "text"=>
+   "Paraguayan War: Battle of Ytororó or Ytororó: Field-Marshal Luís Alves de Lima e Silva, Duke of Caxias leads 13,000 Brazilian troops against a Paraguayan fortified position of 5,000 troops.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1870",
+  "text"=>
+   "End of the Paraguayan War. Francisco Solano López is defeated and killed in the Battle of Cerro Corá.",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 March 1871",
+  "text"=>
+   "José Paranhos, Viscount of Rio Branco, becomes Prime Minister of the Empire of Brazil, serving for 4 years.",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 September 1871",
+  "text"=>
+   "Law of Free Birth, or Rio Branco Law, passed by Brazilian Parliament, intending to provide freedom to all newborn children of slaves, and slaves of the state or crown.[104][105]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1872",
+  "text"=>
+   "In the aftermath of the Paraguayan War, the new government of Paraguay makes peace with Brazil, grants reparations and territorial concessions.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1872",
+  "text"=>
+   "Brazil conducts its first official census, the population is 9,930,478.[106]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1873–1874",
+  "text"=>"Revolt of the Muckers in Rio Grande do Sul.[107]",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 April 1876",
+  "text"=>
+   "Francisco becomes the last person to be executed in Brazil when he is hanged in Pilar, Alagoas.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1877–1878",
+  "text"=>"Grande Seca (Great Drought) in the Northeast of Brazil.[108]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1882",
+  "text"=>"Brazilian Anthropological Exhibition of 1882.[109]",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 September 1883",
+  "text"=>
+   "Mossoró, in the state of Rio Grande do Norte, is the first city in Brazil to abolish slavery.[110]",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 September 1885",
+  "text"=>
+   "Sexagenarian Law, or Saraiva-Cotegipe Law, which frees slaves over the age of 60.",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 May 1888",
+  "text"=>
+   "The Lei Áurea abolishes the last remnants of slavery.[111][112][113]",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 November 1889",
+  "text"=>
+   "Field Marshal Deodoro da Fonseca organizes a military coup which deposes Emperor Pedro II of Brazil and abolishes the Brazilian monarchy. Deodoro da Fonseca proclaims Brazil a Republic and forms a Provisional Government.",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 November 1889",
+  "text"=>"The Brazilian Imperial Family is forced into exile in France.",
+  "source"=>" Brazilian history"},
+ {"date"=>"19 November 1889",
+  "text"=>
+   "The modern-day flag of Brazil is adopted by the Provisional Government of the Republic.",
+  "source"=>" Brazilian history"},
+ {"date"=>"20 November 1889",
+  "text"=>
+   "Argentina is the first country to recognize the abolition of the monarchy in Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"November 1891",
+  "text"=>"First revolt of the Armada.[114]",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 November 1891",
+  "text"=>"The constitution of the First Brazilian Republic is promulgated.",
+  "source"=>" Brazilian history"},
+ {"date"=>"23 November 1891",
+  "text"=>
+   "President Deodoro da Fonseca resigns as a consequence of the first revolt of the Armada, vice president Floriano Peixoto succeeds to the presidency.",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 December 1891",
+  "text"=>"Deposed emperor Dom Pedro II dies in Paris, France aged 66.[115]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1893",
+  "text"=>
+   "The American James Harden-Hickey claimed the Trindade island and declares himself as James I, Prince of Trinidad.[116][117][118] According to James Harden-Hickey's plans, Trinidad, after being recognized as an independent country, would become a military dictatorship and have him as dictator.[119] He designed postage stamps, a national flag, and a coat of arms; established a chivalric order, the \"Cross of Trinidad\"; bought a schooner to transport colonists; appointed M. le Comte de la Boissiere as Secretary of State; opened a consular office at 217 West 36th Street in New York; and even issued government bonds to finance construction of infrastructure on the island. Despite his plans, his idea was ridiculed or ignored by the world.[120][121][122][123][124]\n[125]\n",
+  "source"=>" Brazilian history"},
+ {"date"=>"November 1893–1894",
+  "text"=>"Second revolt of the Armada.[126]",
+  "source"=>" Brazilian history"},
+ {"date"=>"January 1894",
+  "text"=>
+   "Rio de Janeiro Affair: a series of incidents during the Brazilian Naval Revolt.",
+  "source"=>" Brazilian history"},
+ {"date"=>"27 June 1894",
+  "text"=>
+   "Federalist Riograndense Revolution: Battle of Passo Fundo in the state of Rio Grande do Sul",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 September 1894",
+  "text"=>"Inauguration of Prudente de Morais as president.[127]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1895",
+  "text"=>"The Federalist Riograndense Revolution comes to an end.",
+  "source"=>" Brazilian history"},
+ {"date"=>"July 1895",
+  "text"=>
+   "The British again tried to take possession of the strategic Trindade island in the Atlantic.[119] The British planned to use the island as a cable station.[119] However, Brazilian diplomatic efforts, along with Portuguese support, reinstated Trindade Island to Brazilian sovereignty.",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 November 1895",
+  "text"=>"Japan establishes diplomatic relations with Brazil.[128][129]",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 November 1895",
+  "text"=>
+   "Flamengo, a well known professional football club in Brazil, is officially founded.[130]",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 January 1897",
+  "text"=>
+   "In order to clearly demonstrate sovereignty over the Trindade island, now part of the State of Espírito Santo and the municipality of Vitória, a landmark is built. Nowadays, Brazilian presence is marked by a permanent Brazilian Navy base on the main island.",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 October 1897",
+  "text"=>
+   "Canudos War: After a long siege, Brazilian government troops take Canudos in northeastern Brazil, crushing Antônio Conselheiro and his followers.",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 October 1897",
+  "text"=>
+   "The City of Belo Horizonte, Brazil is created. The construction of the second Brazilian planned city is completed successfully.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1898",
+  "text"=>
+   "In the presidential election, Manuel Ferraz de Campos Sales of the Republican Party of São Paulo, is successful, with 90.9% of the vote.[131]",
+  "source"=>" Brazilian history"},
+ {"date"=>"14 July 1899",
+  "text"=>"The First Republic of Acre is declared.",
+  "source"=>" Brazilian history"},
+ {"date"=>"25 April 1900",
+  "text"=>
+   "The Republic of Acre is reincorporated into Bolivia, with Brazilian help.[132]",
+  "source"=>" Brazilian history"},
+ {"date"=>"19 October 1901",
+  "text"=>
+   "Aviator Alberto Santos-Dumont wins the Deutsch de la Meurthe prize with a flight that rounds the Eiffel Tower.[133]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1902",
+  "text"=>
+   "Presidential election: Rodrigues Alves of the Republican Party of São Paulo receives 91.7% of the vote.[134] Francisco Silviano de Almeida Brandão is elected vice-president but dies suddenly before the start of his term of office.",
+  "source"=>" Brazilian history"},
+ {"date"=>"26 October 1902",
+  "text"=>
+   "The first season of competitive football in Brazil concludes with a victory for São Paulo Athletic Club.",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 December 1902",
+  "text"=>
+   "José Paranhos, Baron of Rio Branco, is appointed Minister of Foreign Affairs. His ten-year tenure would be the longest in the country's history.[135]",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 November 1903",
+  "text"=>
+   "The Treaty of Petrópolis ends tension between Brazil and Bolivia over the then-Bolivian territory of Acre (today the Acre state).[136]",
+  "source"=>" Brazilian history"},
+ {"date"=>"14 October 1904",
+  "text"=>
+   "The National Congress of Brazil approves a large naval acquisition programme.[137]",
+  "source"=>" Brazilian history"},
+ {"date"=>"10–16 November 1904",
+  "text"=>"Vaccine Revolt in Rio de Janeiro.[138]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1904",
+  "text"=>
+   "The Evangelical Lutheran Church of Brazil is founded in Rio Grande do Sul.[139]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1904",
+  "text"=>"Ford begin selling cars in Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 December 1905",
+  "text"=>
+   "Law no. 1452 is passed by the National Congress of Brazil, authorizing expenditure of £4,214,550 for new warship construction (£1,685,820 in 1906).[140]",
+  "source"=>" Brazilian history"},
+ {"date"=>"21 January 1906",
+  "text"=>
+   "The Brazilian battleship Aquidabã sinks, after its powder magazines explode near the Jacuacanga strait, in Angra dos Reis bay. A total of 212 people are killed, including three admirals and most of the ship's officers; 98 survive.[141]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1906",
+  "text"=>
+   "In the presidential election, Afonso Pena of the Mineiro Republican Party receives 97.9% of the vote.[142]",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 May 1906",
+  "text"=>
+   "The Treaty of Limits between Brazil and the Netherlands is signed in Rio de Janeiro, establishing the international boundary between Brazil and the Dutch colony of Suriname.[143]",
+  "source"=>" Brazilian history"},
+ {"date"=>"23 October 1906",
+  "text"=>
+   "An aeroplane of Alberto Santos-Dumont takes off at Bagatelle in France and flies 60 meters (200 feet). This is the first officially recorded powered flight in Europe.[144]",
+  "source"=>" Brazilian history"},
+ {"date"=>"9 November 1906",
+  "text"=>
+   "The Brazilian Flag Anthem (\"Hino à Bandeira Nacional\"), with words by Olavo Bilac and music by Francisco Braga, is performed for the first time.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1907",
+  "text"=>
+   "Construction of the Madeira-Mamoré Railroad begins, linking the cities of Porto Velho and Guajará-Mirim.[145]",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 April 1907",
+  "text"=>
+   "The Vásquez Cobo–Martins treaty between Brazil and Colombia is signed, establishing the border from the Rio Negro northwestward along the Amazon River-Orinoco watershed divide, \"then generally southward along various river courses and straight-line segments to the mouth of the Apaporis River\"[146]",
+  "source"=>" Brazilian history"},
+ {"date"=>"16 June 1908",
+  "text"=>
+   "The Kasato Maru arrives at the Port of Santos with the first official group of Japanese immigrants to Brazil.[147][148]",
+  "source"=>" Brazilian history"},
+ {"date"=>"10 September 1908",
+  "text"=>
+   "The first Minas Geraes-class Dreadnought battleship for Brazil, Minas Geraes is launched at Armstrong Whitworth's yard on the River Tyne in England, catalysing the \"South American dreadnought race\".",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 October 1908",
+  "text"=>
+   "Pedro de Alcântara, Prince of Grão-Pará, renounces his claim on the Brazilian throne in order to marry Countess Elisabeth Dobržensky de Dobrženicz.[149]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1910",
+  "text"=>
+   "In the presidential election, Hermes da Fonseca receives 57.1% of the vote. Fonseca is supported by several of the most influential Republican parties, whilst his main opponent, Rui Barbosa, is supported by the Civilist Campaign.[150]",
+  "source"=>" Brazilian history"},
+ {"date"=>"22 November 1910",
+  "text"=>
+   "Revolt of the Lash: The mostly black crews of four Brazilian warships, led by João Cândido Felisberto, mutiny shortly after a sailor receives 250 lashes. The crews depose their white officers and threaten to bombard Rio de Janeiro.[151]",
+  "source"=>" Brazilian history"},
+ {"date"=>"10 January 1911",
+  "text"=>
+   "The cargo ship Nubia SS runs aground off the coast of Rio Grande do Norte.[152]",
+  "source"=>" Brazilian history"},
+ {"date"=>"October 1912",
+  "text"=>
+   "Beginning of the Contestado War, a dispute between settlers and landowners.[153]",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 December 1912",
+  "text"=>
+   "The federal government sends in 200 federal troops to deal with ongoing trouble in the State of Santa Catarina.",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 December 1913",
+  "text"=>
+   "Roosevelt–Rondon Scientific Expedition: Following a speaking tour in Brazil and Argentina, former US President Theodore Roosevelt meets up with Cândido Rondon to embark on a joint exploration of the \"River of Doubt\".[154]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1914",
+  "text"=>
+   "In the presidential election, incumbent Vice-President Venceslau Brás, of the Mineiro Republican Party, receives 91.6% of the vote.[155]",
+  "source"=>" Brazilian history"},
+ {"date"=>"8 June 1914",
+  "text"=>
+   "The Brazilian Football Confederation is founded, with Álvaro Zamith as its first president. The Brazilian Olympic Committee is founded on the same day.",
+  "source"=>" Brazilian history"},
+ {"date"=>"14 September 1914",
+  "text"=>
+   "The British Royal Navy auxiliary cruiser HMS Carmania fought the German SMS Cap Trafalgar off Trindade in the Battle of Trindade. Carmania sank Cap Trafalgar, but sustained severe damage herself.[156]",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 January 1915",
+  "text"=>
+   "Heitor Villa-Lobos gives the first in a series of chamber concerts; one of the new works he introduces during this year is his Cello Concerto no 1.[157]",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 May 1916",
+  "text"=>
+   "Brazilian merchant ship Rio Branco is sunk by a German submarine. Because the ship is in restricted waters and registered under the British flag, and most of its crew is Norwegian, it is not considered an illegal attack by the Brazilian government, despite public protests.",
+  "source"=>" Brazilian history"},
+ {"date"=>"August 1916",
+  "text"=>
+   "Brazilian Naval Aviation is established, in preparation for the country's participation in the First World War.[158]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1916",
+  "text"=>
+   "The capture of rebel leader Deodato Manuel Ramos (\"Adeodato\") marks the effective end of the Contestado War.",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 April 1917",
+  "text"=>
+   "The steamship Paraná, loaded with coffee and travelling in accordance with the demands made on neutral countries, is torpedoed by a German submarine; three Brazilians are killed.",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 April 1917",
+  "text"=>"Brazil breaks off diplomatic relations with Germany.",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 May 1917",
+  "text"=>
+   "Foreign Minister Lauro Müller is obliged to resign because of his German origins.",
+  "source"=>" Brazilian history"},
+ {"date"=>"May–November 1917",
+  "text"=>"Several Brazilian vessels are torpedoed by the Germans.[159]",
+  "source"=>" Brazilian history"},
+ {"date"=>"26 October 1917",
+  "text"=>"World War I: Brazil declares war on the Central Powers.[160]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 November 1917",
+  "text"=>
+   "A mob damages German property in Petropolis, including the restaurant Brahma (completely destroyed), the Gesellschaft Germania, the German school, the company Arp, and the German Journal.",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 January 1918",
+  "text"=>
+   "Ministerial Notice No. 501 is issued, establishing the Naval Division for War Operations (Divisão Naval em Operações de Guerra – DNOG).[161]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1918",
+  "text"=>
+   "Brazilian general election, 1918:[131] Former president Rodrigues Alves receives 99.1% of the vote.",
+  "source"=>" Brazilian history"},
+ {"date"=>"18 August 1918",
+  "text"=>
+   "The Brazilian Medical Mission, led by Dr. Nabuco Gouveia and directed by General Aché, is established with 86 doctors.",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 September 1918",
+  "text"=>
+   "The Brazilian Medical Mission lands at Marseilles, France, and supports the local population during a flu outbreak, ensuring the continuity of logistical support to the troops at the front.",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 November 1918",
+  "text"=>
+   "President-elect Rodrigues Alves, suffering from influenza, is unable to take office on the scheduled date, and is replaced by Vice President Delfim Moreira.",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 April 1919",
+  "text"=>
+   "In the presidential election brought about by the death of Rodrigues Alves,[131] Epitácio Pessoa of the Paraíba Republican Party receives 71.0% of the vote.",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 April 1919",
+  "text"=>"Ford Brasil, a subsidiary of the Ford Motor Company, is founded.",
+  "source"=>" Brazilian history"},
+ {"date"=>"11–29 May 1919",
+  "text"=>
+   "The 1919 South American Championship football tournament is held in Rio de Janeiro. It is won by the home country.[162]",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 July 1919",
+  "text"=>
+   "Epitácio Pessoa takes office as President, replacing acting President Delfim Moreira, who continues as Vice President.",
+  "source"=>" Brazilian history"},
+ {"date"=>"20 April 1920",
+  "text"=>
+   "Opening ceremony of the 1920 Summer Olympics in Antwerp, at which Brazil competes for the first time.[163] Sport shooter Guilherme Paraense is the first Brazilian to win a gold medal.",
+  "source"=>" Brazilian history"},
+ {"date"=>"October 1921",
+  "text"=>
+   "The government implements a new policy in defense of coffee, for the third time in the history of the Republic.[164]",
+  "source"=>" Brazilian history"},
+ {"date"=>"11–18 February 1922",
+  "text"=>
+   "Modern Art Week is held in São Paulo, marking the beginning of Brazilian Modernism.[165]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1922",
+  "text"=>
+   "In the Brazilian presidential election, Artur Bernardes of the Mineiro Republican Party receives 56.0% of the vote.[166]",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 July 1922",
+  "text"=>
+   "The 18 of the Copacabana Fort revolt occurs in Rio de Janeiro, then Federal District of Brazil. It is the first revolt of the tenentista movement, in the context of the Brazilian Old Republic.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1923",
+  "text"=>"The Brazilian Society of Chemistry is founded.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1923",
+  "text"=>
+   "Brazil's first radio broadcasting station, the Radio Society of Rio de Janeiro, is founded; it is still working under the name Rádio MEC.",
+  "source"=>" Brazilian history"},
+ {"date"=>"5–28 July 1924",
+  "text"=>"Military revolt in São Paulo.[167]",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 April 1925",
+  "text"=>
+   "The Coluna Prestes movement is launched at a meeting in Foz do Iguaçu.[168]",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 May 1925",
+  "text"=>
+   "British explorer Percy Fawcett sent a last telegram to his wife, before he disappears in the Amazon.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1926",
+  "text"=>
+   "In the presidential election, Washington Luís of the Republican Party of São Paulo, who received 98.0% of the vote.[131]",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 June 1927",
+  "text"=>
+   "The Brazilian submarine Humaytá is launched at the Odero-Terni-Orlando shipyard at La Spezia, Italy.[169]",
+  "source"=>" Brazilian history"},
+ {"date"=>"10 August 1928",
+  "text"=>
+   "The ETA – Empresa de Transporte Aéreo airline is founded; it remains in operation for only a year.[170]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1928",
+  "text"=>
+   "The Liberator Party (Brazil) is founded for the first time, by members of the Rio Grande do Sul Federalist Party, notably Joaquim Francisco de Assis Brasil.[171]",
+  "source"=>" Brazilian history"},
+ {"date"=>"August 1929",
+  "text"=>
+   "Minas Gerais, Rio Grande do Sul, and Paraíba join the political opposition from several states, including the Democratic Party of São Paulo, to oppose the presidential candidacy of Washington Luís's nominated successor, Júlio Prestes, and form the Liberal Alliance.",
+  "source"=>" Brazilian history"},
+ {"date"=>"20 September 1929",
+  "text"=>
+   "The Liberal Alliance nominates its candidates for the presidential elections: Getúlio Vargas as President and João Pessoa Cavalcanti de Albuquerque as Vice President.",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 October 1929",
+  "text"=>
+   "The US stock market crash causes a fall in coffee quotations to 60%.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1930",
+  "text"=>
+   "A general election is held; in the presidential election,s the result is a victory for Júlio Prestes of the Republican Party of São Paulo, who receives 57.7% of the vote.[131] Vital Soares is elected vice-president, but never takes office.",
+  "source"=>" Brazilian history"},
+ {"date"=>"26 July 1930",
+  "text"=>
+   "The assassination of João Pessoa Cavalcânti de Albuquerque, governor of Paraíba, by João Duarte Dantas, stirs up a wave of bad feeling toward the federal government and the outgoing president Washington Luís, who is accused of bearing the \"moral responsibility\".[172]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 August 1930",
+  "text"=>
+   "1930 Curuçá River event: The area of Curuçá River near latitude 5° S and longitude 71.5° W experiences a meteoric air burst (also known as the Brazilian Tunguska event).[173]",
+  "source"=>" Brazilian history"},
+ {"date"=>"September 1930",
+  "text"=>
+   "The state capital of Paraíba, formerly Parahyba, is renamed João Pessoa, in memory of its assassinated governor.[174]",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 October 1930",
+  "text"=>"Brazilian Revolution of 1930. [175]",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 October 1930",
+  "text"=>
+   "Incumbent President Washington Luís is deposed.[176] A military junta, led by General Augusto Tasso Fragoso, temporarily takes control of the country.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 November 1930",
+  "text"=>
+   "Beginning of the Vargas Era: The ruling junta hands power and the presidential palace to Getúlio Vargas.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1930",
+  "text"=>
+   "The National Institute of Metrology Standardization and Industrial Quality (INMETRO) is founded.",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 October 1931",
+  "text"=>
+   "The statue of Christ the Redeemer, overlooking Rio de Janeiro, is consecrated.[177][178]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1931",
+  "text"=>
+   "Frente Negra Brasileira, Brazil's first Black political party, is created.[179]",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 February 1932",
+  "text"=>
+   "The Justiça Eleitoral do Brasil is created by Decreto nº 21.076;[180]",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 February 1932",
+  "text"=>"Women win the right to vote.[181]",
+  "source"=>" Brazilian history"},
+ {"date"=>"April 1932",
+  "text"=>
+   "Peter Fleming joins the expedition to find missing Englishman Colonel Percy Fawcett; the following year he publishes an account of the expedition, entitled Brazilian Adventure.",
+  "source"=>" Brazilian history"},
+ {"date"=>"23 May 1932",
+  "text"=>
+   "Four protesting students (Martins, Miragaia, Dráusio and Camargo) are killed by government troops, sparking off the \"Paulista War\".",
+  "source"=>" Brazilian history"},
+ {"date"=>"June 1932",
+  "text"=>"Paulista rebels take control of the state of São Paulo.[182]",
+  "source"=>" Brazilian history"},
+ {"date"=>"9 July 1932",
+  "text"=>
+   "Constitutionalist Revolution: The population of the state of São Paulo revolt against the 1930 coup d'état.[183]",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 October 1932",
+  "text"=>"The São Paulo rebels are defeated by government forces.",
+  "source"=>" Brazilian history"},
+ {"date"=>"October 1932",
+  "text"=>
+   "Brazilian Integralism, a Fascist movement, is founded by Plínio Salgado.[184]",
+  "source"=>" Brazilian history"},
+ {"date"=>"10 October 1933",
+  "text"=>
+   "The Anti-war Treaty of Non-aggression and Conciliation, an inter-American treaty, is signed in Rio de Janeiro by representatives of Argentina, Brazil, Chile, Mexico, Paraguay and Uruguay.[185]",
+  "source"=>" Brazilian history"},
+ {"date"=>"16 July 1934",
+  "text"=>
+   "The Vargas government introduces what will be the shortest-lived Constitution of Brazil, lasting only 3 years (until 1937).[186] It is the first time a Brazilian constitution has been written from scratch by directly elected deputies in multi-party elections, and incorporates a number of improvements to Brazilian political, social and economical life.",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 July 1934",
+  "text"=>
+   "In the presidential election, carried out by the Constituent Assembly, acting president Getúlio Vargas receives 175 of the 248 votes.[187]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1934",
+  "text"=>"The University of São Paulo is established.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1934",
+  "text"=>
+   "The Brazilian Institute of Geography and Statistics is founded under the title of the National Institute of Statistics.",
+  "source"=>" Brazilian history"},
+ {"date"=>"November 1935",
+  "text"=>
+   "A Communist insurrection, the \"Red Revolt of 35\"[188] or the Intentona Comunista, fails to unseat President Vargas. Olga Benário Prestes and her husband Luís Carlos Prestes are among the conspirators arrested.[189]",
+  "source"=>" Brazilian history"},
+ {"date"=>"16 October 1936",
+  "text"=>
+   "President Vargas signed the decree, which gives the name of the aviator Alberto Santos Dumont Airport located in Ponta do Calabouço, in the city of Rio de Janeiro, currently named Santos Dumont Airport, Brazil's first civilian airport.[190]",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 May 1937",
+  "text"=>
+   "One of the leaders of the communist revolution, Luis Carlos Prestes, is sentenced to 16 years and eight months in prison.[191]",
+  "source"=>" Brazilian history"},
+ {"date"=>"10 June 1937",
+  "text"=>
+   "National Democratic Union, ahead of support for the candidacy of Armando Sales de Oliveira for president in the 1938 elections is created.[192]",
+  "source"=>" Brazilian history"},
+ {"date"=>"14 June 1937",
+  "text"=>
+   "President Getúlio Vargas signed the decree establishing the Itatiaia National Park, the first national park in Brazil.[193][194]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 August 1937",
+  "text"=>"The National Union of Students is founded in Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"10 November 1937",
+  "text"=>
+   "The fourth Brazilian Constitution is granted by President Vargas, starting the Estado Novo.[195]",
+  "source"=>" Brazilian history"},
+ {"date"=>"21 December 1937",
+  "text"=>
+   "President Vargas signs the ordinance which extinguishes all political parties in the country.[196]",
+  "source"=>" Brazilian history"},
+ {"date"=>"May 1938",
+  "text"=>
+   "The Brazilian integralist movement attempt a coup d'état, supported by the Axis powers. The failure of the \"Pajama Putsch\" leads to the dissolution of the AIB.[197]",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 July 1938",
+  "text"=>
+   "Folk hero Lampião and his band are ambushed in one of his hideouts, the Angicos farm, in the state of Sergipe.",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 November 1939",
+  "text"=>"Serra dos Órgãos National Park is created.",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 December 1939",
+  "text"=>
+   "The Imperial Mausoleum is officially inaugurated at the Cathedral of Petrópolis.[198]",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 January 1942",
+  "text"=>"Brazil breaks diplomatic relations with the Axis countries.[199]",
+  "source"=>" Brazilian history"},
+ {"date"=>"July–August 1942",
+  "text"=>"Several Brazilian vessels are torpedoed by the Germans.",
+  "source"=>" Brazilian history"},
+ {"date"=>"22 August 1942",
+  "text"=>
+   "President Getúlio Vargas signs the declaration of war against Germany and Italy.[200][201]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 November 1942",
+  "text"=>"The Cruzeiro \"antigo\" is adopted as the official currency.[202]",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 June 1943",
+  "text"=>
+   "The Order of Military Merit is established by President Getúlio Vargas.[203]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 July 1943",
+  "text"=>
+   "On the recommendation of the National Petroleum Council, Brazil bans the use of private motorcycles throughout the nation in order to conserve fuel. Use of gasoline-powered automobiles had been prohibited the year before.[204]",
+  "source"=>" Brazilian history"},
+ {"date"=>"31 July 1943",
+  "text"=>
+   "The Brazilian passenger ship and freighter Bagé, largest commercial ship in Brazil's fleet, is torpedoed and sunk off the coast of the Sergipe state. The Bagé, carrying 129 passengers and 102 crew, was en route from Belém to Rio de Janeiro when it was struck by a German U-boat. Seventy-eight people (41 passengers and 37 crew) are lost.[205]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 January 1944",
+  "text"=>
+   "The former Royal Military Academy expends into the city of Resende.",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 July 1944",
+  "text"=>
+   "Second World War: The first five thousand Brazilian Expeditionary Force soldiers, the 6th RCT, leave Brazil for Europe aboard the USNS General Mann.",
+  "source"=>" Brazilian history"},
+ {"date"=>"September 1944",
+  "text"=>"Brazilian air-land forces go into action in Italy.[206]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 October 1944",
+  "text"=>
+   "Brazilian pilots begin operations, as individual elements of flights attached to 350th FG squadrons.",
+  "source"=>" Brazilian history"},
+ {"date"=>"25 November 1944 – 21 February 1945 1944–1945",
+  "text"=>
+   "Second World War, Battle of Monte Castello: The battle marks the Brazilian Expeditionary Force's entry into the land war in Europe.[207][208]",
+  "source"=>" Brazilian history"},
+ {"date"=>"February 1945",
+  "text"=>
+   "A fourth transport of troops of the Brazilian Expeditionary Force reaches Italy, in preparation for the Spring 1945 offensive.",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 May 1945",
+  "text"=>
+   "Brazilian troops arrive in Turin on the same day that the cessation of hostilities is announced.",
+  "source"=>" Brazilian history"},
+ {"date"=>"May 1945",
+  "text"=>
+   "Bishop Carlos Duarte Costa, an outspoken critic of the regime of President Getúlio Vargas and of the Vatican's alleged relationship with fascist regimes,[209] gives newspaper interviews accusing Brazil's Papal nuncio of Nazi-Fascist spying, and accusing Rome of having aided and abetted Hitler. Shortly afterwards he establishes the Brazilian Catholic Apostolic Church.",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 October 1945",
+  "text"=>
+   "President Vargas resigns, beginning the period known as the Second Brazilian Republic. José Linhares becomes acting president.",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 December 1945",
+  "text"=>
+   "A general election is held, the first since the establishment of Getúlio Vargas' Estado Novo.[131] The presidential election is won by Eurico Gaspar Dutra of the Social Democratic Party (PSD), which also wins a majority of seats in both the Chamber of Deputies and the Senate.",
+  "source"=>" Brazilian history"},
+ {"date"=>"18 September 1946",
+  "text"=>
+   "A new constitution is introduced, and the position of Vice President of Brazil is recreated; Nereu Ramos is selected as the first incumbent.",
+  "source"=>" Brazilian history"},
+ {"date"=>"19 January 1947",
+  "text"=>
+   "Parliamentary elections are held, for 19 vacant seats in the Chamber of Deputies, one additional Senator for each state (except Santa Catarina, which elected two), and for all state Governors and legislatures[131] The Brazilian Communist Party wins nearly 10% of the vote in the state elections, becoming the third party in the state of São Paulo (ahead of the UDN) and the single largest party in the federal capital, Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 August 1947",
+  "text"=>"The Brazilian Socialist Party is founded.",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 October 1947",
+  "text"=>"The São Paulo Museum of Art opens to the public.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1949",
+  "text"=>
+   "The Centro Brasileiro de Pesquisas Físicas is founded by Cesar Lattes, José Leite Lopes, and Jayme Tiomno.",
+  "source"=>" Brazilian history"},
+ {"date"=>"16 June 1950",
+  "text"=>"The Maracanã Stadium opens in Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 June – 16 July 1950",
+  "text"=>
+   "Brazil hosts the 1950 FIFA World Cup, the local national team is beaten 1–2 by Uruguay in the final game.",
+  "source"=>" Brazilian history"},
+ {"date"=>"18 September 1950",
+  "text"=>"First television broadcasting in Brazil by TV Tupi.[210]",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 October 1950",
+  "text"=>
+   "The Brazilian general election[131] is won by the Social Democratic Party, who remain the largest party in both the Chamber of Deputies and the Senate, although they lose their majority in the former. The presidential election is won by former President Getúlio Vargas of the Brazilian Labour Party",
+  "source"=>" Brazilian history"},
+ {"date"=>"1951",
+  "text"=>"The Brazilian Medical Association is founded.[211]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1951",
+  "text"=>
+   "The Escola Superior de Propaganda e Marketing is founded in São Paulo.[212]",
+  "source"=>" Brazilian history"},
+ {"date"=>"4 March 1952",
+  "text"=>
+   "Anchieta rail disaster: A crowded steam-powered passenger train derails while crossing a bridge over the Pavuna River near Anchieta station,[213] sending two old wooden carriages broadside onto the adjacent line. A modern high-speed electric freight train travelling in the opposite direction ploughs into the wooden carriages, telescoping them upwards. The severity of the accident was compounded by the fact that the suburban train is overloaded, with passengers clinging to the sides, underneath and between the carriages. A witness says they saw \"passengers flying in all directions when the crash occurred\". 119 people are killed and the resulting outcry prompts major new investment in Brazilian railways.",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 April 1952",
+  "text"=>
+   "Pan Am Flight 202 crashes in the Amazon Basin approximately 220 nautical miles (410 km) southwest of Carolina, Brazil. All 50 people on board are killed in the worst-ever accident involving the Boeing 377.[214]",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 August 1952",
+  "text"=>
+   "1952 Transportes Aéreos Nacional Douglas C-47 mid-air explosion: A Douglas C-47A registered PP-ANH is destroyed after a in-flight fire causes it to crash near Palmeiras de Goiás. All 24 people on board are killed.[215]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1952",
+  "text"=>"Bob's, Brazil's first fast food chain, opens in Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 August 1954",
+  "text"=>
+   "Brazilian president Getúlio Vargas commits suicide after being accused of involvement in a conspiracy to murder his chief political opponent, Carlos Lacerda.[216]",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 October 1954",
+  "text"=>"Brazilian legislative election, 1954",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 October 1955",
+  "text"=>
+   "The presidential election results in victory for Juscelino Kubitschek, who receives 35.7% of the vote.[131]",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 November 1955",
+  "text"=>
+   "Café Filho is forced to give up the presidency of Brazil on health grounds.[217] Kubitschek does not take office until the following year.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1955",
+  "text"=>
+   "The Museum of Modern Art, Rio de Janeiro, is completed, a Modernist concrete museum building, designed by Affonso Eduardo Reidy, with gardens designed by Burle Marx.[218]",
+  "source"=>" Brazilian history"},
+ {"date"=>"31 January 1956",
+  "text"=>
+   "Juscelino Kubitschek is inaugurated as the 21st President of Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"October 1957",
+  "text"=>"The Africanized bee is accidentally released in Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"16 October 1957",
+  "text"=>
+   "Antônio Vilas Boas, a Brazilian farmer, claims to have been abducted by extraterrestrials; the first famous alien abduction case.",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 June 1958",
+  "text"=>
+   "Brazil beats Sweden 5–2 in the final game to win the football World Cup in Sweden.[219]",
+  "source"=>" Brazilian history"},
+ {"date"=>"21 April 1960",
+  "text"=>
+   "The country's capital (Federal District) is relocated from the city of Rio de Janeiro to the new city, Brasília, in the highlands. The actual city of Rio de Janeiro becomes the State of Guanabara.",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 October 1960",
+  "text"=>"Jânio Quadros is elected President of Brazil for a five-year term.",
+  "source"=>" Brazilian history"},
+ {"date"=>"25 August 1961",
+  "text"=>"João Goulart replaces Jânio Quadros as President of Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 December 1961",
+  "text"=>"A circus tent fire in Niterói, Brazil kills 323.[220]",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 June 1962",
+  "text"=>"Brazil beats Czechoslovakia 3–1 to win the 1962 FIFA World Cup.",
+  "source"=>" Brazilian history"},
+ {"date"=>"31 March 1964",
+  "text"=>
+   "The military overthrows Brazilian President João Goulart in a coup, starting 21 years of dictatorship in Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 April 1964",
+  "text"=>
+   "Deployed military rule in Brazil ended the then government of president João Goulart.",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 April 1964",
+  "text"=>
+   "Brazilian presidential election, 1964: The Brazilian Congress elects Field Marshal Humberto de Alencar Castelo Branco as President of Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"26 April 1965",
+  "text"=>
+   "Rede Globo, the 3rd largest TV broadcaster of the world, is founded, in Rio de Janeiro, Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"27 October 1965",
+  "text"=>
+   "Brazilian president Humberto de Alencar Castelo Branco removes power from parliament, legal courts and opposition parties.",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 March 1966",
+  "text"=>"A massive theft of nuclear materials is revealed in Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 March 1967",
+  "text"=>
+   "Brazilian police arrest Franz Stangl, ex-commander of Treblinka and Sobibór extermination camps.",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 March 1967",
+  "text"=>
+   "The Republic of the United States of Brazil is renamed the Federative Republic of Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 March 1968",
+  "text"=>
+   "Brazilian high school student Edson Luís de Lima Souto is shot by the police in a protest for cheaper meals at a restaurant for low-income students. The aftermath of his death is one of the first major events against the military dictatorship.",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 December 1968",
+  "text"=>
+   "Prompted by growing unrest and proliferation of pro-communist terrorist actions, Brazilian president Artur da Costa e Silva enacts the so-called AI-5, the fifth of a series of non-constitutional emergency decrees that helped stabilize the country after the turmoils of the early 1960s.",
+  "source"=>" Brazilian history"},
+ {"date"=>"31 August – 30 October 1969",
+  "text"=>
+   "Brazilian Military Junta of 1969 rules the country following sudden illness and resignation of President da Costa e Silva. The junta consists of Army General Aurélio de Lyra Tavares, Navy Admiral Augusto Hamann Rademaker Grunewald and Air Force Brigadier Márcio de Souza e Mello",
+  "source"=>" Brazilian history"},
+ {"date"=>"19 November 1969",
+  "text"=>
+   "Playing for Santos against Vasco in Rio de Janeiro, Brazilian footballer Pelé scored his 1,000th goal.[221]",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 March 1970",
+  "text"=>
+   "Japanese consul-general in São Paulo Nobuo Okuchi is kidnapped by the leftist guerrilla group Vanguarda Popular Revolucionária.[222]",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 March 1970",
+  "text"=>
+   "Japanese consul-general in São Paulo Nobuo Okuchi is ransomed by the Brazilian government, he is released in exchange for five political prisoners.[222]",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 June 1970",
+  "text"=>
+   "West German ambassador Ehrenfried von Holleben is kidnapped by the Vanguarda Popular Revolucionária and by the Ação Libertadora Nacional.[223]",
+  "source"=>" Brazilian history"},
+ {"date"=>"21 June 1970",
+  "text"=>"Brazil defeats Italy 4–1 to win the 1970 FIFA World Cup in Mexico.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 December 1970",
+  "text"=>
+   "Giovanni Enrico Bucher, the Swiss ambassador to Brazil, is kidnapped by the Ação Libertadora Nacional in Rio de Janeiro; kidnappers demand the release of 70 political prisoners.[224]",
+  "source"=>" Brazilian history"},
+ {"date"=>"14 January 1971",
+  "text"=>
+   "Seventy Brazilian political prisoners are released in Santiago, Chile; Giovanni Enrico Bucher is released 16 January.",
+  "source"=>" Brazilian history"},
+ {"date"=>"16 January 1971",
+  "text"=>
+   "Giovanni Enrico Bucher is released by the Ação Libertadora Nacional.",
+  "source"=>" Brazilian history"},
+ {"date"=>"20 November 1971",
+  "text"=>
+   "A bridge still in construction, called Elevado Engenheiro Freyssinet, falls over the Paulo de Frontin Avenue, in Rio de Janeiro; 48 people are killed and several injured. Reconstructed, the bridge is currently a part of the Linha Vermelha elevate.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 February 1974",
+  "text"=>
+   "Fire breaks out in the Joelma Building in São Paulo, Brazil; 177 die, 293 are injured, 11 die later of their injuries.[225][226]",
+  "source"=>" Brazilian history"},
+ {"date"=>"4 March 1974",
+  "text"=>"The Rio–Niterói Bridge opens.[227]",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 March 1975",
+  "text"=>
+   "Guanabara State merges into the state of Rio de Janeiro. The state's capital moves from the city of Niterói to the city of Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1977",
+  "text"=>
+   "President Geisel closed Congress briefly to control presidential succession as conflict erupted between Geisel, the duristas, Congress, the Church, and the media.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1977–1978",
+  "text"=>"Operação Prato.[228][229][230][231][232][233]",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 February 1979",
+  "text"=>
+   "Nazi criminal Josef Mengele suffers a stroke and drowns while swimming in Bertioga, Brazil. His remains are found in 1985.",
+  "source"=>" Brazilian history"},
+ {"date"=>"9 July 1980",
+  "text"=>
+   "Pope John Paul II visits Brazil; 7 people are crushed to death in a crowd meeting him.",
+  "source"=>" Brazilian history"},
+ {"date"=>"20 September 1981",
+  "text"=>
+   "The Brazilian river boat Sobral Santos capsizes in the Amazon River, Óbidos, Brazil, killing at least 300.",
+  "source"=>" Brazilian history"},
+ {"date"=>"19 December 1983",
+  "text"=>
+   "The Jules Rimet Trophy is stolen from the Brazilian Soccer Confederation building in Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"16 April 1984",
+  "text"=>
+   "More than one million people, led by Tancredo Neves, occupy the streets of São Paulo to demand direct presidential elections during the Brazilian military government of João Figueiredo. It is the largest protest during the Diretas Já civil unrest, as well as the largest public demonstration in the history of Brazil. The elections are granted in 1989.",
+  "source"=>" Brazilian history"},
+ {"date"=>"May 1984",
+  "text"=>
+   "The Itaipu Dam is inaugurated on the border of Brazil and Paraguay after 9 years of construction, making it the largest hydroelectric dam in the world at the time.",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 January 1985",
+  "text"=>
+   "Tancredo Neves is elected president of Brazil by the Congress, ending the 21-year military rule.",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 March 1985",
+  "text"=>
+   "Vice-President José Sarney, upon becoming vice president, assumes the duties of president of Brazil, as the new president Tancredo Neves had become severely ill, the day before. Sarney will become Brazil's first civilian president in 21 years, upon Neves' death on 21 April.",
+  "source"=>" Brazilian history"},
+ {"date"=>"21 April 1985",
+  "text"=>
+   "Brazilian President Tancredo Neves dies, he is succeeded by Vice President José Sarney. The Vice President post is left vacant until 1990.",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 June 1985",
+  "text"=>
+   "The remains of Josef Mengele, the physician notorious for Nazi human experimentation on inmates of Auschwitz concentration camp, buried in 1979 under the name of Wolfgang Gerhard, are exhumed in Embu das Artes, Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 September 1987",
+  "text"=>
+   "Goiânia accident: A radioactive object is stolen from an abandoned hospital in Goiânia, Brazil, contaminating many people in the following weeks and causing some to die from radiation poisoning.[234][235]",
+  "source"=>" Brazilian history"},
+ {"date"=>"25 June 1988",
+  "text"=>
+   "PSDB is founded by members of the Brazilian Democratic Movement Party linked to the European social democratic movement as an attempt to clarify their ideals.[236]",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 October 1988",
+  "text"=>"Brazil adopts a new constitution.[237]",
+  "source"=>" Brazilian history"},
+ {"date"=>"22 December 1988",
+  "text"=>
+   "Brazilian union and environmental activist Chico Mendes is assassinated.",
+  "source"=>" Brazilian history"},
+ {"date"=>"31 December 1988",
+  "text"=>
+   "The Bateau Mouche cruise ship capsized and sank in the South Atlantic off Rio de Janeiro with the loss of at least 51 of the 149 people on board.[238]",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 November 1989",
+  "text"=>
+   "Brazil holds its first free presidential election since 1960. This marks the first time that all Ibero-American nations, excepting Cuba, have elected constitutional governments simultaneously.",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 November 1989",
+  "text"=>
+   "Brazil holds the first round of its first free election in 29 years; Fernando Collor de Mello and Luiz Inácio Lula da Silva are qualified to the second round, which will be disputed the following month.",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 December 1989",
+  "text"=>
+   "Brazil holds the second round of its first free election in 29 years; Fernando Collor de Mello is elected to serve as President from 1990.",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 March 1990",
+  "text"=>
+   "Fernando Collor de Mello takes office as President of Brazil, Brazil's first democratically elected president since Jânio Quadros in 1961. The next day, he announces a currency freeze and freezes large bank accounts for 18 months.",
+  "source"=>" Brazilian history"},
+ {"date"=>"26 March 1991",
+  "text"=>
+   "Argentina, Brazil, Uruguay and Paraguay sign the Treaty of Asunción, establishing the South Common Market (Mercosur is its acronym in Spanish).",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 September 1991",
+  "text"=>
+   "A tornado destroys parts of Itu, a city in southeastern Brazil, killing 16 and leaving 176 injured.",
+  "source"=>" Brazilian history"},
+ {"date"=>"8 June 1992",
+  "text"=>
+   "The first World Ocean Day is celebrated, coinciding with the Earth Summit held in Rio de Janeiro, Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 August 1992",
+  "text"=>
+   "A special commission in Brazil concludes that there is sufficient evidence to begin impeachment proceedings against President of Brazil Fernando Collor de Mello, finding he had accepted millions of dollars worth of illegal payments from business interests.",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 September 1992",
+  "text"=>
+   "The Chamber of Deputies of Brazil votes to impeach President of Brazil Fernando Collor de Mello, the country's first democratically elected leader in 29 years. Vice President Itamar Franco becomes acting president.",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 October 1992",
+  "text"=>
+   "A riot breaks out in the Carandiru Penitentiary in São Paulo, Brazil, resulting in the Carandiru massacre.[239][240]",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 December 1992",
+  "text"=>
+   "Brazil's president Fernando Collor de Mello is found guilty on charges that he stole more than $32 million from the government, preventing him from holding any elected office for 8 years.",
+  "source"=>" Brazilian history"},
+ {"date"=>"21 April 1993",
+  "text"=>
+   "A constitutional referendum is held to determine the form of government of the country.[241]",
+  "source"=>" Brazilian history"},
+ {"date"=>"23 July 1993",
+  "text"=>
+   "Candelária massacre: Brazilian police officers kill eight street kids in Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 August 1993",
+  "text"=>"Vigário Geral massacre.[242]",
+  "source"=>" Brazilian history"},
+ {"date"=>"16 December 1993",
+  "text"=>
+   "Brazil's Supreme Court rules that former President Fernando Collor de Mello may not hold elected office again until 2000 due to political corruption.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 July 1994",
+  "text"=>"Brazil introduces its new currency, the Real.[243]",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 July 1994",
+  "text"=>
+   "Brazil wins the 1994 FIFA World Cup, defeating Italy by 3–2 in penalties (full-time 0–0).",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 January 1995",
+  "text"=>"Fernando Henrique Cardoso becomes President of Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"20 January 1996",
+  "text"=>"Varginha UFO incident in Minas Gerais.[244][245]",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 March 1996",
+  "text"=>
+   "A Learjet 25 (registration PT-LSD) carrying the Brazilian satirical rock band Mamonas Assassinas attempts a go-around at São Paulo–Guarulhos International Airport in São Paulo, Brazil, but crashes in the Serra da Cantareira mountain range, killing all eight people on board including all five members of the band.[246]",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 April 1996",
+  "text"=>"Eldorado dos Carajás massacre.[247]",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 June 1999",
+  "text"=>
+   "In São José dos Campos, 345 prisoners escape from Putim prison through the front gate.[248]",
+  "source"=>" Brazilian history"},
+ {"date"=>"10 September 2001",
+  "text"=>"Antônio da Costa Santos, mayor of Campinas, is assassinated.",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 September 2001",
+  "text"=>
+   "Three Brazilians are killed in the September 11 attacks in the United States.[249]",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 June 2002",
+  "text"=>
+   "Brazil wins its 5th FIFA World Cup title by defeating Germany 2-0 in the 2002 FIFA World Cup Final.",
+  "source"=>" Brazilian history"},
+ {"date"=>"27 October 2002",
+  "text"=>
+   "Luiz Inácio Lula da Silva wins the Brazilian general election, 2002 with 52.7 million votes (61.3% of the total).[250]",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 January 2003",
+  "text"=>
+   "Luiz Inácio Lula da Silva is inaugurated as president of Brazil.[251]",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 January 2003",
+  "text"=>
+   "The Fome Zero program is introduced by president Luiz Inácio Lula da Silva.[251]",
+  "source"=>" Brazilian history"},
+ {"date"=>"19 August 2003",
+  "text"=>
+   "A car-bomb attack on United Nations headquarters in Iraq kills the agency's top envoy Sérgio Vieira de Mello and 21 other employees.[252][253][254]",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 March 2004",
+  "text"=>
+   "The first ever reported South Atlantic hurricane makes landfall in southern Brazil in the state of Santa Catarina – the hurricane is dubbed Cyclone Catarina.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 June 2004",
+  "text"=>
+   "The United Nations Stabilization Mission in Haiti (MINUSTAH) is established, its military component is led by Brazil.[255]",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 June 2005",
+  "text"=>
+   "Mensalão scandal threatens to bring down the government of Luiz Inácio Lula da Silva.[256]",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 August 2005",
+  "text"=>"Banco Central burglary at Fortaleza",
+  "source"=>" Brazilian history"},
+ {"date"=>"23 October 2005",
+  "text"=>"Brazilian firearms and ammunition referendum, 2005",
+  "source"=>" Brazilian history"},
+ {"date"=>"30 March 2006",
+  "text"=>
+   "Marcos Pontes becomes the first Brazilian and the first native Portuguese-speaking person to go into space, where he stays on the International Space Station for a week. During his trip, Pontes carries out eight experiments selected by the Brazilian Space Agency. He lands in Kazakhstan on 8 April 2006, with the crew of Expedition 12.[257]",
+  "source"=>" Brazilian history"},
+ {"date"=>"May 2006",
+  "text"=>"May 2006 São Paulo violence",
+  "source"=>" Brazilian history"},
+ {"date"=>"July 2006",
+  "text"=>"July 2006 São Paulo violence",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 August 2006",
+  "text"=>
+   "Lei Maria da Penha is sanctioned by president Luiz Inácio Lula da Silva.",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 September 2006",
+  "text"=>
+   "Gol Transportes Aéreos Flight 1907 leads to the 2006–07 Brazilian aviation crisis.",
+  "source"=>" Brazilian history"},
+ {"date"=>"18 March 2007",
+  "text"=>
+   "Cesare Battisti, convicted in absentia of two murders in Italy in the 1970s and who later became a crime writer in France, is arrested in Brazil.[258]",
+  "source"=>" Brazilian history"},
+ {"date"=>"May 2007",
+  "text"=>
+   "Pope Benedict XVI visits Brazil to reaffirm Catholicism in the country.[259]",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 May 2007",
+  "text"=>
+   "Pope Benedict XVI canonizes Brazil's first native-born saint, Frei Galvão, an 18th-century Franciscan monk.",
+  "source"=>" Brazilian history"},
+ {"date"=>"26 June 2007",
+  "text"=>
+   "Bolivia reclaims two oil refineries from Brazilian state-owned energy company Petrobras.[260]",
+  "source"=>" Brazilian history"},
+ {"date"=>"27 June 2007",
+  "text"=>"Complexo do Alemão massacre.",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 July 2007",
+  "text"=>
+   "The New Seven Wonders of the World are announced. These are The Great Wall of China, Petra in Jordan, the Christ the Redeemer statue in Brazil, Machu Picchu in Peru, Mexico's Chichen Itza Mayan site, the Colosseum in Rome and the Taj Mahal in India.[261]",
+  "source"=>" Brazilian history"},
+ {"date"=>"July 2007",
+  "text"=>"The Fifteenth Pan American Games take place in Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 July 2007",
+  "text"=>
+   "TAM Linhas Aéreas Flight 3054 carrying 186 people crashes in Congonhas International Airport, São Paulo, Brazil. The death toll is estimated to be at least 200 people.[262][263][264][265][266]",
+  "source"=>" Brazilian history"},
+ {"date"=>"4 November 2007",
+  "text"=>
+   "At least six people are killed as a Learjet 35 crashes into a residential district in São Paulo, Brazil.[267]",
+  "source"=>" Brazilian history"},
+ {"date"=>"25 November 2007",
+  "text"=>
+   "At least eight football fans die when part of the Fonte Nova stadium in Salvador, Brazil, collapses.[268]",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 December 2007",
+  "text"=>
+   "Brazil starts free-to-air digital television transmissions in São Paulo, but broadcasting companies must transmit signals in both analogue and digital formats until June 2016.[269]",
+  "source"=>" Brazilian history"},
+ {"date"=>"20 December 2007",
+  "text"=>
+   "The Portrait of Suzanne Bloch (1904), by the Spanish artist Pablo Picasso, and O Lavrador de Café by Brazilian modernist painter Cândido Portinari, are stolen from the São Paulo Museum of Art.[270]",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 December 2007",
+  "text"=>
+   "The leaders of Brazil, Bolivia, and Chile agree to build a highway by 2009 that will link the Atlantic (in Santos, Brazil) and the Pacific (in Iquique, Chile) coasts of South America.[271]",
+  "source"=>" Brazilian history"},
+ {"date"=>"9 January 2008",
+  "text"=>
+   "The police recoveres the Portrait of Suzanne Bloch (1904), by the Spanish artist Pablo Picasso, and O Lavrador de Café by Brazilian modernist painter Cândido Portinari, which had been stolen in December 2007.[272]",
+  "source"=>" Brazilian history"},
+ {"date"=>"24 November 2008",
+  "text"=>
+   "The 2008 Santa Catarina floods in Santa Catarina, Brazil, kill 126 and force the evacuation of over 78,000 people.",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 June 2009",
+  "text"=>
+   "Air France Flight 447, en route from Rio de Janeiro, to Paris, crashes into the Atlantic Ocean, killing all 228 on board.",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 October 2009",
+  "text"=>
+   "The International Olympic Committee awards the 2016 Summer Olympics to Rio de Janeiro.",
+  "source"=>" Brazilian history"},
+ {"date"=>"16 October 2009",
+  "text"=>"Brasil de Pelotas bus crash: two players and a coach die.[273]",
+  "source"=>" Brazilian history"},
+ {"date"=>"January 2010",
+  "text"=>"January 2010 Rio de Janeiro floods and mudslides",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 February 2010",
+  "text"=>"Sinking of the Concordia.[274]",
+  "source"=>" Brazilian history"},
+ {"date"=>"April 2010",
+  "text"=>"April 2010 Rio de Janeiro floods and mudslides",
+  "source"=>" Brazilian history"},
+ {"date"=>"June 2010",
+  "text"=>"2010 northeastern Brazil floods[275]",
+  "source"=>" Brazilian history"},
+ {"date"=>"21–28 November 2010",
+  "text"=>"2010 Rio de Janeiro Security Crisis",
+  "source"=>" Brazilian history"},
+ {"date"=>"1 January 2011",
+  "text"=>
+   "Inauguration of Dilma Rousseff as the 36th President of Brazil.[276]",
+  "source"=>" Brazilian history"},
+ {"date"=>"11 January 2011",
+  "text"=>
+   "January 2011 Rio de Janeiro floods and mudslides: Over 900 people are killed[277] as a result of freak weather conditions.",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 April 2011",
+  "text"=>
+   "Rio de Janeiro school shooting: 12 children aged between 12 and 14 are killed[278] and 12 others seriously wounded after an armed man opens fire at an elementary school in Realengo",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 July 2011",
+  "text"=>
+   "Noar Linhas Aéreas Flight 4896: A Noar Linhas Aéreas Let L-410 Turbolet crashes in Boa Viagem, Recife, killing all 16 people on board).[279]",
+  "source"=>" Brazilian history"},
+ {"date"=>"7 November 2011",
+  "text"=>
+   "Campos Basin oil spill: A Chevron-owned oil well began leaking causing 32,000 to 52,000 litres (200 to 330 bbl) of crude oil to enter the ocean every day. The leak took place in Campos Basin, Brazil 120 kilometres (75 mi) off the coast of Rio de Janeiro.[280]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 February 2012",
+  "text"=>
+   "Lindemberg Alves begins to be tried for the death of ex-girlfriend Elóa Pimentel, in the city of Santo André.[281]",
+  "source"=>" Brazilian history"},
+ {"date"=>"27 January 2013",
+  "text"=>
+   "A nightclub fire in Santa Maria, Rio Grande do Sul kills at least 242 people.[282]",
+  "source"=>" Brazilian history"},
+ {"date"=>"April – July 2013",
+  "text"=>"2013 protests in Brazil.[283]",
+  "source"=>" Brazilian history"},
+ {"date"=>"23 July 2013",
+  "text"=>"World Youth Day began in Rio de Janeiro.[284]",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 March 2014",
+  "text"=>"Operation Car Wash begins.[285][286]",
+  "source"=>" Brazilian history"},
+ {"date"=>"May – July 2014",
+  "text"=>"2014 protests in Brazil.",
+  "source"=>" Brazilian history"},
+ {"date"=>"12 June – 13 July 2014",
+  "text"=>"The 2014 FIFA World Cup is held in Brazil, and is won by Germany.",
+  "source"=>" Brazilian history"},
+ {"date"=>"3 July 2014",
+  "text"=>"Belo Horizonte overpass collapse",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 August 2014",
+  "text"=>
+   "Governor Eduardo Campos, a candidate in the upcoming Brazilian presidential election, dies in a plane crash in Santos, São Paulo, together with six other people on board the aircraft. It also sparks a large fire.[287]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 August 2014",
+  "text"=>"2014 Cessna Citation 560 XLS+ crash",
+  "source"=>" Brazilian history"},
+ {"date"=>"October 2014",
+  "text"=>"Brazilian general election, 2014[288]",
+  "source"=>" Brazilian history"},
+ {"date"=>"10 December 2014",
+  "text"=>
+   "26-year-old Sailson José das Graças is arrested for the serial murder as many as 41 people in a string of suspected racist hate crimes.",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 January 2015",
+  "text"=>
+   "Two commuter trains collide at Mesquita, Rio de Janeiro, injuring 158 people.[289]",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 March 2015",
+  "text"=>
+   "Hundreds of thousands of people in Brazil protest against corruption and denounce the government of President Dilma Rousseff.[290]",
+  "source"=>" Brazilian history"},
+ {"date"=>"5 November 2015",
+  "text"=>
+   "An iron ore tailings dam in Bento Rodrigues, a subdistrict of Mariana, Brazil, suffered a catastrophic failure, causing flooding, killing 17 and injuring 16.[291]",
+  "source"=>" Brazilian history"},
+ {"date"=>"13 March 2016",
+  "text"=>
+   "Hundreds of thousands of people all over Brazil protest against corruption and denounce the government of President Dilma Rousseff.[292]",
+  "source"=>" Brazilian history"},
+ {"date"=>"9 June 2016",
+  "text"=>
+   "A bus plunges over a ravine in Brazil's São Paulo state, resulting in at least 18 people killed and 28 injured.[293]",
+  "source"=>" Brazilian history"},
+ {"date"=>"5–21 August 2016",
+  "text"=>"The 2016 Summer Olympics are held in Rio de Janeiro.[294]",
+  "source"=>" Brazilian history"},
+ {"date"=>"31 August 2016",
+  "text"=>
+   "The Senate votes 61–20 in favor of removing Dilma Rousseff from office as President of Brazil. Current Acting President Michel Temer will serve out the remainder of the term, which ends 1 January 2019.[295]",
+  "source"=>" Brazilian history"},
+ {"date"=>"15 October 2016",
+  "text"=>
+   "A wildlife sanctuary for rescued elephants opens in Mato Grosso.[296]",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 October 2016",
+  "text"=>
+   "Clashes between rival gangs in at least two prisons, leave at least 18 people killed.[297]",
+  "source"=>" Brazilian history"},
+ {"date"=>"29 November 2016",
+  "text"=>
+   "A chartered Avro RJ85 plane carrying 77 people, including the Chapecoense football team, crashes near Medellín, Colombia. Rescuers report at least six survivors have been found in the wreckage. The 2016 Copa Sudamericana Finals are suspended.[298] The title is later awarded to Chapecoense.[299][300]",
+  "source"=>" Brazilian history"},
+ {"date"=>"2 January 2017",
+  "text"=>
+   "At least 56 people are killed in rebellion at Anisio Jobim penitentiary complex in Amazonas state.[301][302]",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 January 2017",
+  "text"=>
+   "Members of the Primeiro Comando da Capital prison gang kill 31 inmates in the Monte Cristo prison in the state of Roraima. This action was revenge for an earlier massacre in a prison in Amazonas that killed 56 inmates.[303]",
+  "source"=>" Brazilian history"},
+ {"date"=>"6 February 2017",
+  "text"=>
+   "A police strike leads to a wave of violence and looting in Espírito Santo, including dozens of murders in the state capital, Vitória.[304][305]",
+  "source"=>" Brazilian history"},
+ {"date"=>"17 March 2017",
+  "text"=>"Operation Carne Fraca starts.[306]",
+  "source"=>" Brazilian history"},
+ {"date"=>"28 April 2017",
+  "text"=>
+   "A general strike is held in the country, the first one in twenty years.[307]",
+  "source"=>" Brazilian history"}]

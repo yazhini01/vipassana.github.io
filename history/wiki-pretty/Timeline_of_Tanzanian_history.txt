@@ -1,0 +1,226 @@
+[{"date"=>"1180",
+  "text"=>
+   "The Kilwa Sultanate, under Suleiman Hassan (c. 1178–1195), conquers the rival nation of Sofala.",
+  "source"=>" Tanzanian history"},
+ {"date"=>"25 February 1498",
+  "text"=>
+   "The Portuguese explorer Vasco da Gama is the first known European to reach the East African coast, landing at Kilimane, where he stayed for 32 days.[1]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"August 1505",
+  "text"=>
+   "Captain John Homere, part of Francisco de Almeida's fleet, captures the archipelago of Zanzibar, making it part of the Portuguese Empire.[2]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1698",
+  "text"=>"Zanzibar falls under the control of the Sultan of Oman.[2]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1700",
+  "text"=>
+   "Over 100,000 slaves pass through Zanzibar as part of the Arab slave trade. (to 1800)",
+  "source"=>" Tanzanian history"},
+ {"date"=>"11 May 1848",
+  "text"=>
+   "German missionary Johannes Rebmann, accompanied by Johann Ludwig Krapf, become the first Europeans to report seeing Mount Kilimanjaro.[5][6]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1856",
+  "text"=>
+   "Sultan Seyyid Said dies at sea and is succeeded by his sons Thuwaini bin Said, in Muscat and Oman and Majid bin Said, in Zanzibar.[7]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"26 June 1857",
+  "text"=>
+   "British explorers Richard Burton and John Speke travel from Zanzibar to the East African coast and begin their exploration of continental East Africa.[8]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"13 February 1858",
+  "text"=>
+   "Burton and Speke reach Lake Tanganyika, the first known Europeans to do so.[8]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"2 April 1861",
+  "text"=>
+   "Zanzibar and Oman are split into two separate principalities with Majid bin Said becoming the first Sultan of Zanzibar.[9]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1873",
+  "text"=>
+   "Zanzibari Sultan Barghash bin Said stops the export of slaves over the sea.[10]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1876",
+  "text"=>"Barghash bin Said closes Zanzibar's slave market.[10]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"28 March 1884",
+  "text"=>
+   "The Society for German Colonization is formed by Karl Peters in order to acquire German colonial territories in overseas countries. Peters signs treaties with several native chieftains on the mainland opposite Zanzibar.[11]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"3 March 1885",
+  "text"=>
+   "The German government announces its intention to establish a protectorate in East Africa.",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1 November 1886",
+  "text"=>
+   "An agreement is reached between Britain and Germany designating a 10-mile (16 km) wide strip of land along the coast as being controlled by Sultan Barghash bin Said, along with Zanzibar, Pemba, and Mafia. The area that is to become Tanganyika is assigned to Germany while the area to become Kenya is assigned to Britain.[12]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"April 1888",
+  "text"=>
+   "The German East Africa Company leases the coastal strip opposite Zanzibar from Sultan Khalifah bin Said for 50 years.[13]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1 July 1890",
+  "text"=>
+   "The Heligoland–Zanzibar Treaty makes Zanzibar and Pemba a British protectorate.[2]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"27 August 1896",
+  "text"=>
+   "The Anglo-Zanzibar War is fought between Zanzibar and the United Kingdom. It lasted approximately 38 minutes and is the shortest war in history.[C]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"5 April 1897",
+  "text"=>
+   "Sultan Hamoud bin Mohammed issues a decree making slavery illegal in Zanzibar.[3][10]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"19 July 1898",
+  "text"=>
+   "Following years of resistance, Chief Mkwawa of the Hehe is cornered by German soldiers and commits suicide in lieu of capture.[14]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"July 1905",
+  "text"=>
+   "The Maji Maji Rebellion starts as a violent resistance to colonial rule in Tanganyika.[15]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"August 1907",
+  "text"=>
+   "The Maji Maji Rebellion ends, leaving between 200,000 and 300,000 rebels dead.[16][D]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"8 August 1914",
+  "text"=>"The East African Campaign of the First World War begins.[17]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"4 September 1916",
+  "text"=>
+   "Dar es Salaam is occupied by troops from the United Kingdom and South Africa.[19]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"28 June 1919",
+  "text"=>
+   "Following the First World War, the Treaty of Versailles divides German East Africa, with the United Kingdom acquiring the largest section which it names the Tanganyika Territory.[20]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1920",
+  "text"=>
+   "Sir Horace Byatt is appointed the first governor of Tanganyika.[21]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1929",
+  "text"=>
+   "The Tanganyika African Association is founded by members of the Tanganyika Territory African Civil Service association.[23]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"13 December 1946",
+  "text"=>
+   "British mandate over Tanganyika is converted to a United Nations Trusteeship.[24]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"9 June 1954",
+  "text"=>
+   "Germany returns the skull of Hehe chief Mkwawa (died 1898) to Tanzania and it is put on display near Iringa.[25]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"October 1961",
+  "text"=>
+   "The University College, Dar es Salaam is established as one of three constituent colleges of the University of East Africa, with 14 law students.[28]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"22 January 1962",
+  "text"=>
+   "Julius Nyerere resigns as Prime Minister and is succeeded by Rashidi Kawawa.[29]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"16 December 1963",
+  "text"=>"Zanzibar becomes a member of the United Nations.[30]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"12 January 1964",
+  "text"=>
+   "The Zanzibar Revolution by local Africans overthrows the Sultan of Zanzibar and his primarily Arab government. Sheikh Abeid Karume becomes the first President of Zanzibar.[33]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"21 September 1965",
+  "text"=>
+   "President Nyerere is returned to power in a one-party election.[34]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"5 February 1967",
+  "text"=>
+   "President Nyerere issues the Arusha Declaration, outlining the principles of Ujamaa.[36]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"24 September 1969",
+  "text"=>
+   "The Arusha Agreement is signed between the European Union and the East African states of Kenya, Tanzania, and Uganda.[37]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1 July 1970",
+  "text"=>
+   "Tanzania's first university, the University of Dar es Salaam is founded from the split of the University of East Africa into three national universities.[28][38]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1 January 1971",
+  "text"=>"The Arusha Agreement is enacted.[37]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"7 April 1972",
+  "text"=>"Vice President Abeid Karume is assassinated in Zanzibar Town.[34]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1976",
+  "text"=>
+   "Archaeologist Mary Leakey and her team discover homoinid fossil footprints at Laetoli, south of the Olduvai Gorge.[39][40]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"5 February 1977",
+  "text"=>
+   "Tanganyika African National Union (TANU) and Zanzibar's Afro-Shirazi Party merge to become Chama Cha Mapinduzi (CCM).[41]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"27 October 1978",
+  "text"=>
+   "Ugandan forces under Idi Amin invade Tanzania, starting the Uganda–Tanzania War, also known as the Liberation War.[43]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"11 April 1979",
+  "text"=>
+   "Tanzanian troops capture the Ugandan capital of Kampala, heralding the end of the Uganda–Tanzania War and Amin's regime.[44]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"1983",
+  "text"=>
+   "Tanzania's first AIDS diagnosis is made in Bukoba district, Kagera Region.[45]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"31 January 1984",
+  "text"=>
+   "Ali Hassan Mwinyi is sworn in as the third President of Zanzibar and Vice President of Tanzania.[46]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"5 November 1985",
+  "text"=>
+   "Julius Nyerere retires and Ali Hassan Mwinyi becomes the second President of Tanzania.[47] Mwinyi is succeeded as Vice President by Joseph Sinde Warioba.[48]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"October 1990",
+  "text"=>
+   "Ali Hassan Mwinyi wins a single-party election with 95.5% of the vote and is sworn in for a second presidential term.[49]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"28 May 1992",
+  "text"=>"The Civic United Front is formed.[2]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"29 October 1995",
+  "text"=>"Tanzania holds its first multi-party election.[50]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"February 1973",
+  "text"=>
+   "The Tanzanian parliament moves from Dar es Salaam to the new capital of Dodoma.[52]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"7 August 1998",
+  "text"=>
+   "The United States embassies in Dar es Salaam, Tanzania and Nairobi, Kenya are simultaneously bombed.[53]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"14 October 1999",
+  "text"=>"Julius Nyerere dies of leukaemia in London.[36]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"7 July 2000",
+  "text"=>"The East African Community Treaty comes into force.[54]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"28 January 2001",
+  "text"=>
+   "Demonstrators in Zanzibar protesting the 2000 elections, clash with police and 32 people are killed.[56]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"24 June 2002",
+  "text"=>
+   "The Igandu train disaster kills more than 200 people and is Tanzania's worst train crash.[58]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"December 2003",
+  "text"=>
+   "The Kipunji, a new species of monkey, is found in Tanzania—the first new African monkey species since 1974. It is also independently discovered in July 2004.[60]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"14 December 2005",
+  "text"=>
+   "General elections are held.[32] Anna Senkoro of the Progressive Party of Tanzania–Maendeleo is the first woman in Tanzania to run for president.[61]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"11 May 2006",
+  "text"=>
+   "Scientists announce that the Kipunji monkey found in 2003 belongs to a new genus of African monkey—the first to be discovered since 1923.[64]",
+  "source"=>" Tanzanian history"},
+ {"date"=>"6 February 2008",
+  "text"=>
+   "A parliamentary committee reports on corruption within the cabinet.[66]",
+  "source"=>" Tanzanian history"}]

@@ -1,0 +1,283 @@
+[{"date"=>"23 December 1511",
+  "text"=>
+   "Barbados first appears on Spanish maps and is referred to by King Ferdinand of Spain as Los Barbudos (Barbados), along with Cobaco (Tobago), and Mayo (unknown).",
+  "source"=>" Barbadian history"},
+ {"date"=>"3 July 1512",
+  "text"=>
+   "King Ferdinand mentions that on the islands of Los Barbudos, Dominica, Martino (Martinique), Santa Lucia, San Vincente, La Asunción (Grenada), and Tavaco (Tobago), certain Indians called Caribs be captured due to their resistance towards Christianity.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1518",
+  "text"=>
+   "The Spanish crown ordered Judge Rodrigo de Figueroa to determine which areas of the region were populated by Caribs. He reported 'Indians have been taken from Los Barbudos, the Gigantes (Aruba, Bonaire and Curaçao) and elsewhere who are not Caribs nor proper to be slaves. Thereafter, the isles deemed to be non-Carib were: Trinidad, the Lucayas (Bahamas), Barbados, Gigantes and Margarita.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1541",
+  "text"=>
+   "Spanish commentator Alonza de Santa Cruz speaks of inhabitants of Barbados in the past-tense.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1536",
+  "text"=>
+   "Portuguese explorer Pedro Campos or Pedro Campas, is said to have landed on Barbados and also found it uninhabited.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1620",
+  "text"=>
+   "English Captain Simon Gordon may have first made a brief landing on Barbados.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1625",
+  "text"=>
+   "Courteen dispatched Captain John Powell for the purpose of establishing a permanent settlement on the island, but the ship returned to England having not been able to locate the island. (to 1627)",
+  "source"=>" Barbadian history"},
+ {"date"=>"17 February 1627",
+  "text"=>
+   "Eighty English settlers, with ten African slaves (captured-at-sea) aboard the ship William and John land at St. James Town. (to 20 February)",
+  "source"=>" Barbadian history"},
+ {"date"=>"5 July 1628",
+  "text"=>
+   "Lord Carlisle as represented by Governor Charles Wolferstone (of Bermuda) establishes a settlement and the capital moves from Courteen's settlement at St. James Town to present location of Bridgetown. Under the authority of the Wolverstone the Governor appoints a Council composed of the main landowners to assist him in the governance of the island.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1629",
+  "text"=>
+   "Forces of Carlisle's employ arrived in Barbados and arrested Courten's governor.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1639",
+  "text"=>
+   "The parliament, (the House of Assembly then known as the House of Burgesses), held its first meeting. It was composed of sixteen landowners chosen by the Governor.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1640",
+  "text"=>"Sugar cultivation begins on the island.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1642",
+  "text"=>
+   "English Civil War: Large influx of both English Parliamentarians, and Royalists to island. (to 1651)",
+  "source"=>" Barbadian history"},
+ {"date"=>"1645",
+  "text"=>
+   "The colony became re subdivided into eleven parishes, each sending two representatives to the House of Assembly.",
+  "source"=>" Barbadian history"},
+ {"date"=>"11 January 1652",
+  "text"=>
+   "The Barbados Charter (Treaty of Oistins) is signed between locals and The Crown, of which articles of agreement confirm the Assembly, and liberty of conscience.",
+  "source"=>" Barbadian history"},
+ {"date"=>"18 April 1668",
+  "text"=>
+   "The Bridgetown Magazine explodes, 80 Percent of Bridgetown (800 homes), are razed in a great fire.",
+  "source"=>" Barbadian history"},
+ {"date"=>"3 October 1671",
+  "text"=>"Quaker leader George Fox visits island.",
+  "source"=>" Barbadian history"},
+ {"date"=>"May 1675",
+  "text"=>"First slave rebellion.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1660",
+  "text"=>
+   "Charles II knights eleven gentlemen of Barbados. White indentured labourers (small-holders) are largely replaced by black slaves from West Africa (many from today's Ghana). (to 1680)",
+  "source"=>" Barbadian history"},
+ {"date"=>"1680",
+  "text"=>
+   "White labourers mostly leave, to Carolinas, (Charleston, South Carolina); and to other West Indian islands, especially Jamaica.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1682",
+  "text"=>
+   "The sugar-producing planter class becomes dominant. They inter-marry with British aristocracy, and buy seats in the Parliament.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1733",
+  "text"=>
+   "Harrison College (formerly Harrison's Free School), is established by Bridgetown-merchant Thomas Harrison.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1745",
+  "text"=>
+   "The Codrington College (grammar school), named after the late Christopher Codrington is established by the Anglican Church.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1750",
+  "text"=>
+   "The Grapefruit (Citrus Paradisi), then known as the \"Forbidden Fruit Tree\" is (for the first time), recorded through illustration in The Natural History of Barbados by Welshman, The Reverend Griffith Hughes.",
+  "source"=>" Barbadian history"},
+ {"date"=>"November 1751",
+  "text"=>
+   "George Washington visits, making his only journey outside the American mainland. (to December)",
+  "source"=>" Barbadian history"},
+ {"date"=>"1795",
+  "text"=>
+   "British government establishes a permanent land force in the eastern Caribbean, based in Barbados.",
+  "source"=>" Barbadian history"},
+ {"date"=>"14–16 April 1816",
+  "text"=>"Bussa's Rebellion, the largest slave revolt in Barbadian history.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1831",
+  "text"=>
+   "Free coloured men who meet the property requirements, are given the right to vote for members of Parliament.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1833",
+  "text"=>
+   "The Slavery Abolition Act 1833 is passed, ending the practice of slavery throughout the British Empire.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1834",
+  "text"=>
+   "Slavery itself is abolished, and the descendants of enslaved and liberated Africans, which form the bulk of Barbados population begin a process of making inroads in society. Samuel Jackman Prescod becomes the first person of (partial) African descent to be elected to Parliament.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1835",
+  "text"=>"The Police Force is established.",
+  "source"=>" Barbadian history"},
+ {"date"=>"29 March 1861",
+  "text"=>"The introduction of piped water in Bridgetown.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1867",
+  "text"=>"The Harbour Police Force is established.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1875",
+  "text"=>
+   "Uprisings (now known as the \"Confederation riots\") occurred due to efforts by the Imperial Crown to establish a Crown Colony government consisting of Barbados and the Windward Islands. (to 1876)",
+  "source"=>" Barbadian history"},
+ {"date"=>"1881",
+  "text"=>
+   "The Executive Council is created separate of the Upper House by an Act of local Parliament.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1882",
+  "text"=>
+   "The Harbour Police Force is merged into the land-based Police Force.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1885",
+  "text"=>
+   "Moves to Confederate isle with the Windward Islands is abandoned, the capital of the Windward Islands shifts to St. George, Grenada; and the island restores self-government as before.",
+  "source"=>" Barbadian history"},
+ {"date"=>"May 1928",
+  "text"=>"The introduction of The St. Michael Girls School.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1934",
+  "text"=>"Grantley Adams is elected to the House of Assembly.",
+  "source"=>" Barbadian history"},
+ {"date"=>"July 1937",
+  "text"=>"Riots occur in Bridgetown.",
+  "source"=>" Barbadian history"},
+ {"date"=>"March 1938",
+  "text"=>
+   "The formation of the Barbados Progressive League-BPL. (The precursor of the Barbados Labour Party.)",
+  "source"=>" Barbadian history"},
+ {"date"=>"1944",
+  "text"=>"Women secure the right to vote.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1946",
+  "text"=>
+   "Election: The Barbados Labour Party-BLP, led by Grantley Adams becomes majority leader.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1951",
+  "text"=>"Election: The first election with universal adult suffrage.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1954",
+  "text"=>
+   "Establishment of the \"ministerial\" system, with a cabinet, and the office of the Premier. Grantley Adams was appointed as the colony's first Premier.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1955",
+  "text"=>
+   "The Democratic Labour Party-DLP (led by Errol Barrow), was formed as a breakaway element from the Barbados Labour Party.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1956",
+  "text"=>"Election: Won by Barbados Labour Party-BLP, led by Grantley Adams.",
+  "source"=>" Barbadian history"},
+ {"date"=>"3 January 1958",
+  "text"=>
+   "Barbados joined ten other British West Indian territories to form the West Indies Federation, led by Grantley Adams as the Prime Minister.",
+  "source"=>" Barbadian history"},
+ {"date"=>"31 May 1960",
+  "text"=>
+   "The West Indies Federation government collapses due to internal conflicts, Barbados reverts to internal self-governance.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1961",
+  "text"=>
+   "Election: Won by Democratic Labour Party-DLP, led by Errol Barrow who becomes Premier.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1963",
+  "text"=>
+   "The University of the West Indies opens a local campus at the Deep Water Harbour before moving to Cave Hill.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1964",
+  "text"=>"The Legislative Council is replaced by the Senate.",
+  "source"=>" Barbadian history"},
+ {"date"=>"30 November 1966",
+  "text"=>
+   "Barbados, (led by Errol Barrow as Prime Minister) received its independence from the United Kingdom",
+  "source"=>" Barbadian history"},
+ {"date"=>"1969",
+  "text"=>
+   "Barbados Community College (BCC) is established by the government of Barbados.",
+  "source"=>" Barbadian history"},
+ {"date"=>"April 1st. 1969",
+  "text"=>
+   "ANGLICAN CHURCH is disestablished by the ANGLICAN CHURCH (DATE OF DISESTABLISHMENT) ORDER, 1969, by the Minister under section 2 of the Anglican Church Act, Cap. 375.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1971",
+  "text"=>"House of Assembly changes to 24 single member constituencies.",
+  "source"=>" Barbadian history"},
+ {"date"=>"2 May 1972",
+  "text"=>"The local Central Bank was established by Act of parliament.",
+  "source"=>" Barbadian history"},
+ {"date"=>"2 September 1976",
+  "text"=>
+   "Election: Won by Barbados Labour Party-BLP, led by J.M.G.M \"Tom\" Adams",
+  "source"=>" Barbadian history"},
+ {"date"=>"2 November 1977",
+  "text"=>
+   "At the end of the Queen's Silver Jubilee, Concorde (G-BOAE) made its maiden voyage to Barbados; with Queen Elizabeth II experiencing her first supersonic flight to the United Kingdom.[1][2]",
+  "source"=>" Barbadian history"},
+ {"date"=>"31 March 1979",
+  "text"=>
+   "The United States Navy Facility (NAVFAC) officially closes at Harrison's Point, St. Lucy after being commissioned on 1 October 1957.",
+  "source"=>" Barbadian history"},
+ {"date"=>"1981",
+  "text"=>"House of Assembly changes to 27 single member constituencies.",
+  "source"=>" Barbadian history"},
+ {"date"=>"11 March 1985",
+  "text"=>
+   "On the death of J.M.G.M. \"Tom\" Adams, Harold Bernard St. John becomes 3rd Prime Minister.",
+  "source"=>" Barbadian history"},
+ {"date"=>"28 May 1986",
+  "text"=>"Election: Won by Democratic Labour Party-DLP, led by Errol Barrow",
+  "source"=>" Barbadian history"},
+ {"date"=>"8 March 1989",
+  "text"=>
+   "The Queen marked the occasion of the 350th anniversary of the establishment of the Barbados Parliament. (to 11 March)",
+  "source"=>" Barbadian history"},
+ {"date"=>"1991",
+  "text"=>
+   "Elections: Won by Democratic Labour Party-DLP, led by Erskine Sandiford",
+  "source"=>" Barbadian history"},
+ {"date"=>"1994",
+  "text"=>"Election: Won by Barbados Labour Party-BLP, led by Owen Arthur",
+  "source"=>" Barbadian history"},
+ {"date"=>"1999",
+  "text"=>"Election: Won by Barbados Labour Party-BLP, led by Owen Arthur",
+  "source"=>" Barbadian history"},
+ {"date"=>"2003",
+  "text"=>"House of Assembly changes to 30 single member constituencies.",
+  "source"=>" Barbadian history"},
+ {"date"=>"29 March 2005",
+  "text"=>
+   "A riot and fire breaks out at HM Glendairy Prison causing military personnel to be drawn from surrounding islands to put down the uprising. (to 30 March)",
+  "source"=>" Barbadian history"},
+ {"date"=>"16 March 2006",
+  "text"=>
+   "The Caribbean Court of Justice (CCJ) renders its first judgement, covering a libel case from Barbados – Rediffusion Service Ltd v. Asha Mirchandani Ram Mirchandani (McDonald Farms Ltd). The case is a formal end of Barbados' 170+ year long relationship with the London-based Judicial Committee of the Privy Council (JCPC).",
+  "source"=>" Barbadian history"},
+ {"date"=>"4 March 2007",
+  "text"=>
+   "The Cricket World Cup is held in the West Indies region. Barbados hosts several of the Warm Up and Super 8 matches along with the Final. (to 28 April)",
+  "source"=>" Barbadian history"},
+ {"date"=>"15 January 2008",
+  "text"=>
+   "Election: Won by Democratic Labour Party-DLP, led by David Thompson",
+  "source"=>" Barbadian history"},
+ {"date"=>"31 January 2010",
+  "text"=>
+   "UK's Prince Harry and Prince Seeiso of Lesotho hosted the Sentebale Charity Polo Event in Barbados.",
+  "source"=>" Barbadian history"},
+ {"date"=>"25 June 2011",
+  "text"=>
+   "Historic Bridgetown and its Garrison were added as a World Heritage Site of UNESCO.",
+  "source"=>" Barbadian history"},
+ {"date"=>"September 2011",
+  "text"=>
+   "The introduction of Sixth Form into The St. Michael School and The Christ Church Foundation School.",
+  "source"=>" Barbadian history"},
+ {"date"=>"February 2013",
+  "text"=>
+   "Election: Won by Democratic Labour Party-DLP, led by Freundel Stuart",
+  "source"=>" Barbadian history"}]

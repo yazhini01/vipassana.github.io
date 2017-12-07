@@ -1,0 +1,29 @@
+#sample_wrappers {
+	display: none;
+}
+
+.event_source {
+	display: inline-block;
+	background: #ff8585;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.event_source.selected {
+	background: red;
+}
+
+.event .text {
+	display: table-cell;
+}
+.event .source {
+	display: table-cell;
+	width: 200px;
+}
+
+.event .date {
+	display: table-cell;
+	width: 100px;
+}
