@@ -9,6 +9,10 @@
 	border-bottom: solid 1px white;
 }
 
+.event .where {
+	text-transform: capitalize;
+}
+
 .date {
 	background: #0786a7;
     color: #effcff;

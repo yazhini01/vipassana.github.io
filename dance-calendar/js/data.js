@@ -34,6 +34,12 @@ var venues = {
 	"ifas": {
 		name: "Indian Fine Arts Society"
 	},
+	"bk": {
+		name: "Bharat Kalachar"
+	},
+	"trinity": {
+		name: "Trinity Arts Festival"
+	},
 	"placeholder": {
 		name: ""
 	}
