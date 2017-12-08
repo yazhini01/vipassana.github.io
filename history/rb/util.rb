@@ -23,9 +23,25 @@ def is_month_and_date(text)
 	return false
 end
 
+
+$year_re = "(c. *)?\\d{1,4}s?(bc|ad)?"
+$sep_re = " *(:|-|\\u2013|\\u2014)? *" # \u2013 is en dash, \u2014 is figure dash
+$start_with_year_range_re = Regexp.new("^" + $year_re + $sep_re + $year_re + $sep_re)
+$start_with_year_re = Regexp.new("^" + $year_re + $sep_re)
+# $t = "1350 — "
 def year_at_start(text)
-	match = /^\d{1,4}s?(bc|ad)?/.match(text.downcase)
-	return match ? match[0] : nil
+	return nil unless text
+	text = text.downcase
+
+	# check for ranges like 1990-2000 first
+	match = $start_with_year_range_re.match(text)
+	return match[0] if (match)
+
+	# check for just year (without range)
+	match = $start_with_year_re.match(text)
+	return match[0] if (match)
+
+	return nil
 end
 
 def remove_chars_from_potential_year(text)

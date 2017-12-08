@@ -6,6 +6,10 @@ require './input.rb'
 
 MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
 
+def wiki_title_to_source(title)
+	return title.gsub(/Timeline of |Chronology of /i, "")
+end
+
 def fetch_wiki_page_save_and_parse(title) # doesn't refetch
 	file = nil
 	begin
@@ -19,29 +23,41 @@ def fetch_wiki_page_save_and_parse(title) # doesn't refetch
 	page = page.css('#mw-content-text')
 	page.css('#toc').remove # toc is table of contents
 	page.css('.reflist').remove
-	# page.css('#Further_reading')[0].next_element.remove
-	# page.css('#See_also')[0].next_element.remove
+	page.css('.infobox').remove
+
+	# remove all future siblings that come after ancestor-h2 of See_also span
+	page.xpath('//span[@id="See_also"]//ancestor::h2/following-sibling::*').remove
+
 	return page
 end
 
+def add_errors(errors)
+	File.open("#{$error_file}", "a") {|f| f.puts errors }
+end
 
 def get_events_from_lis(orig_title, page)
 	events = []
+	errors = ""
 	lis = page.css('li')
 	lis.each {|li|
 		year = year_at_start(li.text)
 		if (year)
-			events << {
+			event = {
 				'date' => "",
 				'year' => year,
 				'text' => li.text[year.length..li.text.length-1],
-				'source' => orig_title.gsub(/Timeline of/, "")
+				'source' => wiki_title_to_source(orig_title),
+				'id' => $eventid
 			}
+			$eventid = $eventid + 1
+			event['raw'] = li.text if ($debug)
+			events << event
 		else
-			puts "==#{orig_title}=="
-			puts li.text
+			error = "==li Parsing: Problem in #{orig_title}==\n"
+			errors += li.text
 		end
 	}
+	add_errors(errors)
 	return events
 end
 
@@ -80,11 +96,14 @@ def get_events_from_tables(orig_title, page)
 					'date' => "#{last_used_date}".strip,
 					'year' => last_used_year,
 					'text' => text,
-					'source' => orig_title.gsub(/Timeline of/, "")
+					'source' => wiki_title_to_source(orig_title),
+					'id' => $eventid
 				}
+				$eventid = $eventid + 1
+				event['raw'] = tr.text if ($debug)
 				events << event
 			else
-				error = "==Problem in #{orig_title}==\n"
+				error = "==table Parsing: Problem in #{orig_title}==\n"
 				error += "text=#{text}\n"
 				error += "last_used_date=#{last_used_date}\n"
 				error += "last_used_year=#{last_used_year}\n"
@@ -94,9 +113,7 @@ def get_events_from_tables(orig_title, page)
 			end
 		}
 	}
-	File.open("#{$error_file}", "a") do |f|
-		f.puts errors
-	end
+	add_errors(errors)
 	return events
 end
 

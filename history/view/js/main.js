@@ -1,8 +1,8 @@
 var selectedSources = {};
 
-function updateShowingEvents() {
+var debouncedUpdateEvents = _.debounce(function() {
 	$events = $("#events");
-	$events.empty();
+	var count = 0;
 	$(GLOB_EVENTS).each(function(i, event) {
 		if (selectedSources[event.source]) {
 			var $event = $($('#sample_event').html());
@@ -11,15 +11,15 @@ function updateShowingEvents() {
 			$('.source', $event).text(event.source);
 			$('.text', $event).text(event.text);
 			$event.attr('source', event.source);
+			$event.attr('eventid', event.id);
+			if (count%2) $event.addClass('odd');
+			count++;
 			$events.append($event);
 		}
 	});
-/*
-	$(sources[source]).each(function(i, event) {
+	$('#loading').hide();
+}, 20);
 
-	});
-*/
-}
 $(document.body).ready(function() {
 	$('#last_modified_time').text(new moment(document.lastModified).format('llll'));
 
@@ -33,8 +33,13 @@ $(document.body).ready(function() {
 			selectedSources[source] = 1;
 		}
 		$(this).toggleClass('selected');
-		updateShowingEvents();
+
+		$('#events').empty();
+		$('#loading').show();
+		debouncedUpdateEvents();
 	});
+
+	$('#loading').hide();
 });
 
 sources = {};
