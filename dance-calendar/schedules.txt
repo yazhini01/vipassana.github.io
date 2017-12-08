@@ -866,7 +866,7 @@ KGS * Lakshmi Parthasarathy Athreya
 6:15pm
 
 7pm
-KGS * Srekala Bharath
+KGS * Sreekala Bharath
 NGS * Vidhya Subramanian
 7:30pm
 
@@ -917,7 +917,7 @@ KFA * Sangeetha Isvaran and group * Bharathanatyam Group dance 'Sambhavami Yuge 
 7pm
 KGS * Bharathanjali & Cleveland Aradhana * 'Vijayathe Gopala Choodamani' Part - 2
 
-NGS * Krithika Subramanian * With Namaargam Dance Company
+NGS * Krithika Subramaniam * With Namaargam Dance Company
 
 7:30pm
 KFA * Rama Vaidyanathan
@@ -953,7 +953,7 @@ KGS * Vineeth
 
 Dec 19, 2017
 1:30pm
-KGS * Aishwarya Balasubramanian
+KGS * Aishwarya Balasubramaniam
 1:45 pm
 NGS * Navia Natarajan
 
@@ -1131,7 +1131,7 @@ NGS * Shobana
 KGS * Priyadarsini Govind
 
 7:30pm
-KFA * Chitra Visweswaran's students * Chidambaram Dance Company in 'ANUBHUTI - THE ULTIMATE EXPERIENCE'. Dancers : Vidya Anand, Uma Nambudripad Sathyanarayanan, Jai Quehaeni, Sharmada Viswanath, Sneha Chakrapani & Sanatkumar
+KFA * Chitra Visweswaran's Students * Chidambaram Dance Company in 'ANUBHUTI - THE ULTIMATE EXPERIENCE'. Dancers : Vidya Anand, Uma Nambudripad Sathyanarayanan, Jai Quehaeni, Sharmada Viswanath, Sneha Chakrapani & Sanatkumar
 12:00pm
 trinity * Diksha Krishna
 1:45pm
@@ -1175,7 +1175,7 @@ trinity * Sahana Selvaganesh
 1:45pm
 trinity * Swathi Athmanathan
 3:30pm
-trinity * Sudharma Vaidhyanathan
+trinity * Sudharma Vaidyanathan
 5:15pm
 trinity * Lakshmi Ramaswamy
 7pm
@@ -1229,7 +1229,7 @@ KFA * Shamugasundram
 6:15pm
 
 7pm
-BGS * LAKSHMI VISWANATHAN, APSARA FINE ARTS * LAKSHMI VISWANATHAN with APSARA FINE ARTS SINGAPORE presents TANJORE :THE GOLDEN AGE OF BHARATHANATYAM. Choreos by- Bragha Bessell , Priyadarshini Govind, Lakshmi Viswanathan, Sheejith Krishan, Mythili Prakash
+BGS * LAKSHMI VISWANATHAN, APSARA FINE ARTS * LAKSHMI VISWANATHAN with APSARA FINE ARTS SINGAPORE presents TANJORE :THE GOLDEN AGE OF BHARATHANATYAM. Choreos by- Bragha Bessell , Priyadarsini Govind, Lakshmi Viswanathan, Sheejith Krishan, Mythili Prakash
 
 
 7:30pm
@@ -1285,7 +1285,7 @@ Dec 30, 2017
 NGS * Dhivya Shiva Sunder
 
 2:30pm
-tamil * Lavanya Sankar
+tamil * Lavanya Shankar
 
 3pm
 KFA * K. R. Manasvini
@@ -1361,18 +1361,18 @@ Jan 1, 2018
 5:15pm
 	BGS * SNEHA MAHESH
 6pm
-	KFA *  Bhavya Ramachandran T
+	KFA *  Bhavya Ramachandran
 	ifas * Sheejith Krishna
 6:15pm
 	BGS * DIVYA KASTURI
 7pm
 	NGS * Padma Subramanyam * And nrithyodaya
-	KGS *  Baladevi Chandrasekar * Brihadeeswara – form to formless
+	KGS *  Bala Devi Chandrasekar * Brihadeeswara – form to formless
 	tamil * Krishnakumari Narendran's group
 7:30pm
 	BGS * PALLAVI SRIRAM
 	KFA * Nithya Kalyani
-	ifas * Chitra Visweswaran's group * Anubhuti
+	ifas * Chitra Visweswaran's students * Anubhuti
 
 
 
@@ -1385,7 +1385,7 @@ Jan 2, 2018
 5pm
 	CCA * Srividya Vijayanand * Disciple of Srikala Bharath
 5:15pm
-	BGS * AISHWARYA VIJAYKUMAR
+	BGS * AISHWARYA VIJAYAKUMAR
 5:45pm
 	mfa * AISHWARYA VIJAYAKUMAR * Disciple of Deepthi Parole
 6pm
@@ -1450,7 +1450,7 @@ Jan 4, 2018
 	CCA * Maathrika School of dance * Disciple of M Lakshmi Priya Raja
 6pm
 	KFA * Aswini Viswanathan
-	ifas * Srekala Bharath
+	ifas * Sreekala Bharath
 6:15pm
 	BGS * BHAVYA KUMARAN
 
@@ -1478,13 +1478,13 @@ Jan 5, 2018
 	BGS * SWARNAMALYA GANESH
 	KFA *  Krithika Subrahmanian
 10am
-	academy * Christopher Guruswamy
+	academy * Christopher Gurusamy
 11:30am
 	academy * Lakshmi Parthasarathy Athreya
 6pm
 	academy * Rama Vaidyanathan
 7pm
-	academy * Sujata Mohapatra * Odissi
+	academy * Sujatha Mohapatra * Odissi
 
 
 
@@ -1544,7 +1544,7 @@ Jan 8, 2018
 6:15pm
 	BGS * DIKSHA REDDY
 6:30pm
-	TBGS * Srekala Bharath
+	TBGS * Sreekala Bharath
 7:30pm
 	BGS * MADHURIMA NARLA
 10am
@@ -1552,7 +1552,7 @@ Jan 8, 2018
 11:30am
 	academy * Aishwarya Balasubramaniam
 6pm
-	academy * Priyadarshini Govind
+	academy * Priyadarsini Govind
 
 
 
@@ -1720,7 +1720,7 @@ Jan 17, 2018
 6:15pm
 	BGS * AISHWARYA BALASUBRAMANIAM
 6:45pm
-	KGS * Radhe Jagg
+	KGS * Radhe Jaggi
 7:30pm
 	BGS * RANGANAYAKI JAYARAMAN
 
@@ -1751,10 +1751,9 @@ Jan 19, 2018
 
 
 6:15pm
-	BGS * MAHATHI
 
 7:30pm
-	BGS * Dis Padma Subramaniam
+	BGS * MAHATHI
 
 SRI LALITHA A Thematic Dance By GAYATHRI KRISHNAVENI
 
@@ -1764,7 +1763,7 @@ Jan 20, 2018
 3pm
 	KGS-kamakodi * Anjali Hariharan * Disciple of Anitha Guha
 4:45pm
-	KGS-kamakodi *  Dhivya S.Pillai * Disciple of Jayakamala Pandian
+	KGS-kamakodi *  Dhivya S. Pillai * Disciple of Jayakamala Pandian
 
 5:15pm
 	BGS * SRI KESHINI
@@ -1797,7 +1796,7 @@ Jan 22, 2018
 3pm
 	KGS-kamakodi *  Krithika S  * Disciple of Sai Kripa Prasanna)
 4:45pm
-	KGS-kamakodi *   Swathi M.Kumar  * Disciple of Radhika Shurajit
+	KGS-kamakodi *   Swathi M. Kumar  * Disciple of Radhika Shurajit
 5:15pm
 	BGS * AISHWARYA KRISHNAKUMAR
 
@@ -1818,7 +1817,7 @@ Jan 23, 2018
 	BGS * JANAKI GANESH
 
 7:30pm
-	BGS * A. LAKSHMANASWAMY
+	BGS * A LAKSHMANASWAMY
 
 
 
@@ -1838,7 +1837,7 @@ Jan 24, 2018
 
 Jan 25, 2018
 3pm
-	KGS-kamakodi * Chithra Lakshmanan   * Disciple of Srekala Bharath
+	KGS-kamakodi * Chitra Lakshmanan   * Disciple of Sreekala Bharath
 4:45pm
 	KGS-kamakodi * Venkatasubramanian  * Disciple of  Vijay Madhavan
 
@@ -1922,7 +1921,7 @@ Jan 30, 2018
 
 Jan 31, 2018
 3pm
-	KGS-kamakodi * B.Amritha Varshini * Disciple of Lalitha Ganapathy
+	KGS-kamakodi * B. Amritha Varshini * Disciple of Lalitha Ganapathy
 4:45pm
 	KGS-kamakodi * Kalaisan Kalaichelvan * Disciple of A.Lakshman
 
@@ -1962,7 +1961,7 @@ Feb 2, 2018
 
 Feb 3, 2018
 3pm
-	KGS-kamakodi * S.Keerthana  * Disciple of Lakshmi Kannan
+	KGS-kamakodi * S. Keerthana  * Disciple of Lakshmi Kannan
 4:45pm
 	KGS-kamakodi * Aishwarya Krishnakumar  * Disciple of Meenakshi Chitharanjan
 5:15pm
@@ -1978,7 +1977,7 @@ Feb 3, 2018
  	BK * Shreya Iyer
 1/2/18
 7:30 pm
- 	BK * Pashwanath Upadhyay
+ 	BK * Parshwanath Upadhyay
 1/3/18
 5:00 pm
  	BK * Chitra Lakshmanan
@@ -1996,7 +1995,7 @@ Feb 3, 2018
  	BK * Niveditha Gopinath
 12/16/17
 7:15 pm
- 	BK * Alarmel Vaii
+ 	BK * Alarmel Valli
 12/17/17
 7:15 pm
  	BK * Meenakshi Srinivasan
@@ -2008,19 +2007,19 @@ Feb 3, 2018
  	BK * Srividhya Sailesh
 12/21/17
 7:30 pm
- 	BK * NKB Shobana
+ 	BK * Shobana
 12/22/17
 7:30 pm
- 	BK * Amrapali by Srekala Bharath
+ 	BK * Amrapali by Sreekala Bharath
 12/23/17
 7:15 pm
- 	BK * GKB Dr. Vyjayanthimala Bali
+ 	BK * Vyjayanthimala Bali
 12/25/17
 7:00 pm
  	BK * Malavika Sarukkai
 12/26/17
 7:00 pm
- 	BK * Priyadarshini Govind
+ 	BK * Priyadarsini Govind
 12/28/17
 7:00 pm
  	BK * Urmila Sathyanarayanan & Ensemble
@@ -2055,5 +2054,5 @@ Feb 3, 2018
 6:30 pm
  	BK * Bharathanjali & Cleveland Aradhana
 1/14/18
-7:30 pmname: "Indian Fine Arts Society"
- 	BK * Margam by AKB Dr. Lakshmi Ramaswamy
+7:30 pm
+ 	BK * Lakshmi Ramaswamy

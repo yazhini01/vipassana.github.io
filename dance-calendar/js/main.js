@@ -1,18 +1,23 @@
 var VIEWS = ["regular", "calendar"];
 var selectedView = VIEWS[0];
 
-function strSort(aa, bb) {
-	if (aa < bb) return -1;
-	if (aa > bb) return 1;
-	return 0;
-}
+
 function sortEvents(events, by) {
 	return events.sort(function(a, b) {
 		if (by == "when") return a.when - b.when;
-		if (by == "who") return strSort(a.who.sort()[0], bb = b.who.sort()[0]);
-		if (by == "where") return strSort(
-			venues[a.where] ? venues[a.where].name : a.where,
-			venues[b.where] ? venues[b.where].name : b.where);
+		if (by == "who") {
+			var aa = a.who.sort()[0], bb = b.who.sort()[0];
+			if (aa < bb) return -1;
+			if (aa > bb) return 1;
+			return a.when - b.when;
+		}
+		if (by == "where") {
+			var aa = venues[a.where] ? venues[a.where].name : a.where;
+			var bb = venues[b.where] ? venues[b.where].name : b.where;
+			if (aa < bb) return -1;
+			if (aa > bb) return 1;
+			return a.when - b.when;
+		}
 	});
 }
 var showingEvents = [];
