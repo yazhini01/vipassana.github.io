@@ -4,7 +4,7 @@ require 'json'
 require './util.rb'
 require './input.rb'
 
-MONTHS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+
 
 def wiki_title_to_source(title)
 	return title.gsub(/Timeline of |Chronology of /i, "")
@@ -15,7 +15,7 @@ def fetch_wiki_page_save_and_parse(title) # doesn't refetch
 	begin
 		file = open("#{$wiki_folder}/#{title}.html")
 	rescue
-		sleep(5)
+		sleep(3)
 		`wget https://en.wikipedia.org/wiki/#{title} -O #{$wiki_folder}/#{title}.html`
 		file = open("#{$wiki_folder}/#{title}.html")
 	end
@@ -31,6 +31,43 @@ def fetch_wiki_page_save_and_parse(title) # doesn't refetch
 	return page
 end
 
+def get_birth_dates_from_365_wiki_pages()
+	events = []
+	errors = ""
+	ALL_DAYS.each do|month, dates|
+		dates.each do|day|
+			title = "#{month}_#{day}"
+			page = fetch_wiki_page_save_and_parse(title)
+			['Deaths', 'Births'].each do|eventType|
+				# find the first sibling ul following the h2-ancestor of Deaths-span
+				ul = page.xpath("//span[@id='#{eventType}']//ancestor::h2/following-sibling::ul")[0].remove
+				ul.xpath('li').each {|li|
+					begin
+						year = year_at_start(li.text)
+						event = {
+							'date' => "#{month} #{day}",
+							'year' => year.to_i,
+							'text' => eventType + " of " + li.text[year.length..li.text.length-1],
+							'source' => eventType,
+							'id' => $eventid
+						}
+						$eventid = $eventid + 1
+						event['raw'] = li.text if ($debug)
+						events << event
+					rescue
+						error = "==Birthdate Parsing: Problem in #{title}==\n"
+						error += li.text
+						puts error
+						errors += error
+					end
+				}
+			end
+		end
+	end
+	add_errors(errors)
+	return events
+end
+
 def add_errors(errors)
 	File.open("#{$error_file}", "a") {|f| f.puts errors }
 end
@@ -44,7 +81,7 @@ def get_events_from_lis(orig_title, page)
 		if (year)
 			event = {
 				'date' => "",
-				'year' => year,
+				'year' => year.to_i,
 				'text' => li.text[year.length..li.text.length-1],
 				'source' => wiki_title_to_source(orig_title),
 				'id' => $eventid
@@ -94,7 +131,7 @@ def get_events_from_tables(orig_title, page)
 			if (text != nil && text.length > 0 && last_used_year != nil)
 				event = {
 					'date' => "#{last_used_date}".strip,
-					'year' => last_used_year,
+					'year' => last_used_year.to_i,
 					'text' => text,
 					'source' => wiki_title_to_source(orig_title),
 					'id' => $eventid
@@ -127,6 +164,7 @@ def main()
 		events += get_events_from_tables(orig_title, page)
 		events += get_events_from_lis(orig_title, page)
 	end
+	events += get_birth_dates_from_365_wiki_pages()
 
 	File.open($output_file, "w") do |f|
 		f.puts "var GLOB_EVENTS="

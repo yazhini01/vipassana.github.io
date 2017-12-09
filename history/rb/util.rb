@@ -41,6 +41,10 @@ def year_at_start(text)
 	match = $start_with_year_re.match(text)
 	return match[0] if (match)
 
+	# check for AD 45 or BC 1900
+	match = /^(ad|ce|bc|bce) \d{1,4}/.match(text)
+	return match[0] if (match)
+
 	return nil
 end
 
