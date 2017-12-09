@@ -9,8 +9,14 @@
 	margin-left: 20px;
 }
 
+#events {
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
 .event {
 	border-bottom: solid 1px white;
+	display: table-row;
 }
 
 .event.selected_artist .eventCell, .event.selected_artist .calendarEventCell {
