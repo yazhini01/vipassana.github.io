@@ -13,8 +13,12 @@
 	border-bottom: solid 1px white;
 }
 
-.event.selected_artist .eventCell {
+.event.selected_artist .eventCell, .event.selected_artist .calendarEventCell {
 	background: #56ddff;
+}
+
+.eventCell, .noEvent, .calendarEventCell {
+	background: #9debff;
 }
 
 .event .where {
@@ -30,7 +34,6 @@
 
 .eventCell, .noEvent {
     display: table-cell;
-    background: #9debff;
     width: 300px;
     max-width: 300px;
 
@@ -49,10 +52,6 @@
 
 .calendarEventCell {
     display: table-cell;
-    background: #54c2de;
-    /*width: 300px;
-    max-width: 300px;*/
-
     padding: 0px 5px 0px 5px;
     border-left: solid 1px white;
 }
