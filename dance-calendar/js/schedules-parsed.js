@@ -67,7 +67,7 @@ var globEvents=
   {
     "where": "kgs",
     "who": [
-      "Srekala Bharath"
+      "Sreekala Bharath"
     ],
     "info": "",
     "lineNo": 868,
@@ -157,7 +157,7 @@ var globEvents=
   {
     "where": "ngs",
     "who": [
-      "Krithika Subramanian"
+      "Krithika Subramaniam"
     ],
     "info": "With Namaargam Dance Company",
     "lineNo": 919,
@@ -211,7 +211,7 @@ var globEvents=
   {
     "where": "kgs",
     "who": [
-      "Aishwarya Balasubramanian"
+      "Aishwarya Balasubramaniam"
     ],
     "info": "",
     "lineNo": 955,
@@ -413,7 +413,7 @@ var globEvents=
     ],
     "info": "",
     "lineNo": 1080,
-    "when": 1514135700000
+    "when": 1514092500000
   },
   {
     "where": "trinity",
@@ -607,7 +607,7 @@ var globEvents=
   {
     "where": "kfa",
     "who": [
-      "Swetha Prachande"
+      "Shwetha Prachande"
     ],
     "info": "",
     "lineNo": 1152,
@@ -679,7 +679,7 @@ var globEvents=
   {
     "where": "trinity",
     "who": [
-      "Sudharma Vaidhyanathan"
+      "Sudharma Vaidyanathan"
     ],
     "info": "",
     "lineNo": 1177,
@@ -790,7 +790,7 @@ var globEvents=
       "Lakshmi Viswanathan",
       "Apsara Fine Arts"
     ],
-    "info": "LAKSHMI VISWANATHAN with APSARA FINE ARTS SINGAPORE presents TANJORE :THE GOLDEN AGE OF BHARATHANATYAM. Choreos by- Bragha Bessell , Priyadarshini Govind, Lakshmi Viswanathan, Sheejith Krishan, Mythili Prakash",
+    "info": "LAKSHMI VISWANATHAN with APSARA FINE ARTS SINGAPORE presents TANJORE :THE GOLDEN AGE OF BHARATHANATYAM. Choreos by- Bragha Bessell , Priyadarsini Govind, Lakshmi Viswanathan, Sheejith Krishan, Mythili Prakash",
     "lineNo": 1231,
     "when": 1514467800000
   },
@@ -914,7 +914,7 @@ var globEvents=
   {
     "where": "tamil",
     "who": [
-      "Lavanya Sankar"
+      "Lavanya Shankar"
     ],
     "info": "",
     "lineNo": 1287,
@@ -1123,7 +1123,7 @@ var globEvents=
   {
     "where": "kfa",
     "who": [
-      "Bhavya Ramachandran T"
+      "Bhavya Ramachandran"
     ],
     "info": "",
     "lineNo": 1363,
@@ -1159,7 +1159,7 @@ var globEvents=
   {
     "where": "kgs",
     "who": [
-      "Baladevi Chandrasekar"
+      "Bala Devi Chandrasekar"
     ],
     "info": "Brihadeeswara – form to formless",
     "lineNo": 1369,
@@ -1195,7 +1195,7 @@ var globEvents=
   {
     "where": "ifas",
     "who": [
-      "Chitra Visweswaran's Group"
+      "Chitra Visweswaran's Students"
     ],
     "info": "Anubhuti",
     "lineNo": 1374,
@@ -1240,7 +1240,7 @@ var globEvents=
   {
     "where": "bgs",
     "who": [
-      "Aishwarya Vijaykumar"
+      "Aishwarya Vijayakumar"
     ],
     "info": "",
     "lineNo": 1387,
@@ -1528,7 +1528,7 @@ var globEvents=
   {
     "where": "ifas",
     "who": [
-      "Srekala Bharath"
+      "Sreekala Bharath"
     ],
     "info": "",
     "lineNo": 1452,
@@ -1646,7 +1646,7 @@ var globEvents=
   {
     "where": "academy",
     "who": [
-      "Christopher Guruswamy"
+      "Christopher Gurusamy"
     ],
     "info": "",
     "lineNo": 1480,
@@ -1673,7 +1673,7 @@ var globEvents=
   {
     "where": "academy",
     "who": [
-      "Sujata Mohapatra"
+      "Sujatha Mohapatra"
     ],
     "info": "Odissi",
     "lineNo": 1486,
@@ -1880,7 +1880,7 @@ var globEvents=
   {
     "where": "tbgs",
     "who": [
-      "Srekala Bharath"
+      "Sreekala Bharath"
     ],
     "info": "",
     "lineNo": 1546,
@@ -1916,7 +1916,7 @@ var globEvents=
   {
     "where": "academy",
     "who": [
-      "Priyadarshini Govind"
+      "Priyadarsini Govind"
     ],
     "info": "",
     "lineNo": 1554,
@@ -2403,7 +2403,7 @@ var globEvents=
   {
     "where": "kgs",
     "who": [
-      "Radhe Jagg"
+      "Radhe Jaggi"
     ],
     "info": "",
     "lineNo": 1722,
@@ -2480,16 +2480,7 @@ var globEvents=
       "Mahathi"
     ],
     "info": "",
-    "lineNo": 1753,
-    "when": 1516365900000
-  },
-  {
-    "where": "bgs",
-    "who": [
-      "Dis Padma Subramaniam"
-    ],
-    "info": "",
-    "lineNo": 1756,
+    "lineNo": 1755,
     "when": 1516370400000
   },
   {
@@ -2498,16 +2489,16 @@ var globEvents=
       "Anjali Hariharan"
     ],
     "info": "Disciple of Anitha Guha",
-    "lineNo": 1764,
+    "lineNo": 1763,
     "when": 1516440600000
   },
   {
     "where": "kgs-kamakodi",
     "who": [
-      "Dhivya S.pillai"
+      "Dhivya S. Pillai"
     ],
     "info": "Disciple of Jayakamala Pandian",
-    "lineNo": 1766,
+    "lineNo": 1765,
     "when": 1516446900000
   },
   {
@@ -2516,7 +2507,7 @@ var globEvents=
       "Sri Keshini"
     ],
     "info": "",
-    "lineNo": 1769,
+    "lineNo": 1768,
     "when": 1516448700000
   },
   {
@@ -2525,7 +2516,7 @@ var globEvents=
       "Nrithya Pillai"
     ],
     "info": "",
-    "lineNo": 1772,
+    "lineNo": 1771,
     "when": 1516452300000
   },
   {
@@ -2534,7 +2525,7 @@ var globEvents=
       "Lavanya Ananth"
     ],
     "info": "",
-    "lineNo": 1775,
+    "lineNo": 1774,
     "when": 1516456800000
   },
   {
@@ -2543,7 +2534,7 @@ var globEvents=
       "Samyuktha"
     ],
     "info": "Disciple of Gayathri Sashidharan",
-    "lineNo": 1782,
+    "lineNo": 1781,
     "when": 1516533300000
   },
   {
@@ -2552,7 +2543,7 @@ var globEvents=
       "Sruthi Sankar"
     ],
     "info": "",
-    "lineNo": 1784,
+    "lineNo": 1783,
     "when": 1516535100000
   },
   {
@@ -2561,7 +2552,7 @@ var globEvents=
       "Nadhi Tekak"
     ],
     "info": "",
-    "lineNo": 1787,
+    "lineNo": 1786,
     "when": 1516538700000
   },
   {
@@ -2570,7 +2561,7 @@ var globEvents=
       "Parvathy Ravi Gandasala"
     ],
     "info": "",
-    "lineNo": 1790,
+    "lineNo": 1789,
     "when": 1516543200000
   },
   {
@@ -2579,16 +2570,16 @@ var globEvents=
       "Krithika S"
     ],
     "info": "Disciple of Sai Kripa Prasanna)",
-    "lineNo": 1797,
+    "lineNo": 1796,
     "when": 1516613400000
   },
   {
     "where": "kgs-kamakodi",
     "who": [
-      "Swathi M.kumar"
+      "Swathi M. Kumar"
     ],
     "info": "Disciple of Radhika Shurajit",
-    "lineNo": 1799,
+    "lineNo": 1798,
     "when": 1516619700000
   },
   {
@@ -2597,7 +2588,7 @@ var globEvents=
       "Aishwarya Krishnakumar"
     ],
     "info": "",
-    "lineNo": 1801,
+    "lineNo": 1800,
     "when": 1516621500000
   },
   {
@@ -2606,7 +2597,7 @@ var globEvents=
       "Jayanthi Srivatsan"
     ],
     "info": "",
-    "lineNo": 1804,
+    "lineNo": 1803,
     "when": 1516625100000
   },
   {
@@ -2615,7 +2606,7 @@ var globEvents=
       "Divya Sena"
     ],
     "info": "",
-    "lineNo": 1807,
+    "lineNo": 1806,
     "when": 1516629600000
   },
   {
@@ -2624,7 +2615,7 @@ var globEvents=
       "Aarushi"
     ],
     "info": "",
-    "lineNo": 1814,
+    "lineNo": 1813,
     "when": 1516707900000
   },
   {
@@ -2633,16 +2624,16 @@ var globEvents=
       "Janaki Ganesh"
     ],
     "info": "",
-    "lineNo": 1817,
+    "lineNo": 1816,
     "when": 1516711500000
   },
   {
     "where": "bgs",
     "who": [
-      "A. Lakshmanaswamy"
+      "A Lakshmanaswamy"
     ],
     "info": "",
-    "lineNo": 1820,
+    "lineNo": 1819,
     "when": 1516716000000
   },
   {
@@ -2651,7 +2642,7 @@ var globEvents=
       "Aparana Ganapathy & Suprasanna"
     ],
     "info": "",
-    "lineNo": 1827,
+    "lineNo": 1826,
     "when": 1516794300000
   },
   {
@@ -2660,7 +2651,7 @@ var globEvents=
       "Nadhi Tekak"
     ],
     "info": "",
-    "lineNo": 1830,
+    "lineNo": 1829,
     "when": 1516797900000
   },
   {
@@ -2669,16 +2660,16 @@ var globEvents=
       "Amibikakameshwar & Rasa Presents Unmai Sudhahthiram Ende"
     ],
     "info": "",
-    "lineNo": 1833,
+    "lineNo": 1832,
     "when": 1516802400000
   },
   {
     "where": "kgs-kamakodi",
     "who": [
-      "Chithra Lakshmanan"
+      "Chitra Lakshmanan"
     ],
-    "info": "Disciple of Srekala Bharath",
-    "lineNo": 1840,
+    "info": "Disciple of Sreekala Bharath",
+    "lineNo": 1839,
     "when": 1516872600000
   },
   {
@@ -2687,7 +2678,7 @@ var globEvents=
       "Venkatasubramanian"
     ],
     "info": "Disciple of  Vijay Madhavan",
-    "lineNo": 1842,
+    "lineNo": 1841,
     "when": 1516878900000
   },
   {
@@ -2698,7 +2689,7 @@ var globEvents=
       "Geya"
     ],
     "info": "Disciple of Shobana Balachandra",
-    "lineNo": 1854,
+    "lineNo": 1853,
     "when": 1516959000000
   },
   {
@@ -2707,7 +2698,7 @@ var globEvents=
       "Deepesh Hoskere"
     ],
     "info": "Disciple of Ratheesh Babu",
-    "lineNo": 1856,
+    "lineNo": 1855,
     "when": 1516965300000
   },
   {
@@ -2717,7 +2708,7 @@ var globEvents=
       "Mayura Balagurunathan"
     ],
     "info": "Disciple of V.Balagurunathan",
-    "lineNo": 1868,
+    "lineNo": 1867,
     "when": 1517045400000
   },
   {
@@ -2726,7 +2717,7 @@ var globEvents=
       "Akshaya Arul"
     ],
     "info": "Disciple of Sujatha Mohan",
-    "lineNo": 1870,
+    "lineNo": 1869,
     "when": 1517051700000
   },
   {
@@ -2735,7 +2726,7 @@ var globEvents=
       "Mridula Sivakumar"
     ],
     "info": "Disciple of Sheela Unnikrishnan",
-    "lineNo": 1882,
+    "lineNo": 1881,
     "when": 1517131800000
   },
   {
@@ -2744,7 +2735,7 @@ var globEvents=
       "Divya Ravi"
     ],
     "info": "Disciple of Soundarya Srivathsa",
-    "lineNo": 1884,
+    "lineNo": 1883,
     "when": 1517138100000
   },
   {
@@ -2753,7 +2744,7 @@ var globEvents=
       "Meera Anand"
     ],
     "info": "Disciple of Radhika Vairavelan",
-    "lineNo": 1896,
+    "lineNo": 1895,
     "when": 1517218200000
   },
   {
@@ -2762,7 +2753,7 @@ var globEvents=
       "Shreya Iyer"
     ],
     "info": "Disciple of Suganda Sreenath",
-    "lineNo": 1898,
+    "lineNo": 1897,
     "when": 1517224500000
   },
   {
@@ -2772,7 +2763,7 @@ var globEvents=
       "Gayatri Seth"
     ],
     "info": "Disciple of Jamuna Krishnan",
-    "lineNo": 1910,
+    "lineNo": 1909,
     "when": 1517304600000
   },
   {
@@ -2781,16 +2772,16 @@ var globEvents=
       "Snigdha Menon"
     ],
     "info": "Disciple of Gayatri Subramanian",
-    "lineNo": 1912,
+    "lineNo": 1911,
     "when": 1517310900000
   },
   {
     "where": "kgs-kamakodi",
     "who": [
-      "B.amritha Varshini"
+      "B. Amritha Varshini"
     ],
     "info": "Disciple of Lalitha Ganapathy",
-    "lineNo": 1924,
+    "lineNo": 1923,
     "when": 1517391000000
   },
   {
@@ -2799,7 +2790,7 @@ var globEvents=
       "Kalaisan Kalaichelvan"
     ],
     "info": "Disciple of A.Lakshman",
-    "lineNo": 1926,
+    "lineNo": 1925,
     "when": 1517397300000
   },
   {
@@ -2808,7 +2799,7 @@ var globEvents=
       "Sushmitha Rajtilak"
     ],
     "info": "Disciple of The Dhananjayans",
-    "lineNo": 1938,
+    "lineNo": 1937,
     "when": 1517477400000
   },
   {
@@ -2817,7 +2808,7 @@ var globEvents=
       "Priyanka R"
     ],
     "info": "Disciple of Archana Punyesh",
-    "lineNo": 1940,
+    "lineNo": 1939,
     "when": 1517483700000
   },
   {
@@ -2826,7 +2817,7 @@ var globEvents=
       "G. Bagya Lakshmi"
     ],
     "info": "Disciple of Kavitha Ramu",
-    "lineNo": 1951,
+    "lineNo": 1950,
     "when": 1517563800000
   },
   {
@@ -2835,16 +2826,16 @@ var globEvents=
       "Sneha Chakrapani"
     ],
     "info": "Disciple of Chithra Visweswaran",
-    "lineNo": 1953,
+    "lineNo": 1952,
     "when": 1517570100000
   },
   {
     "where": "kgs-kamakodi",
     "who": [
-      "S.keerthana"
+      "S. Keerthana"
     ],
     "info": "Disciple of Lakshmi Kannan",
-    "lineNo": 1964,
+    "lineNo": 1963,
     "when": 1517650200000
   },
   {
@@ -2853,7 +2844,7 @@ var globEvents=
       "Aishwarya Krishnakumar"
     ],
     "info": "Disciple of Meenakshi Chitharanjan",
-    "lineNo": 1966,
+    "lineNo": 1965,
     "when": 1517656500000
   },
   {
@@ -2862,16 +2853,16 @@ var globEvents=
       "Shreya Iyer"
     ],
     "info": "",
-    "lineNo": 1977,
+    "lineNo": 1976,
     "when": 1514892600000
   },
   {
     "where": "bk",
     "who": [
-      "Pashwanath Upadhyay"
+      "Parshwanath Upadhyay"
     ],
     "info": "",
-    "lineNo": 1980,
+    "lineNo": 1979,
     "when": 1514901600000
   },
   {
@@ -2880,7 +2871,7 @@ var globEvents=
       "Chitra Lakshmanan"
     ],
     "info": "",
-    "lineNo": 1983,
+    "lineNo": 1982,
     "when": 1514979000000
   },
   {
@@ -2889,7 +2880,7 @@ var globEvents=
       "Sukanya Kumar"
     ],
     "info": "",
-    "lineNo": 1986,
+    "lineNo": 1985,
     "when": 1515151800000
   },
   {
@@ -2898,7 +2889,7 @@ var globEvents=
       "Sivakamiyin Sabhatham - Madurai R Muralidharan"
     ],
     "info": "",
-    "lineNo": 1989,
+    "lineNo": 1988,
     "when": 1515160800000
   },
   {
@@ -2907,7 +2898,7 @@ var globEvents=
       "Rithwika Ghosh"
     ],
     "info": "",
-    "lineNo": 1992,
+    "lineNo": 1991,
     "when": 1515236400000
   },
   {
@@ -2916,16 +2907,16 @@ var globEvents=
       "Niveditha Gopinath"
     ],
     "info": "",
-    "lineNo": 1995,
+    "lineNo": 1994,
     "when": 1515411000000
   },
   {
     "where": "bk",
     "who": [
-      "Alarmel Vaii"
+      "Alarmel Valli"
     ],
     "info": "",
-    "lineNo": 1998,
+    "lineNo": 1997,
     "when": 1513431900000
   },
   {
@@ -2934,7 +2925,7 @@ var globEvents=
       "Meenakshi Srinivasan"
     ],
     "info": "",
-    "lineNo": 2001,
+    "lineNo": 2000,
     "when": 1513518300000
   },
   {
@@ -2943,7 +2934,7 @@ var globEvents=
       "Nirupama Vaidyanathan"
     ],
     "info": "",
-    "lineNo": 2004,
+    "lineNo": 2003,
     "when": 1513605600000
   },
   {
@@ -2952,34 +2943,34 @@ var globEvents=
       "Srividhya Sailesh"
     ],
     "info": "",
-    "lineNo": 2007,
+    "lineNo": 2006,
     "when": 1513692000000
   },
   {
     "where": "bk",
     "who": [
-      "Nkb Shobana"
+      "Shobana"
     ],
     "info": "",
-    "lineNo": 2010,
+    "lineNo": 2009,
     "when": 1513864800000
   },
   {
     "where": "bk",
     "who": [
-      "Amrapali By Srekala Bharath"
+      "Amrapali By Sreekala Bharath"
     ],
     "info": "",
-    "lineNo": 2013,
+    "lineNo": 2012,
     "when": 1513951200000
   },
   {
     "where": "bk",
     "who": [
-      "Gkb Dr. Vyjayanthimala Bali"
+      "Vyjayanthimala Bali"
     ],
     "info": "",
-    "lineNo": 2016,
+    "lineNo": 2015,
     "when": 1514036700000
   },
   {
@@ -2988,16 +2979,16 @@ var globEvents=
       "Malavika Sarukkai"
     ],
     "info": "",
-    "lineNo": 2019,
+    "lineNo": 2018,
     "when": 1514208600000
   },
   {
     "where": "bk",
     "who": [
-      "Priyadarshini Govind"
+      "Priyadarsini Govind"
     ],
     "info": "",
-    "lineNo": 2022,
+    "lineNo": 2021,
     "when": 1514295000000
   },
   {
@@ -3006,7 +2997,7 @@ var globEvents=
       "Urmila Sathyanarayanan & Ensemble"
     ],
     "info": "",
-    "lineNo": 2025,
+    "lineNo": 2024,
     "when": 1514467800000
   },
   {
@@ -3015,7 +3006,7 @@ var globEvents=
       "Disciples Of Padmalakshme Suresh"
     ],
     "info": "",
-    "lineNo": 2028,
+    "lineNo": 2027,
     "when": 1514554200000
   },
   {
@@ -3024,8 +3015,8 @@ var globEvents=
       "Krishnakumari Narendran - Aadal Vallanum Arangathammanum"
     ],
     "info": "",
-    "lineNo": 2031,
-    "when": 1514727000000
+    "lineNo": 2030,
+    "when": 1514727900000
   },
   {
     "where": "bk",
@@ -3033,7 +3024,7 @@ var globEvents=
       "Padmini Krishnamurthy & Troupe - Narayanayeti Samarpayami"
     ],
     "info": "",
-    "lineNo": 2034,
+    "lineNo": 2033,
     "when": 1514814300000
   },
   {
@@ -3042,7 +3033,7 @@ var globEvents=
       "Vidya Ravindran"
     ],
     "info": "",
-    "lineNo": 2037,
+    "lineNo": 2036,
     "when": 1515506400000
   },
   {
@@ -3051,7 +3042,7 @@ var globEvents=
       "Deepthi Ravi"
     ],
     "info": "",
-    "lineNo": 2040,
+    "lineNo": 2039,
     "when": 1515592800000
   },
   {
@@ -3060,7 +3051,7 @@ var globEvents=
       "Archana Narayanamurthy"
     ],
     "info": "",
-    "lineNo": 2043,
+    "lineNo": 2042,
     "when": 1515670200000
   },
   {
@@ -3069,7 +3060,7 @@ var globEvents=
       "Pavithra Srinivasan"
     ],
     "info": "",
-    "lineNo": 2046,
+    "lineNo": 2045,
     "when": 1515679200000
   },
   {
@@ -3078,7 +3069,7 @@ var globEvents=
       "Irshika"
     ],
     "info": "",
-    "lineNo": 2049,
+    "lineNo": 2048,
     "when": 1515765600000
   },
   {
@@ -3087,7 +3078,7 @@ var globEvents=
       "Suthikshna Veeravalli"
     ],
     "info": "",
-    "lineNo": 2052,
+    "lineNo": 2051,
     "when": 1515839400000
   },
   {
@@ -3096,17 +3087,17 @@ var globEvents=
       "Bharathanjali & Cleveland Aradhana"
     ],
     "info": "",
-    "lineNo": 2055,
+    "lineNo": 2054,
     "when": 1515848400000
   },
   {
     "where": "bk",
     "who": [
-      "Margam By Akb Dr. Lakshmi Ramaswamy"
+      "Lakshmi Ramaswamy"
     ],
     "info": "",
-    "lineNo": 2058,
-    "when": 1515934800000
+    "lineNo": 2057,
+    "when": 1515938400000
   }
 ]
 ;
