@@ -14,14 +14,15 @@ var globEvents=
     "who": [
       "Anitha Guha's Students"
     ],
-    "info": "'Bharathanjali & Cleveland Aradhana presents Vijayayathe Gopala Chudamani' Lyrics & Music – Neyveli Santhanagopalan. Lyrics – P.R. Venkatasubramanian, Concept & Choreography – Anitha Guha",
+    "info": "'Bharathanjali & Cleveland Aradhana presents Vijayayathe Gopala Chudamani' Lyrics , Music – Neyveli Santhanagopalan. Lyrics – P.R. Venkatasubramanian, Concept , Choreography – Anitha Guha",
     "lineNo": 33,
     "when": 1512306900000
   },
   {
     "where": "mfa",
     "who": [
-      "Urmila Sathyanarayana & Natya Sankalpaa"
+      "Urmila Sathyanarayana",
+      "Natya Sankalpaa"
     ],
     "info": "SABHA PATHY",
     "lineNo": 164,
@@ -30,16 +31,18 @@ var globEvents=
   {
     "where": "kfa",
     "who": [
-      "Rasa Chennai & Rmcl Bengaluru"
+      "Rasa Chennai",
+      "Rmcl Bengaluru"
     ],
-    "info": "'Muktha Ramana' – A Dance Production by Dr. Ambika Kameshwar with Artistes of RASA Chennai & RMCL Bengaluru",
+    "info": "'Muktha Ramana' – A Dance Production by Dr. Ambika Kameshwar with Artistes of RASA Chennai , RMCL Bengaluru",
     "lineNo": 199,
     "when": 1513170900000
   },
   {
     "where": "kgs",
     "who": [
-      "Leela Samson & Spanda"
+      "Leela Samson",
+      "Spanda"
     ],
     "info": "'Thanjavur Quartette – Revisited'",
     "lineNo": 202,
@@ -102,7 +105,8 @@ var globEvents=
   {
     "where": "kgs",
     "who": [
-      "Bharathanjali & Cleveland Aradhana"
+      "Bharathanjali",
+      "Cleveland Aradhana"
     ],
     "info": "'Vijayathe Gopala Choodamani' Part - 1",
     "lineNo": 257,
@@ -120,7 +124,8 @@ var globEvents=
   {
     "where": "kgs",
     "who": [
-      "Renjith & Vijna"
+      "Renjith",
+      "Vijna"
     ],
     "info": "",
     "lineNo": 265,
@@ -140,14 +145,15 @@ var globEvents=
     "who": [
       "Sangeetha Isvaran And Group"
     ],
-    "info": "Bharathanatyam Group dance 'Sambhavami Yuge Yuge' Composers Lalgudi G.J.R. Krishnan & Lalgudi Vijayalakshmi. Choreographer Sangeetha Isvaran",
+    "info": "Bharathanatyam Group dance 'Sambhavami Yuge Yuge' Composers Lalgudi G.J.R. Krishnan , Lalgudi Vijayalakshmi. Choreographer Sangeetha Isvaran",
     "lineNo": 271,
     "when": 1513510200000
   },
   {
     "where": "kgs",
     "who": [
-      "Bharathanjali & Cleveland Aradhana"
+      "Bharathanjali",
+      "Cleveland Aradhana"
     ],
     "info": "'Vijayathe Gopala Choodamani' Part - 2",
     "lineNo": 280,
@@ -246,7 +252,8 @@ var globEvents=
   {
     "where": "ngs",
     "who": [
-      "Renjith & Vijna"
+      "Renjith",
+      "Vijna"
     ],
     "info": "",
     "lineNo": 333,
@@ -300,7 +307,7 @@ var globEvents=
   {
     "where": "kgs",
     "who": [
-      "Ragini Chandrasekar"
+      "Ragini Chandrasekhar"
     ],
     "info": "",
     "lineNo": 373,
@@ -318,7 +325,8 @@ var globEvents=
   {
     "where": "tamil",
     "who": [
-      "Saroja Vaidyanathan & Group"
+      "Saroja Vaidyanathan",
+      "Group"
     ],
     "info": "",
     "lineNo": 378,
@@ -390,7 +398,8 @@ var globEvents=
   {
     "where": "trinity",
     "who": [
-      "Mythili Prakash & Kp Rakesh"
+      "Mythili Prakash",
+      "Kp Rakesh"
     ],
     "info": "",
     "lineNo": 418,
@@ -426,7 +435,8 @@ var globEvents=
   {
     "where": "trinity",
     "who": [
-      "Gopu Kiran & Aashin Kiran"
+      "Gopu Kiran",
+      "Aashin Kiran"
     ],
     "info": "",
     "lineNo": 426,
@@ -464,7 +474,7 @@ var globEvents=
     "who": [
       "Nrlthyakshetra Dance Academy"
     ],
-    "info": "'Krlshnaarpanam' by Students of Nrlthyakshetra Dance Academy (Disciples of Guru Madurai R Muralidharan & Chltra Muralidharan)",
+    "info": "'Krlshnaarpanam' by Students of Nrlthyakshetra Dance Academy (Disciples of Guru Madurai R Muralidharan , Chltra Muralidharan)",
     "lineNo": 441,
     "when": 1514122200000
   },
@@ -516,9 +526,10 @@ var globEvents=
   {
     "where": "cca",
     "who": [
-      "Padma Subhramaniam & Nrithyodaya"
+      "Padma Subhramaniam",
+      "Nrithyodaya"
     ],
-    "info": "Bharatha Nrithyam & Krishna Tulabharam",
+    "info": "Bharatha Nrithyam , Krishna Tulabharam",
     "lineNo": 467,
     "when": 1514208600000
   },
@@ -545,7 +556,7 @@ var globEvents=
     "who": [
       "Chitra Visweswaran's Students"
     ],
-    "info": "Chidambaram Dance Company in 'ANUBHUTI - THE ULTIMATE EXPERIENCE'. Dancers : Vidya Anand, Uma Nambudripad Sathyanarayanan, Jai Quehaeni, Sharmada Viswanath, Sneha Chakrapani & Sanatkumar",
+    "info": "Chidambaram Dance Company in 'ANUBHUTI - THE ULTIMATE EXPERIENCE'. Dancers : Vidya Anand, Uma Nambudripad Sathyanarayanan, Jai Quehaeni, Sharmada Viswanath, Sneha Chakrapani , Sanatkumar",
     "lineNo": 472,
     "when": 1514210400000
   },
@@ -561,7 +572,8 @@ var globEvents=
   {
     "where": "trinity",
     "who": [
-      "Renjith & Vijna"
+      "Renjith",
+      "Vijna"
     ],
     "info": "",
     "lineNo": 476,
@@ -588,7 +600,8 @@ var globEvents=
   {
     "where": "trinity",
     "who": [
-      "Urmila Satyanarayanan & Natya Sankalpaa - Shivogam Shivogam"
+      "Urmila Satyanarayanan",
+      "Natya Sankalpaa - Shivogam Shivogam"
     ],
     "info": "",
     "lineNo": 482,
@@ -750,7 +763,8 @@ var globEvents=
   {
     "where": "kfa",
     "who": [
-      "Padma Subhramaniam & Nrithyodaya"
+      "Padma Subhramaniam",
+      "Nrithyodaya"
     ],
     "info": "",
     "lineNo": 539,
@@ -841,7 +855,8 @@ var globEvents=
   {
     "where": "cca",
     "who": [
-      "A Deepthi & R Shalini"
+      "A Deepthi",
+      "R Shalini"
     ],
     "info": "",
     "lineNo": 582,
@@ -877,9 +892,10 @@ var globEvents=
   {
     "where": "bgs",
     "who": [
-      "Padma Subhramaniam & Nrithyodaya"
+      "Padma Subhramaniam",
+      "Nrithyodaya"
     ],
-    "info": "BHARATHA NRITYAM & KRISHNA THULA BARAM",
+    "info": "BHARATHA NRITYAM , KRISHNA THULA BARAM",
     "lineNo": 600,
     "when": 1514554200000
   },
@@ -968,7 +984,8 @@ var globEvents=
   {
     "where": "kgs",
     "who": [
-      "Padma Subhramaniam & Nrithyodaya"
+      "Padma Subhramaniam",
+      "Nrithyodaya"
     ],
     "info": "",
     "lineNo": 630,
@@ -1060,7 +1077,7 @@ var globEvents=
     "who": [
       "Nrityodaya"
     ],
-    "info": "Dance Drama “BAKTHA SAKA VITTHALA” by Dr. Jayashree Rajagopalan & troupe, Nrityodaya, Mumabai",
+    "info": "Dance Drama “BAKTHA SAKA VITTHALA” by Dr. Jayashree Rajagopalan , troupe, Nrityodaya, Mumabai",
     "lineNo": 667,
     "when": 1514784600000
   },
@@ -1149,7 +1166,8 @@ var globEvents=
   {
     "where": "ngs",
     "who": [
-      "Padma Subhramaniam & Nrithyodaya"
+      "Padma Subhramaniam",
+      "Nrithyodaya"
     ],
     "info": "",
     "lineNo": 686,
@@ -1320,7 +1338,8 @@ var globEvents=
   {
     "where": "academy",
     "who": [
-      "Shijith Nambiar & Parvathy"
+      "Shijith Nambiar",
+      "Parvathy"
     ],
     "info": "",
     "lineNo": 719,
@@ -1329,7 +1348,8 @@ var globEvents=
   {
     "where": "academy",
     "who": [
-      "Leela Samson & Spanda"
+      "Leela Samson",
+      "Spanda"
     ],
     "info": "",
     "lineNo": 721,
@@ -1410,7 +1430,8 @@ var globEvents=
   {
     "where": "ifas",
     "who": [
-      "Padma Subhramaniam & Nrithyodaya"
+      "Padma Subhramaniam",
+      "Nrithyodaya"
     ],
     "info": "",
     "lineNo": 737,
@@ -1419,7 +1440,8 @@ var globEvents=
   {
     "where": "mfa",
     "who": [
-      "Sakshi Pujari & Namrata Natarajan"
+      "Sakshi Pujari",
+      "Namrata Natarajan"
     ],
     "info": "Disciple of Gayathri Subramanian, Director Takshashila",
     "lineNo": 740,
@@ -1762,7 +1784,8 @@ var globEvents=
   {
     "where": "academy",
     "who": [
-      "Vidha Lal & Abhimanyu Lal"
+      "Vidha Lal",
+      "Abhimanyu Lal"
     ],
     "info": "Kathak",
     "lineNo": 814,
@@ -2113,7 +2136,8 @@ var globEvents=
   {
     "where": "tbgs",
     "who": [
-      "Urmila Satyanarayanan & Natya Sankalpaa"
+      "Urmila Satyanarayanan",
+      "Natya Sankalpaa"
     ],
     "info": "SABHA PATHY",
     "lineNo": 907,
@@ -2167,7 +2191,8 @@ var globEvents=
   {
     "where": "tbgs",
     "who": [
-      "Roja Kannan & Disciples"
+      "Roja Kannan",
+      "Disciples"
     ],
     "info": "'Mummoorthigalin Manikkangal' based on Kirtanams of the Trinity",
     "lineNo": 922,
@@ -2259,7 +2284,7 @@ var globEvents=
     "who": [
       "Tejashri Kannan"
     ],
-    "info": "Disciple of Hariharan & Prameela Hariharan",
+    "info": "Disciple of Hariharan , Prameela Hariharan",
     "lineNo": 950,
     "when": 1516008600000
   },
@@ -2293,7 +2318,8 @@ var globEvents=
   {
     "where": "bgs",
     "who": [
-      "T. M. Sridevi & Deepthi Ravi"
+      "T. M. Sridevi",
+      "Deepthi Ravi"
     ],
     "info": "",
     "lineNo": 959,
@@ -2356,7 +2382,8 @@ var globEvents=
   {
     "where": "bgs",
     "who": [
-      "Roja Kannan & Priya Murali"
+      "Roja Kannan",
+      "Priya Murali"
     ],
     "info": "",
     "lineNo": 980,
@@ -2637,7 +2664,8 @@ var globEvents=
   {
     "where": "bgs",
     "who": [
-      "Aparana Ganapathy & Suprasanna"
+      "Aparana Ganapathy",
+      "Suprasanna"
     ],
     "info": "",
     "lineNo": 1075,
@@ -2655,7 +2683,8 @@ var globEvents=
   {
     "where": "bgs",
     "who": [
-      "Amibikakameshwar & Rasa Presents Unmai Sudhahthiram Ende"
+      "Amibikakameshwar",
+      "Rasa Presents Unmai Sudhahthiram Ende"
     ],
     "info": "",
     "lineNo": 1081,
@@ -2992,7 +3021,8 @@ var globEvents=
   {
     "where": "bk",
     "who": [
-      "Urmila Satyanarayanan & Natya Sankalpaa"
+      "Urmila Satyanarayanan",
+      "Natya Sankalpaa"
     ],
     "info": "",
     "lineNo": 1240,
@@ -3019,7 +3049,8 @@ var globEvents=
   {
     "where": "bk",
     "who": [
-      "Padmini Krishnamurthy & Troupe - Narayanayeti Samarpayami"
+      "Padmini Krishnamurthy",
+      "Troupe - Narayanayeti Samarpayami"
     ],
     "info": "",
     "lineNo": 1249,
@@ -3082,7 +3113,8 @@ var globEvents=
   {
     "where": "bk",
     "who": [
-      "Bharathanjali & Cleveland Aradhana"
+      "Bharathanjali",
+      "Cleveland Aradhana"
     ],
     "info": "",
     "lineNo": 1270,

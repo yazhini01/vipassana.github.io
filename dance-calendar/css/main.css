@@ -5,8 +5,16 @@
 	display: none;
 }
 
+#artistsForm {
+	margin-left: 20px;
+}
+
 .event {
 	border-bottom: solid 1px white;
+}
+
+.event.selected_artist .eventCell {
+	background: #56ddff;
 }
 
 .event .where {
@@ -22,7 +30,7 @@
 
 .eventCell, .noEvent {
     display: table-cell;
-    background: #54c2de;
+    background: #9debff;
     width: 300px;
     max-width: 300px;
 
@@ -31,7 +39,7 @@
 }
 
 #lastmodified {
-	float: right;
+	margin-bottom: 10px;
 }
 
 .container {
@@ -49,15 +57,14 @@
     border-left: solid 1px white;
 }
 
-.header {
+.header .eventCell {
 	cursor: pointer;
 	color: #effcff;
+	background: #0786a7;
 }
 
 
 .week {
-	/*background: red;*/
-	/*margin: 5px;*/
 	border: solid 2px white;
 }
 

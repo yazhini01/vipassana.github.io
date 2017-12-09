@@ -45,23 +45,6 @@ var venues = {
 	}
 };
 
-var artists = {
-	"leela": {
-		name: "Leela Samson"
-	},
-	"spanda": {
-		name: "Spanda"
-	},
-	"pg": {
-		name: "Priyadarsini Govind"
-	},
-	"placeholder": {
-		name: ""
-	},
-	"vidhya": {
-
-	}
-};
 var selectedArtists = [
 	"A Lakshmanaswamy",
 	"Aishwarya Balasubramaniam",
@@ -100,10 +83,11 @@ var selectedArtists = [
 	"Pavithra Bhat",
 	"Pavithra Srinivasan",
 	"Praveen Kumar",
-	"Priyadarshini Govind",
+	"Priyadarsini Govind",
 	"Ragini Chandrasekhar",
 	"Rama Vaidyanathan",
-	"Renjith & Vijna",
+	"Renjith",
+	"Vijna",
 	"Revathy Ramachandran",
 	"Roja Kannan & Disciples",
 	"Saroja Vaidyanathan & Group",
@@ -114,8 +98,8 @@ var selectedArtists = [
 	"Shwetha Prachande",
 	"Sreekala Bharath",
 	"Sridevi Nrithyalaya",
-	"Sudharma Vaidhyanathan",
-	"Sujata Mohapatra",
+	"Sudharma Vaidyanathan",
+	"Sujatha Mohapatra",
 	"Sukanya Kumar",
 	"Swarnamalya Ganesh",
 	"Uma Sathyanaraynan",

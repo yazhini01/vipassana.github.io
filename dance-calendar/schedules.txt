@@ -31,7 +31,7 @@ Dec 3, 2017
 6:15pm
 
 6:45pm
-KFA * Anitha Guha's students * 'Bharathanjali & Cleveland Aradhana presents Vijayayathe Gopala Chudamani' Lyrics & Music – Neyveli Santhanagopalan. Lyrics – P.R. Venkatasubramanian, Concept & Choreography – Anitha Guha
+KFA * Anitha Guha's students * 'Bharathanjali & Cleveland Aradhana presents Vijayayathe Gopala Chudamani' Lyrics , Music – Neyveli Santhanagopalan. Lyrics – P.R. Venkatasubramanian, Concept , Choreography – Anitha Guha
 
 7pm
 
@@ -162,7 +162,7 @@ Dec 11, 2017
 6:15pm
 
 7pm
- 	mfa * Urmila Sathyanarayana & Natya Sankalpaa * SABHA PATHY
+ 	mfa * Urmila Sathyanarayana , Natya Sankalpaa * SABHA PATHY
 7:30pm
 
 
@@ -197,10 +197,10 @@ Dec 13, 2017
 6:15pm
 
 6:45pm
-KFA * RASA Chennai & RMCL Bengaluru * 'Muktha Ramana' – A Dance Production by Dr. Ambika Kameshwar with Artistes of RASA Chennai & RMCL Bengaluru
+KFA * RASA Chennai , RMCL Bengaluru * 'Muktha Ramana' – A Dance Production by Dr. Ambika Kameshwar with Artistes of RASA Chennai , RMCL Bengaluru
 
 7pm
-KGS * Leela Samson & Spanda * 'Thanjavur Quartette – Revisited'
+KGS * Leela Samson,Spanda * 'Thanjavur Quartette – Revisited'
 7:30pm
 
 
@@ -255,7 +255,7 @@ NGS * Lavanya Ananth
 6:15pm
 
 7pm
-KGS * Bharathanjali & Cleveland Aradhana *  'Vijayathe Gopala Choodamani' Part - 1
+KGS * Bharathanjali , Cleveland Aradhana *  'Vijayathe Gopala Choodamani' Part - 1
 
 7:30pm
 KFA * Parvathi Ravi Ghantasala * With disciples presents 'Arthanari'. Music : Rajkumar Bharathi
@@ -263,13 +263,13 @@ KFA * Parvathi Ravi Ghantasala * With disciples presents 'Arthanari'. Music : Ra
 
 Dec 17, 2017
 1:30pm
-KGS *  Renjith & Vijna
+KGS *  Renjith , Vijna
 
 1:45 pm
 NGS * Namritha Venkateshan
 
 5pm
-KFA * Sangeetha Isvaran and group * Bharathanatyam Group dance 'Sambhavami Yuge Yuge' Composers Lalgudi G.J.R. Krishnan & Lalgudi Vijayalakshmi. Choreographer Sangeetha Isvaran
+KFA * Sangeetha Isvaran and group * Bharathanatyam Group dance 'Sambhavami Yuge Yuge' Composers Lalgudi G.J.R. Krishnan , Lalgudi Vijayalakshmi. Choreographer Sangeetha Isvaran
 
 5:30pm
 
@@ -278,7 +278,7 @@ KFA * Sangeetha Isvaran and group * Bharathanatyam Group dance 'Sambhavami Yuge 
 6:15pm
 
 7pm
-KGS * Bharathanjali & Cleveland Aradhana * 'Vijayathe Gopala Choodamani' Part - 2
+KGS * Bharathanjali , Cleveland Aradhana * 'Vijayathe Gopala Choodamani' Part - 2
 
 NGS * Krithika Subramaniam * With Namaargam Dance Company
 
@@ -331,7 +331,7 @@ Dec 20, 2017
 1:30pm
 KGS * Navia Natarajan
 1:45 pm
-NGS * Renjith & Vijna
+NGS * Renjith , Vijna
 
 5pm
 
@@ -371,12 +371,12 @@ KGS * Rama Vaidyanathan
 Dec 22, 2017
 
 1:30pm
-KGS *  Ragini Chandrasekar
+KGS *  Ragini Chandrasekhar
 1:45 pm
 NGS * Srisha Shashank
 
 5pm
-tamil * Saroja Vaidyanathan & group
+tamil * Saroja Vaidyanathan , group
 
 5:30pm
 
@@ -416,7 +416,7 @@ Dec 24, 2017
 1:45 pm
 NGS * Jyotsna Jagannathan
 9.45am
-trinity * Mythili Prakash & KP Rakesh
+trinity * Mythili Prakash , KP Rakesh
 10:25am
 trinity * Vijna Vasudevan
 10:45am
@@ -424,7 +424,7 @@ trinity * Shwetha Prachande
 12:00pm
 trinity * Sushmitha Anbuselvan
 1:45pm
-trinity * Gopu Kiran & Aashin Kiran
+trinity * Gopu Kiran , Aashin Kiran
 5:15pm
 trinity *  Radhe Jaggi
 7pm
@@ -439,7 +439,7 @@ tamil * Sailaja
 6:15pm
 
 7pm
-CCA * Nrlthyakshetra Dance Academy * 'Krlshnaarpanam' by Students of Nrlthyakshetra Dance Academy (Disciples of Guru Madurai R Muralidharan & Chltra Muralidharan)
+CCA * Nrlthyakshetra Dance Academy * 'Krlshnaarpanam' by Students of Nrlthyakshetra Dance Academy (Disciples of Guru Madurai R Muralidharan , Chltra Muralidharan)
 NGS * Urmila Sathyanarayanan
 KGS * Uma Nambudripad Sathyanarayanan
 
@@ -465,22 +465,22 @@ KFA * Sangita Vasudevan
 6:15pm
 
 7pm
-CCA * PADMA SUBHRAMANIAM & NRITHYODAYA * Bharatha Nrithyam & Krishna Tulabharam
+CCA * PADMA SUBHRAMANIAM , NRITHYODAYA * Bharatha Nrithyam , Krishna Tulabharam
 NGS * Shobana
 KGS * Priyadarsini Govind
 
 7:30pm
-KFA * Chitra Visweswaran's Students * Chidambaram Dance Company in 'ANUBHUTI - THE ULTIMATE EXPERIENCE'. Dancers : Vidya Anand, Uma Nambudripad Sathyanarayanan, Jai Quehaeni, Sharmada Viswanath, Sneha Chakrapani & Sanatkumar
+KFA * Chitra Visweswaran's Students * Chidambaram Dance Company in 'ANUBHUTI - THE ULTIMATE EXPERIENCE'. Dancers : Vidya Anand, Uma Nambudripad Sathyanarayanan, Jai Quehaeni, Sharmada Viswanath, Sneha Chakrapani , Sanatkumar
 12:00pm
 trinity * Diksha Krishna
 1:45pm
-trinity * Renjith & Vijna
+trinity * Renjith , Vijna
 3:30pm
 trinity * Sukanya Kumar
 5:15pm
 trinity * Medha Hari
 7pm
-trinity * Urmila Satyanarayanan & Natya Sankalpaa - Shivogam Shivogam
+trinity * Urmila Satyanarayanan , Natya Sankalpaa - Shivogam Shivogam
 Dec 26, 2017
 1:45 pm
 NGS * Bhavya Ramachandran
@@ -537,7 +537,7 @@ BGS * urmila Sathyanarayanan
 CCA * Divya Kasturi
 
 7:30pm
-KFA * PADMA SUBHRAMANIAM & NRITHYODAYA
+KFA * PADMA SUBHRAMANIAM , NRITHYODAYA
 
 
 Dec 28, 2017
@@ -580,7 +580,7 @@ KFA * Varsha
 tamil * Mridula Anand
 
 4:30pm
-CCA * A Deepthi & R Shalini
+CCA * A Deepthi , R Shalini
 KFA * Hema Nandhini
 
 5pm
@@ -598,7 +598,7 @@ KFA * Bala Devi Chandrashekar * 'Brihadeeswara - form to formless' thru the eyes
 Mudhra * Thematic Dance production ‘SRI KRISHNA VAIBHAVAM’ by Sheela Unnikrishnan
 
 7pm
-BGS * PADMA SUBHRAMANIAM & NRITHYODAYA * BHARATHA NRITYAM & KRISHNA THULA BARAM
+BGS * PADMA SUBHRAMANIAM , NRITHYODAYA * BHARATHA NRITYAM , KRISHNA THULA BARAM
 NGS * Priyadarsini Govind
 
 7:30pm
@@ -628,7 +628,7 @@ KFA * Mythili Prakash
 
 7pm
 BGS * NANDHINI RAMANI, SUSHAMA RANGANATHAN
-KGS * PADMA SUBHRAMANIAM & NRITHYODAYA
+KGS * PADMA SUBHRAMANIAM , NRITHYODAYA
 
 7:30pm
 
@@ -665,7 +665,7 @@ KFA * Leela Samson
 
 Jan 1, 2018
 11am
-	ifas * Nrityodaya * Dance Drama “BAKTHA SAKA VITTHALA” by Dr. Jayashree Rajagopalan & troupe, Nrityodaya, Mumabai
+	ifas * Nrityodaya * Dance Drama “BAKTHA SAKA VITTHALA” by Dr. Jayashree Rajagopalan , troupe, Nrityodaya, Mumabai
 1:45pm
 	NGS * Kalarpana,shobana * disciplines of Shobana
 
@@ -684,7 +684,7 @@ Jan 1, 2018
 6:15pm
 	BGS * DIVYA KASTURI
 7pm
-	NGS * PADMA SUBHRAMANIAM & NRITHYODAYA
+	NGS * PADMA SUBHRAMANIAM , NRITHYODAYA
 	KGS *  Bala Devi Chandrasekar * Brihadeeswara – form to formless
 	tamil * Krishnakumari Narendran's group
 7:30pm
@@ -717,9 +717,9 @@ Jan 1, 2018
 5:45pm
 	mfa * POORNASHRI SRIVATSAN * Disciple of Uma Anand
 6pm
-	academy * Shijith Nambiar & Parvathy
+	academy * Shijith Nambiar , Parvathy
 7pm
-	academy * Leela Samson & Spanda
+	academy * Leela Samson , Spanda
 4:30pm
 	KFA * Balagurunathan and disciples * 'Sri Krishna' dance drama
 	ifas *  Radhika Vairavelavan
@@ -735,10 +735,10 @@ Jan 1, 2018
 	mfa * Sri Gyana Mudra * TRINETHRO BAVAKALI, Guru: Archana Mahesh
 7:30pm
 	BGS * PADMINI KRISHNAMURTHY
-	ifas * PADMA SUBHRAMANIAM & NRITHYODAYA
+	ifas * PADMA SUBHRAMANIAM , NRITHYODAYA
 	Jan 4, 2018
 5pm
-	mfa * SAKSHI PUJARI & NAMRATA NATARAJAN * Disciple of Gayathri Subramanian, Director Takshashila
+	mfa * SAKSHI PUJARI , NAMRATA NATARAJAN * Disciple of Gayathri Subramanian, Director Takshashila
 10am
 	academy * Sudharma Vaidyanathan
 11:30am
@@ -812,7 +812,7 @@ Jan 6, 2018
 6pm
 	academy * Alarmel Valli
 7pm
-	academy * Vidha Lal & Abhimanyu Lal * Kathak
+	academy * Vidha Lal , Abhimanyu Lal * Kathak
 	Jan 7, 2018
 4pm
 	mfa *  S. S. SAHANA * Disciple of Archana Mahesh
@@ -905,7 +905,7 @@ Jan 12, 2018
 6:15pm
 	BGS * POOJA ALLEPALLY
 6:30pm
-	TBGS * Urmila Satyanarayanan & Natya Sankalpaa * SABHA PATHY
+	TBGS * Urmila Satyanarayanan , Natya Sankalpaa * SABHA PATHY
 6:45pm
 	KGS * Jai Quehaeni
 7:30pm
@@ -920,7 +920,7 @@ Jan 13, 2018
 6:15pm
 	BGS * DEVIKA SHAJI
 6:30pm
-	TBGS * Roja Kannan & Disciples * 'Mummoorthigalin Manikkangal' based on Kirtanams of the Trinity
+	TBGS * Roja Kannan , Disciples * 'Mummoorthigalin Manikkangal' based on Kirtanams of the Trinity
 
 6:45pm
 	Bhavya Balasubramanian
@@ -948,7 +948,7 @@ Jan 14, 2018
 
 Jan 15, 2018
 3pm
-	KGS-kamakodi * Tejashri Kannan * Disciple of Hariharan & Prameela Hariharan
+	KGS-kamakodi * Tejashri Kannan * Disciple of Hariharan , Prameela Hariharan
 4:45pm
 	KGS-kamakodi * Maithreyi Suresh Iyer * Disciple of Divya Shivasundar
 5pm
@@ -957,7 +957,7 @@ Jan 15, 2018
 	BGS * JYOTHSNA
 
 6:15pm
-	BGS * T. M. SRIDEVI & DEEPTHI RAVI
+	BGS * T. M. SRIDEVI , DEEPTHI RAVI
 6:45pm
 	KGS * Srividya Sailesh
 7:30pm
@@ -978,7 +978,7 @@ Jan 16, 2018
 6:45pm
 	KGS * T. M. Sridevi
 7:30pm
-	BGS * ROJA KANNAN & PRIYA MURALI
+	BGS * ROJA KANNAN , PRIYA MURALI
 	Jan 17, 2018
 3pm
 	KGS-kamakodi * R. Harini * Disciple of H.N.Nandhini Suresh
@@ -1073,13 +1073,13 @@ Jan 23, 2018
 
 Jan 24, 2018
 5:15pm
-	BGS * APARANA GANAPATHY & SUPRASANNA
+	BGS * APARANA GANAPATHY , SUPRASANNA
 
 6:15pm
 	BGS * NADHI TEKAK
 
 7:30pm
-	BGS * AMIBIKAKAMESHWAR & RASA presents UNMAI SUDHAHTHIRAM ENDE
+	BGS * AMIBIKAKAMESHWAR , RASA presents UNMAI SUDHAHTHIRAM ENDE
 
 Jan 25, 2018
 3pm
@@ -1238,7 +1238,7 @@ Feb 3, 2018
  	BK * Priyadarsini Govind
 12/28/17
 7:00 pm
- 	BK * Urmila Satyanarayanan & Natya Sankalpaa
+ 	BK * Urmila Satyanarayanan , Natya Sankalpaa
 12/29/17
 10: 00 pm
  	BK * Disciples of Padmalakshme Suresh
@@ -1247,7 +1247,7 @@ Feb 3, 2018
  	BK * Krishnakumari Narendran - Aadal Vallanum Arangathammanum
 1/1/18
 7:15 pm
- 	BK * Padmini Krishnamurthy & Troupe - Narayanayeti Samarpayami
+ 	BK * Padmini Krishnamurthy , Troupe - Narayanayeti Samarpayami
 1/9/18
 7:30 pm
  	BK * Vidya Ravindran
@@ -1268,7 +1268,7 @@ Feb 3, 2018
  	BK * Suthikshna Veeravalli
 1/13/18
 6:30 pm
- 	BK * Bharathanjali & Cleveland Aradhana
+ 	BK * Bharathanjali , Cleveland Aradhana
 1/14/18
 7:30 pm
  	BK * Lakshmi Ramaswamy

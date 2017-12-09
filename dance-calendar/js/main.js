@@ -1,6 +1,6 @@
-var VIEWS = ["regular", "calendar"];
+var VIEWS = ["list", "calendar"];
 var selectedView = VIEWS[0];
-
+var showSelectedArtists = false;
 
 function sortEvents(events, by) {
 	return events.sort(function(a, b) {
@@ -22,11 +22,11 @@ function sortEvents(events, by) {
 }
 var showingEvents = [];
 
-function printCalendarEvents(events) {
+function printCalendarEvents() {
 	$('#calendar_events').empty();
 
 	var yrs = {};
-	$(events).each(function(i, event) {
+	$(showingEvents).each(function(i, event) {
 		var m = moment(event.when);
 		var yr = m.year(), wk = m.isoWeek();
 		yrs[yr] = yrs[yr] || {};
@@ -49,10 +49,8 @@ function printCalendarEvents(events) {
 				var $day = $($('#sample_weekday_wrapper').html());
 				$day.attr('weekday', i+1);
 				$('.date', $day).text("some day");
-
 				$week.append($day);
 			}
-			console.log("rendering week " + wk);
 			$(yrs[yr][wk]).each(function(i, event) {
 				var $eventWrapper = $($('#sample_calendar_event_wrapper').html());
 				populateEventForCalendar($eventWrapper, event);
@@ -70,129 +68,119 @@ function printCalendarEvents(events) {
 					}
 					writtenDays = true;
 				}
-
 			});
-
 		}
 	}
 	console.log(yrs);
 }
 
 function populateEvent($wrapper, event) {
-	var artist = artists.placeholder;
-	if (event.who != null) {
-		if (artists[event.who]) artist = artists[event.who];
-		else artist.name = event.who;
-	}
-
 	var venue = venues.placeholder;
 	if (event.where != null) {
 		if (venues[event.where]) venue = venues[event.where];
 		else venue.name = event.where;
 	}
 	// $('.what', $wrapper).text(event.info);
-	$('.who', $wrapper).text(artist.name);
+	$('.who', $wrapper).text(event.who.join(" & "));
 	$('.where', $wrapper).text(venue.name);
 
 	var date = moment(event.when);
 	$('.when', $wrapper).text(date.format('llll'));
+	if ($(event.who).filter(selectedArtists).length > 0) {
+		$wrapper.addClass('selected_artist');
+	}
 }
 
 function populateEventForCalendar($wrapper, event) {
-	var artist = artists.placeholder;
-	if (event.who != null) {
-		if (artists[event.who]) artist = artists[event.who];
-		else artist.name = event.who;
-	}
-
 	var venue = venues.placeholder;
 	if (event.where != null) {
 		if (venues[event.where]) venue = venues[event.where];
 		else venue.name = event.where;
 	}
 	var date = moment(event.when);
-	$('.who', $wrapper).text(date.format('LT') + ", " + artist.name + " @ " + venue.name);
+	$('.who', $wrapper).text(date.format('LT') + ", " + event.who.join(" & ") + " @ " + venue.name);
+	if ($(event.who).filter(selectedArtists).length > 0) {
+		$wrapper.addClass('selected_artist');
+	}
 }
 
-function printEvents(events) {
-
+function printListEvents() {
 	$('#events').empty();
 	var html = $('#sample_event_wrapper').html();
 
 	// add header
-	if (events.length > 0) {
+	if (showingEvents.length > 0) {
 		var $div = $(html);
-		$div.addClass('odd');
 		$div.addClass('header');
 		$('#events').append($div);
 
 		$('.who', $div).text("Who (click to sort)");
 		$('.who', $div).bind('click', function() {
-			printEvents(sortEvents(showingEvents, "who"));
+			printListEvents(sortEvents(showingEvents, "who"));
 		});
 		$('.where', $div).text("Where (click to sort)");
 		$('.where', $div).bind('click', function() {
-			printEvents(sortEvents(showingEvents, "where"));
+			printListEvents(sortEvents(showingEvents, "where"));
 		});
 		$('.when', $div).text("When (click to sort)");
 		$('.when', $div).bind('click', function() {
-			printEvents(sortEvents(showingEvents, "when"));
+			printListEvents(sortEvents(showingEvents, "when"));
 		});
-
 		// $('.what', $div).text("Info");
 	}
 
-	$(events).each(function(i, event) {
+	$(showingEvents).each(function(i, event) {
 		var $div = $(html);
 		$('#events').append($div);
 		populateEvent($div, event);
-		if (i%2 == 1) $div.addClass('odd');
 	});
-
-
-	showingEvents = events;
 }
 
-function filter(filterWhen, filterWhere, filterWho) {
+function filter(events, filterWhen, filterWhere, filterWho) {
 	var result = [];
-	$(globEvents).each(function(i, event) {
-		if (filterWhen != null &&
-			(event.when < filterWhen.start || event.when > filterWhen.end)) return;
-		if (filterWho.length != 0 &&
-			$(event.who).filter(filterWho).length == 0) return;
-		if (filterWhere.length != 0 &&
-			$.inArray(event.where, filterWhere) == -1) return;
+	$(events).each(function(i, event) {
+		if (filterWhen != null && (event.when < filterWhen.start || event.when > filterWhen.end)) return;
+		if (filterWho.length != 0 && $(event.who).filter(filterWho).length == 0) return;
+		if (filterWhere.length != 0 && $.inArray(event.where, filterWhere) == -1) return;
 		result.push(event);
 	});
 	return result;
 }
 
+function printEvents(events, filterWhen, filterWhere, filterWho) {
+	showingEvents = sortEvents(filter(events, filterWhen, filterWhere, filterWho), "when");
+	printListEvents();
+	printCalendarEvents();
+	showChosenView();
+}
+
+function showChosenView() {
+	if (selectedView == "list") {
+    	$('#calendar_events').hide();
+    	$('#events').show();
+    } else {
+    	$('#events').hide();
+    	$('#calendar_events').show();
+    }
+}
+
 $(document.body).ready(function() {
 	$('#last_modified_time').text(new moment(document.lastModified).fromNow());
 
-	var events = filter(null, userInputAsArray('.whereButton'), userInputAsArray('.whoButton'));
-	events = sortEvents(events, "when");
-
-	printEvents(events);
-	printCalendarEvents(events);
-
 	$("#viewForm :input").change(function() {
-	    console.log("clicked ", $(this).attr('selectedView'));
+		selectedView = $(this).attr('selectedView');
+		showChosenView();
+	});
+	printEvents(globEvents, null, [], []);
 
-	    if ($(this).attr('selectedView') == "list") {
-	    	$('#calendar_events').hide();
-	    	$('#events').show();
+	$("#artistsForm :input").change(function() {
+	    if ($(this).attr('selectedArtists') == "selected") {
+	    	printEvents(globEvents, null, [], selectedArtists);
 	    } else {
-	    	$('#events').hide();
-	    	$('#calendar_events').show();
+			printEvents(globEvents, null, [], []);
 	    }
 	});
-
-	$('#calendar_events').hide();
-	$('#events').show();
-
 });
-
 
 function userInputAsArray(cssSel) {
 	if ($(cssSel).length == 0) return [];
