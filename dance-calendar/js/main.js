@@ -138,7 +138,11 @@ function printListEvents() {
 
 function filter(events, filterWhen, filterWhere, filterWho) {
 	var result = [];
+	var now = new moment().subtract(1, 'days');
 	$(events).each(function(i, event) {
+		// show only future events
+		if (event.when < now) return;
+
 		if (filterWhen != null && (event.when < filterWhen.start || event.when > filterWhen.end)) return;
 		if (filterWho.length != 0 && $(event.who).filter(filterWho).length == 0) return;
 		if (filterWhere.length != 0 && $.inArray(event.where, filterWhere) == -1) return;
